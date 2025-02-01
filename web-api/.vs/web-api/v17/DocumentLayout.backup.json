@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GradProject\\graduation-project\\web-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|d:\\gradproject\\graduation-project\\web-api\\web-api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|d:\\gradproject\\graduation-project\\web-api\\api.service\\implementation\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|solutionrelative:api.service\\implementation\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|d:\\gradproject\\graduation-project\\web-api\\api.service\\implementation\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|solutionrelative:api.service\\implementation\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|d:\\gradproject\\graduation-project\\web-api\\api.service\\implementation\\applicationuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|solutionrelative:api.service\\implementation\\applicationuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|d:\\gradproject\\graduation-project\\web-api\\web-api\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|d:\\gradproject\\graduation-project\\web-api\\api.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|solutionrelative:api.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|d:\\gradproject\\graduation-project\\web-api\\api.core\\features\\users\\queries\\handlers\\userquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|solutionrelative:api.core\\features\\users\\queries\\handlers\\userquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|d:\\gradproject\\graduation-project\\web-api\\api.core\\features\\users\\queries\\models\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|solutionrelative:api.core\\features\\users\\queries\\models\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|d:\\gradproject\\graduation-project\\web-api\\api.core\\features\\users\\queries\\response\\getuserbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|solutionrelative:api.core\\features\\users\\queries\\response\\getuserbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|d:\\gradproject\\graduation-project\\web-api\\api.core\\features\\users\\queries\\response\\getuserlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|solutionrelative:api.core\\features\\users\\queries\\response\\getuserlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|d:\\gradproject\\graduation-project\\web-api\\api.core\\mapping\\users\\queries\\getuserpaginationquerymapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|solutionrelative:api.core\\mapping\\users\\queries\\getuserpaginationquerymapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|d:\\gradproject\\graduation-project\\web-api\\api.core\\mapping\\users\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|solutionrelative:api.core\\mapping\\users\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|d:\\gradproject\\graduation-project\\web-api\\api.core\\mapping\\users\\queries\\getuserbyidquerymapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|solutionrelative:api.core\\mapping\\users\\queries\\getuserbyidquerymapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|d:\\gradproject\\graduation-project\\web-api\\api.core\\features\\users\\queries\\models\\getpaginatedlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|solutionrelative:api.core\\features\\users\\queries\\models\\getpaginatedlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|d:\\gradproject\\graduation-project\\web-api\\web-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|d:\\gradproject\\graduation-project\\web-api\\web-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|d:\\gradproject\\graduation-project\\web-api\\api.core\\features\\users\\commands\\handlers\\usercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.core.csproj|solutionrelative:api.core\\features\\users\\commands\\handlers\\usercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.infrastructure.csproj|d:\\gradproject\\graduation-project\\web-api\\api.infrastructure\\seeder\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.infrastructure.csproj|solutionrelative:api.infrastructure\\seeder\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.infrastructure.csproj|d:\\gradproject\\graduation-project\\web-api\\api.infrastructure\\seeder\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.infrastructure.csproj|solutionrelative:api.infrastructure\\seeder\\roleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|d:\\gradproject\\graduation-project\\web-api\\web-api\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|d:\\gradproject\\graduation-project\\web-api\\web-api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\web-api\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "web-api\\Controllers\\EmailController.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\web-api\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "web-api\\Controllers\\EmailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T11:04:07.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthorizationService.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\Api.Service\\Implementation\\AuthorizationService.cs",
+              "RelativeDocumentMoniker": "Api.Service\\Implementation\\AuthorizationService.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\Api.Service\\Implementation\\AuthorizationService.cs",
+              "RelativeToolTip": "Api.Service\\Implementation\\AuthorizationService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswKMAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:52:40.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\Api.Service\\Implementation\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Api.Service\\Implementation\\AuthenticationService.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\Api.Service\\Implementation\\AuthenticationService.cs",
+              "RelativeToolTip": "Api.Service\\Implementation\\AuthenticationService.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAkwJoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:49:13.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserQueriesHandler.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Features\\Users\\Queries\\Handlers\\UserQueriesHandler.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Users\\Queries\\Handlers\\UserQueriesHandler.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Features\\Users\\Queries\\Handlers\\UserQueriesHandler.cs",
+              "RelativeToolTip": "Api.core\\Features\\Users\\Queries\\Handlers\\UserQueriesHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwCoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:58:37.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetUserByIdQuery.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Features\\Users\\Queries\\Models\\GetUserByIdQuery.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Users\\Queries\\Models\\GetUserByIdQuery.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Features\\Users\\Queries\\Models\\GetUserByIdQuery.cs",
+              "RelativeToolTip": "Api.core\\Features\\Users\\Queries\\Models\\GetUserByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:29:13.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationUserController.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\web-api\\Controllers\\ApplicationUserController.cs",
+              "RelativeDocumentMoniker": "web-api\\Controllers\\ApplicationUserController.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\web-api\\Controllers\\ApplicationUserController.cs",
+              "RelativeToolTip": "web-api\\Controllers\\ApplicationUserController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwCIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:29:10.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetUserPaginationQueryMapping.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Mapping\\Users\\Queries\\GetUserPaginationQueryMapping.cs",
+              "RelativeDocumentMoniker": "Api.core\\Mapping\\Users\\Queries\\GetUserPaginationQueryMapping.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Mapping\\Users\\Queries\\GetUserPaginationQueryMapping.cs",
+              "RelativeToolTip": "Api.core\\Mapping\\Users\\Queries\\GetUserPaginationQueryMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:05:44.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Router.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\AppMetaData\\Router.cs",
+              "RelativeDocumentMoniker": "Api.Data\\AppMetaData\\Router.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\AppMetaData\\Router.cs",
+              "RelativeToolTip": "Api.Data\\AppMetaData\\Router.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T08:29:18.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUserService.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\Api.Service\\Implementation\\ApplicationUserService.cs",
+              "RelativeDocumentMoniker": "Api.Service\\Implementation\\ApplicationUserService.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\Api.Service\\Implementation\\ApplicationUserService.cs",
+              "RelativeToolTip": "Api.Service\\Implementation\\ApplicationUserService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAawEoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:30:57.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetUserByIdResponse.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Features\\Users\\Queries\\Response\\GetUserByIdResponse.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Users\\Queries\\Response\\GetUserByIdResponse.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Features\\Users\\Queries\\Response\\GetUserByIdResponse.cs",
+              "RelativeToolTip": "Api.core\\Features\\Users\\Queries\\Response\\GetUserByIdResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:25:13.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetUserListResponse.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Features\\Users\\Queries\\Response\\GetUserListResponse.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Users\\Queries\\Response\\GetUserListResponse.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Features\\Users\\Queries\\Response\\GetUserListResponse.cs",
+              "RelativeToolTip": "Api.core\\Features\\Users\\Queries\\Response\\GetUserListResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:25:02.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Mapping\\Users\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Api.core\\Mapping\\Users\\UserProfile.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Mapping\\Users\\UserProfile.cs",
+              "RelativeToolTip": "Api.core\\Mapping\\Users\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:04:38.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetUserByIdQueryMapping.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Mapping\\Users\\Queries\\GetUserByIdQueryMapping.cs",
+              "RelativeDocumentMoniker": "Api.core\\Mapping\\Users\\Queries\\GetUserByIdQueryMapping.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Mapping\\Users\\Queries\\GetUserByIdQueryMapping.cs",
+              "RelativeToolTip": "Api.core\\Mapping\\Users\\Queries\\GetUserByIdQueryMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:04:59.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetPaginatedListQuery.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Features\\Users\\Queries\\Models\\GetPaginatedListQuery.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Users\\Queries\\Models\\GetPaginatedListQuery.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Features\\Users\\Queries\\Models\\GetPaginatedListQuery.cs",
+              "RelativeToolTip": "Api.core\\Features\\Users\\Queries\\Models\\GetPaginatedListQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:27:24.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\web-api\\Program.cs",
+              "RelativeDocumentMoniker": "web-api\\Program.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\web-api\\Program.cs",
+              "RelativeToolTip": "web-api\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAlwCAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:36:20.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\web-api\\appsettings.json",
+              "RelativeDocumentMoniker": "web-api\\appsettings.json",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\web-api\\appsettings.json",
+              "RelativeToolTip": "web-api\\appsettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-28T10:18:58.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserCommandHandler.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Features\\Users\\Commands\\Handlers\\UserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Users\\Commands\\Handlers\\UserCommandHandler.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Features\\Users\\Commands\\Handlers\\UserCommandHandler.cs",
+              "RelativeToolTip": "Api.core\\Features\\Users\\Commands\\Handlers\\UserCommandHandler.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwC4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:29:49.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RoleSeeder.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\Api.infrastructure\\Seeder\\RoleSeeder.cs",
+              "RelativeDocumentMoniker": "Api.infrastructure\\Seeder\\RoleSeeder.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\Api.infrastructure\\Seeder\\RoleSeeder.cs",
+              "RelativeToolTip": "Api.infrastructure\\Seeder\\RoleSeeder.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwA0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:33:30.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserSeeder.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\Api.infrastructure\\Seeder\\UserSeeder.cs",
+              "RelativeDocumentMoniker": "Api.infrastructure\\Seeder\\UserSeeder.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\Api.infrastructure\\Seeder\\UserSeeder.cs",
+              "RelativeToolTip": "Api.infrastructure\\Seeder\\UserSeeder.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:34:40.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthorizationController.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\web-api\\Controllers\\AuthorizationController.cs",
+              "RelativeDocumentMoniker": "web-api\\Controllers\\AuthorizationController.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\web-api\\Controllers\\AuthorizationController.cs",
+              "RelativeToolTip": "web-api\\Controllers\\AuthorizationController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAASwA0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:25:44.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\GradProject\\graduation-project\\web-api\\web-api\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "web-api\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\GradProject\\graduation-project\\web-api\\web-api\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "web-api\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvzUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:23:53.315Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
