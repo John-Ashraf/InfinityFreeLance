@@ -1,0 +1,103 @@
+<div class="container py-4">
+    <div class="col-12 col-md-6 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
+        <h2 class="mb-4 display-5 text-center">Design Your T-shirt</h2>
+        <p class="text-secondary mb-5 text-center lead fs-4">Our team is available to provide prompt and helpful
+            responses to all inquiries. You can reach us via phone, email, or by filling out the contact form
+            below.</p>
+        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+    </div>
+    <div class="row justify-content-center gap-5 py-5 ">
+        <!-- T-Shirt Design Canvas -->
+        <div class="col-md-5">
+            <div class="stage-container">
+                <!-- Front Stage Container -->
+                <div #frontStageContainer></div>
+                <!-- Back Stage Container -->
+                <div #backStageContainer style="display: none;"></div>
+                <!-- Right Sleeve Stage Container -->
+                <div #rightSleeveStageContainer style="display: none;"></div>
+                <!-- Left Sleeve Stage Container -->
+                <div #leftSleeveStageContainer style="display: none;"></div>
+            </div>
+            <div class="mt-3 d-flex gap-2">
+                <!-- Switch to Front View -->
+                <button class="btn btn-secondary" (click)="switchView('front')">
+                    <img src="/shirts/front.png" alt="Front" style="width: 100px; height: 100px;" />
+                    <p>Front</p>
+                </button>
+                <!-- Switch to Back View -->
+                <button class="btn btn-secondary" (click)="switchView('back')">
+                    <img src="/shirts/back.png" alt="Back" style="width: 100px; height: 100px;" />
+                    <p>Back</p>
+                </button>
+                <!-- Switch to Right Sleeve View -->
+                <button class="btn btn-secondary" (click)="switchView('right')">
+                    <img src="/shirts/right.png" alt="Right Sleeve" style="width: 100px; height: 100px;" />
+                    <p>Right Sleeve</p>
+                </button>
+                <!-- Switch to Left Sleeve View -->
+                <button class="btn btn-secondary" (click)="switchView('left')">
+                    <img src="/shirts/left.png" alt="Left Sleeve" style="width: 100px; height: 100px;" />
+                    <p>Left Sleeve</p>
+                </button>
+            </div>
+        </div>
+
+        <!-- Design Settings -->
+        <div class="col-md-4">
+            <div class="settings-container bg-light p-3 rounded shadow">
+                <!-- Shirt Color Picker -->
+                <div class="mb-3">
+                    <label class="form-label">Shirt Color</label>
+                    <input type="color" class="form-control form-control-color" [(ngModel)]="color"
+                        (change)="updateShirtColor(color)" />
+                </div>
+
+                <!-- Text Input -->
+                <div class="mb-3">
+                    <label class="form-label">Text</label>
+                    <input type="text" class="form-control" [(ngModel)]="textInput" />
+                </div>
+
+                <!-- Text Color Picker -->
+                <div class="mb-3">
+                    <label class="form-label">Text Color</label>
+                    <input type="color" class="form-control form-control-color" [(ngModel)]="textColor" />
+                </div>
+
+                <!-- Font Size Input -->
+                <div class="mb-3">
+                    <label class="form-label">Font Size</label>
+                    <input type="number" class="form-control" [(ngModel)]="fontSize" />
+                </div>
+
+                <!-- Font Family Selector -->
+                <div class="mb-3">
+                    <label class="form-label">Font Family</label>
+                    <select class="form-select" [(ngModel)]="fontFamily">
+                        <option value="Arial">Arial</option>
+                        <option value="Times New Roman">Times New Roman</option>
+                        <option value="Courier New">Courier New</option>
+                        <option value="Verdana">Verdana</option>
+                    </select>
+                </div>
+
+                <!-- Logo Upload -->
+                <div class="mb-3">
+                    <label class="form-label">Add Logo or Image</label>
+                    <input type="file" class="form-control" (change)="onFileSelect($event)" accept="image/*" />
+                </div>
+
+                <!-- Delete Logo Button -->
+                <div class="mb-3">
+                    <button class="btn btn-danger w-100" (click)="deleteLogo()">Delete Logo</button>
+                    <p>Delete logo for each side in the t-shirt.</p>
+                </div>
+
+                <!-- Save Design Button -->
+                <button class="btn btn-primary w-100" (click)="saveDesign()">Save Design </button>
+                <p>Save design for each side in the t-shirt.</p>
+            </div>
+        </div>
+    </div>
+</div>
