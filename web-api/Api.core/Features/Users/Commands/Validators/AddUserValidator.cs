@@ -39,7 +39,7 @@ namespace Api.Core.Features.Users.Commands.Validators
            .NotEmpty().WithMessage("{PropertyName} Must Not Be Empty")
            .NotNull().WithMessage("{PropertyName} Must Be Null")
            .Equal(c => c.Password).WithMessage("The Confirm Password dosent match the password");
-            _ = RuleFor(x => x.Description)
+            _ = RuleFor(x => x.Title)
           .NotEmpty().WithMessage("{PropertyName} Must Not Be Empty")
           .NotNull().WithMessage("{PropertyName} Must Be Null");
 

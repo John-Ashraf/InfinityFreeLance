@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Api.Core.csproj": {}
+    "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Api.Core.csproj": {}
   },
   "projects": {
-    "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Api.Core.csproj": {
+    "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Api.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Api.Core.csproj",
+        "projectUniqueName": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Api.Core.csproj",
         "projectName": "Api.Core",
-        "projectPath": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\Api.Core.csproj",
+        "projectPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Api.Core.csproj",
         "packagesPath": "C:\\Users\\johna\\.nuget\\packages\\",
-        "outputPath": "D:\\GradProject\\graduation-project\\web-api\\Api.core\\obj\\",
+        "outputPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\johna\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\Api.Data.csproj": {
-                "projectPath": "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\Api.Data.csproj"
+              "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj": {
+                "projectPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj"
               },
-              "D:\\GradProject\\graduation-project\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj": {
-                "projectPath": "D:\\GradProject\\graduation-project\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj"
+              "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj": {
+                "projectPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj"
               },
-              "D:\\GradProject\\graduation-project\\web-api\\Api.Service\\Api.Service.csproj": {
-                "projectPath": "D:\\GradProject\\graduation-project\\web-api\\Api.Service\\Api.Service.csproj"
+              "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\Api.Service.csproj": {
+                "projectPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\Api.Service.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\Api.Data.csproj": {
+    "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\Api.Data.csproj",
+        "projectUniqueName": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj",
         "projectName": "Api.Data",
-        "projectPath": "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\Api.Data.csproj",
+        "projectPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj",
         "packagesPath": "C:\\Users\\johna\\.nuget\\packages\\",
-        "outputPath": "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\obj\\",
+        "outputPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\johna\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -170,14 +170,14 @@
         }
       }
     },
-    "D:\\GradProject\\graduation-project\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj": {
+    "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GradProject\\graduation-project\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj",
+        "projectUniqueName": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj",
         "projectName": "Api.Infrastructure",
-        "projectPath": "D:\\GradProject\\graduation-project\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj",
+        "projectPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\johna\\.nuget\\packages\\",
-        "outputPath": "D:\\GradProject\\graduation-project\\web-api\\Api.infrastructure\\obj\\",
+        "outputPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\johna\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -194,8 +194,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\Api.Data.csproj": {
-                "projectPath": "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\Api.Data.csproj"
+              "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj": {
+                "projectPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj"
               }
             }
           }
@@ -246,6 +246,10 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -268,14 +272,14 @@
         }
       }
     },
-    "D:\\GradProject\\graduation-project\\web-api\\Api.Service\\Api.Service.csproj": {
+    "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\Api.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GradProject\\graduation-project\\web-api\\Api.Service\\Api.Service.csproj",
+        "projectUniqueName": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\Api.Service.csproj",
         "projectName": "Api.Service",
-        "projectPath": "D:\\GradProject\\graduation-project\\web-api\\Api.Service\\Api.Service.csproj",
+        "projectPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\Api.Service.csproj",
         "packagesPath": "C:\\Users\\johna\\.nuget\\packages\\",
-        "outputPath": "D:\\GradProject\\graduation-project\\web-api\\Api.Service\\obj\\",
+        "outputPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\johna\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -292,11 +296,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\Api.Data.csproj": {
-                "projectPath": "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\Api.Data.csproj"
+              "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj": {
+                "projectPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj"
               },
-              "D:\\GradProject\\graduation-project\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj": {
-                "projectPath": "D:\\GradProject\\graduation-project\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj"
+              "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj": {
+                "projectPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj"
               }
             }
           }

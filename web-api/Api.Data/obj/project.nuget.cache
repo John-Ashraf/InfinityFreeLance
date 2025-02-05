@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2cTcL6XGQNI=",
+  "dgSpecHash": "HIQsvbO5FFI=",
   "success": true,
-  "projectFilePath": "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\Api.Data.csproj",
+  "projectFilePath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\johna\\.nuget\\packages\\entityframeworkcore.encryptcolumn\\6.0.8\\entityframeworkcore.encryptcolumn.6.0.8.nupkg.sha512",
     "C:\\Users\\johna\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.1.1\\microsoft.aspnetcore.authentication.2.1.1.nupkg.sha512",

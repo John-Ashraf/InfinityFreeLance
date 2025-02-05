@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\Api.Data.csproj": {}
+    "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj": {}
   },
   "projects": {
-    "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\Api.Data.csproj": {
+    "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\Api.Data.csproj",
+        "projectUniqueName": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj",
         "projectName": "Api.Data",
-        "projectPath": "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\Api.Data.csproj",
+        "projectPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj",
         "packagesPath": "C:\\Users\\johna\\.nuget\\packages\\",
-        "outputPath": "D:\\GradProject\\graduation-project\\web-api\\Api.Data\\obj\\",
+        "outputPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\johna\\AppData\\Roaming\\NuGet\\NuGet.Config",

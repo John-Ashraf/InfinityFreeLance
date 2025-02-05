@@ -10,7 +10,10 @@ namespace Api.Infrastructure.Seeder
             var rolesCount = await _roleManager.Roles.CountAsync();
             if (rolesCount <= 0)
             {
-
+                _ = await _roleManager.CreateAsync(new IdentityRole()
+                {
+                    Name = "SuperAdmin"
+                });
                 _ = await _roleManager.CreateAsync(new IdentityRole()
                 {
                     Name = "Admin"
