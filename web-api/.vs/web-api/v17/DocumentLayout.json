@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.infrastructure\\serviceregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|solutionrelative:api.infrastructure\\serviceregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.infrastructure\\api.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|solutionrelative:api.infrastructure\\api.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\web-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.infrastructure\\moduleinfrasstructuredependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|solutionrelative:api.infrastructure\\moduleinfrasstructuredependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|solutionrelative:api.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.infrastructure\\abstracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|solutionrelative:api.infrastructure\\abstracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Api.Infrastructure",
+              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Api.infrastructure\\Api.Infrastructure.csproj",
+              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj",
+              "RelativeToolTip": "Api.infrastructure\\Api.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-11T01:32:14.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceRegisteration.cs",
+              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\ServiceRegisteration.cs",
+              "RelativeDocumentMoniker": "Api.infrastructure\\ServiceRegisteration.cs",
+              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\ServiceRegisteration.cs",
+              "RelativeToolTip": "Api.infrastructure\\ServiceRegisteration.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAD4v0cAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T01:29:58.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\web-api\\Program.cs",
+              "RelativeDocumentMoniker": "web-api\\Program.cs",
+              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\web-api\\Program.cs",
+              "RelativeToolTip": "web-api\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T23:29:20.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModuleInfrasStructureDependencies.cs",
+              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\ModuleInfrasStructureDependencies.cs",
+              "RelativeDocumentMoniker": "Api.infrastructure\\ModuleInfrasStructureDependencies.cs",
+              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\ModuleInfrasStructureDependencies.cs",
+              "RelativeToolTip": "Api.infrastructure\\ModuleInfrasStructureDependencies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T23:16:23.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Api.infrastructure\\Repositories\\OrderRepository.cs",
+              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Api.infrastructure\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T23:15:15.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Abstracts\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Api.infrastructure\\Abstracts\\IProductRepository.cs",
+              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Abstracts\\IProductRepository.cs",
+              "RelativeToolTip": "Api.infrastructure\\Abstracts\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T23:14:36.841Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

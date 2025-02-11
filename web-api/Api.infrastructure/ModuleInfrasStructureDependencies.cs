@@ -11,6 +11,8 @@ namespace Api.Infrastructure
         {
             _ = services.AddTransient(typeof(IGenericRepoAsync<>), typeof(GenericRepoAsync<>));
             _ = services.AddTransient<IRefreshTokenRepository, RefreshTokenRepository>();
+            _ = services.AddTransient<IOrderRepository, OrderRepository>();
+            _ = services.AddTransient<IProductRepository, ProductRepository>();
             return services;
         }
 
