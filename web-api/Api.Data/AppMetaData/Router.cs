@@ -46,5 +46,16 @@
             public const string Prefix = Rule + "EmailsRoute";
             public const string SendEmail = Prefix + "/SendEmail";
         }
+        public static class ProductRoute
+        {
+            public const string Prefix = Rule + "ProductRoute";
+            public const string GetAll = Prefix + "GetProductList";
+            public const string Create = Prefix + "/Create";
+            public const string Paginated = Prefix + "/Paginated";
+            public const string GetByID = Prefix + "/{id}";
+            public const string Edit = Prefix + "/Edit";
+            public const string Delete = Prefix + "/{id}";
+            public const string ChangePassword = Prefix + "/ChangePassword";
+        }
     }
 }

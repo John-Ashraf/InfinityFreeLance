@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.infrastructure\\serviceregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|solutionrelative:api.infrastructure\\serviceregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\web-api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.infrastructure\\api.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|solutionrelative:api.infrastructure\\api.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.core\\features\\users\\queries\\handlers\\userquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\users\\queries\\handlers\\userquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\web-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|solutionrelative:api.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.infrastructure\\moduleinfrasstructuredependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|solutionrelative:api.infrastructure\\moduleinfrasstructuredependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.core\\features\\products\\queries\\handler\\productquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\products\\queries\\handler\\productquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|solutionrelative:api.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.service\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|solutionrelative:api.service\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.infrastructure\\abstracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|solutionrelative:api.infrastructure\\abstracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.service\\abstracts\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|solutionrelative:api.service\\abstracts\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Api.Infrastructure",
-              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Api.infrastructure\\Api.Infrastructure.csproj",
-              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj*",
-              "RelativeToolTip": "Api.infrastructure\\Api.Infrastructure.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-11T01:32:14.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServiceRegisteration.cs",
-              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\ServiceRegisteration.cs",
-              "RelativeDocumentMoniker": "Api.infrastructure\\ServiceRegisteration.cs",
-              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\ServiceRegisteration.cs",
-              "RelativeToolTip": "Api.infrastructure\\ServiceRegisteration.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAD4v0cAAAAYAAAAAAAAAA==",
+              "Title": "UserQueriesHandler.cs",
+              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Features\\Users\\Queries\\Handlers\\UserQueriesHandler.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Users\\Queries\\Handlers\\UserQueriesHandler.cs",
+              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Features\\Users\\Queries\\Handlers\\UserQueriesHandler.cs",
+              "RelativeToolTip": "Api.core\\Features\\Users\\Queries\\Handlers\\UserQueriesHandler.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T01:29:58.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\web-api\\Program.cs",
-              "RelativeDocumentMoniker": "web-api\\Program.cs",
-              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\web-api\\Program.cs",
-              "RelativeToolTip": "web-api\\Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T23:29:20.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ModuleInfrasStructureDependencies.cs",
-              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\ModuleInfrasStructureDependencies.cs",
-              "RelativeDocumentMoniker": "Api.infrastructure\\ModuleInfrasStructureDependencies.cs",
-              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\ModuleInfrasStructureDependencies.cs",
-              "RelativeToolTip": "Api.infrastructure\\ModuleInfrasStructureDependencies.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T23:16:23.378Z",
+              "WhenOpened": "2025-02-11T23:47:15.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Repositories\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "Api.infrastructure\\Repositories\\OrderRepository.cs",
-              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Repositories\\OrderRepository.cs",
-              "RelativeToolTip": "Api.infrastructure\\Repositories\\OrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\ProductService.cs",
+              "RelativeDocumentMoniker": "Api.Service\\Implementation\\ProductService.cs",
+              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\ProductService.cs",
+              "RelativeToolTip": "Api.Service\\Implementation\\ProductService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDAAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T23:15:15.802Z",
+              "WhenOpened": "2025-02-11T23:45:39.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Abstracts\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Api.infrastructure\\Abstracts\\IProductRepository.cs",
-              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Abstracts\\IProductRepository.cs",
-              "RelativeToolTip": "Api.infrastructure\\Abstracts\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\Abstracts\\IProductService.cs",
+              "RelativeDocumentMoniker": "Api.Service\\Abstracts\\IProductService.cs",
+              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\Abstracts\\IProductService.cs",
+              "RelativeToolTip": "Api.Service\\Abstracts\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T23:14:36.841Z",
+              "WhenOpened": "2025-02-11T23:45:08.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Router.cs",
+              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\AppMetaData\\Router.cs",
+              "RelativeDocumentMoniker": "Api.Data\\AppMetaData\\Router.cs",
+              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\AppMetaData\\Router.cs",
+              "RelativeToolTip": "Api.Data\\AppMetaData\\Router.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T23:03:47.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductQueriesHandler.cs",
+              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
+              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
+              "RelativeToolTip": "Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T22:32:46.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\web-api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "web-api\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\web-api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "web-api\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T22:09:27.224Z",
               "EditorCaption": ""
             }
           ]

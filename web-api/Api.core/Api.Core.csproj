@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <Folder Include="Mapping\Authorization\" />
+    <Folder Include="Mapping\Products\Commands\" />
     <Folder Include="Mapping\Roles\Command\" />
   </ItemGroup>
 
