@@ -55,7 +55,18 @@
             public const string GetByID = Prefix + "/{id}";
             public const string Edit = Prefix + "/Edit";
             public const string Delete = Prefix + "/{id}";
-            public const string ChangePassword = Prefix + "/ChangePassword";
+
+        }
+        public static class CategoryRoute
+        {
+            public const string Prefix = Rule + "CategoryRoute";
+            public const string GetAll = Prefix + "GetCategoryList";
+            public const string Create = Prefix + "/Create";
+            public const string Paginated = Prefix + "/Paginated";
+            public const string GetByID = Prefix + "/{id}";
+            public const string Edit = Prefix + "/Edit";
+            public const string Delete = Prefix + "/{id}";
+
         }
     }
 }

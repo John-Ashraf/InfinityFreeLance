@@ -140,6 +140,23 @@ namespace Api.Infrastructure.Migrations
                     b.ToTable("UserRefershToken");
                 });
 
+            modelBuilder.Entity("Api.Data.Entities.Tables.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Category");
+                });
+
             modelBuilder.Entity("Api.Data.Entities.Tables.Order", b =>
                 {
                     b.Property<int>("Id")
@@ -209,7 +226,12 @@ namespace Api.Infrastructure.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int>("ProductCategoryId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("ProductCategoryId");
 
                     b.ToTable("Products");
                 });
@@ -369,6 +391,17 @@ namespace Api.Infrastructure.Migrations
                     b.Navigation("Product");
                 });
 
+            modelBuilder.Entity("Api.Data.Entities.Tables.Product", b =>
+                {
+                    b.HasOne("Api.Data.Entities.Tables.Category", "ProductCategory")
+                        .WithMany("Products")
+                        .HasForeignKey("ProductCategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ProductCategory");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -423,6 +456,11 @@ namespace Api.Infrastructure.Migrations
             modelBuilder.Entity("Api.Data.Entities.Identity.AppUser", b =>
                 {
                     b.Navigation("UserRefreshTokens");
+                });
+
+            modelBuilder.Entity("Api.Data.Entities.Tables.Category", b =>
+                {
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

@@ -17,6 +17,7 @@ namespace Api.Service
             _ = services.AddTransient<IAuthorizationService, AuthorizationService>();
             _ = services.AddTransient<IApplicationUserService, ApplicationUserService>();
             _ = services.AddTransient<IProductService, ProductService>();
+            _ = services.AddTransient<ICategoryService, CategoryService>();
             return services;
         }
     }

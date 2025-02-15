@@ -370,6 +370,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "web_api.Controllers.CategoryController",
+    "Method": "GetAllCategories",
+    "RelativePath": "Api/V1/CategoryRoute/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_api.Controllers.CategoryController",
+    "Method": "DeleteCategory",
+    "RelativePath": "Api/V1/CategoryRoute/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_api.Controllers.CategoryController",
+    "Method": "CreateCategory",
+    "RelativePath": "Api/V1/CategoryRoute/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_api.Controllers.CategoryController",
+    "Method": "GetAllCategories",
+    "RelativePath": "Api/V1/CategoryRouteGetCategoryList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "web_api.Controllers.EmailController",
     "Method": "SendEmail",
     "RelativePath": "Api/V1/EmailsRoute/SendEmail",

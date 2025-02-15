@@ -13,6 +13,7 @@ namespace Api.Infrastructure
             _ = services.AddTransient<IRefreshTokenRepository, RefreshTokenRepository>();
             _ = services.AddTransient<IOrderRepository, OrderRepository>();
             _ = services.AddTransient<IProductRepository, ProductRepository>();
+            _ = services.AddTransient<ICategoryRepository, CategoryRepository>();
             return services;
         }
 

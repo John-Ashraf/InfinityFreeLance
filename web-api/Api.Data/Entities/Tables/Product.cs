@@ -15,5 +15,7 @@ namespace Api.Data.Entities.Tables
         public List<string> Photos { get; set; } = new List<string>();
 
         public string Description { get; set; } = String.Empty;
+
+        public Category ProductCategory { get; set; }
     }
 }
