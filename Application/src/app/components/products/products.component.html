@@ -1,0 +1,27 @@
+<div class="categories w-25">
+    <label for=""><b>Choose type of place</b> </label>
+    <select class="form-select" aria-label="Default select" (change)="filterCategories($event)">
+        <option value="all" selected> All </option>
+        <option value="{{option}}" *ngFor="let option of categories">{{option}}</option>
+    </select>
+</div>
+
+<div class="container mt-5">
+    <div class="row"  *ngIf="!loading">
+        <div class="col-md-4 mb-4" *ngFor="let item of products">
+            <div class="card h-100">
+                <img src="{{item.image}}" class="card-img-top img-fluid" style="height: 300px;object-fit: contain;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">{{item.title}}</h5>
+                    <!-- <p class="card-text">{{item.description}}</p> -->
+                    <p class="card-text"><strong>Price:</strong> {{item.price}} LE</p>
+                    <button class="btn  mt-auto"  routerLink="/details/{{item.id}}" >Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center w-100 mb-5" *ngIf="loading">
+    <app-spinner></app-spinner>
+</div>

@@ -1,0 +1,54 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+<div class="container mt-5">
+    <div class="row ">
+        <!-- Product Images -->
+        <div class="col-md-6 mb-4">
+            <img src="{{data.image}}" alt="Product" class="img-fluid rounded mb-3 product-image main" id="mainImage">
+            <div class="d-flex justify-content-center gap-3">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxfHxoZWFkcGhvbmV8ZW58MHwwfHx8MTcyMTMwMzY5MHww&ixlib=rb-4.0.3&q=80&w=1080" alt="Thumbnail 1" class="thumbnail rounded active">
+                <img src="https://images.unsplash.com/photo-1528148343865-51218c4a13e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwzfHxoZWFkcGhvbmV8ZW58MHwwfHx8MTcyMTMwMzY5MHww&ixlib=rb-4.0.3&q=80&w=1080" alt="Thumbnail 2" class="thumbnail rounded" >
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxfHxoZWFkcGhvbmV8ZW58MHwwfHx8MTcyMTMwMzY5MHww&ixlib=rb-4.0.3&q=80&w=1080" alt="Thumbnail 3" class="thumbnail rounded" >
+                <img src="https://images.unsplash.com/photo-1528148343865-51218c4a13e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwzfHxoZWFkcGhvbmV8ZW58MHwwfHx8MTcyMTMwMzY5MHww&ixlib=rb-4.0.3&q=80&w=1080" alt="Thumbnail 4" class="thumbnail rounded" >
+            </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="col-md-6">
+            <h2 class="mb-3">{{data.title}}</h2>
+            <div class="mb-3">
+                <span class="h4 me-2">${{data.price}}</span>
+                <span class="text-muted"><s>$399.99</s></span>
+            </div>
+            <div class="mb-3">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-half text-warning"></i>
+                <span class="ms-2">{{data.rating.rate}}</span>
+            </div>
+
+            <!-- description -->
+            <p class="mb-4">{{data.description}}</p>
+            <!-- <div class="mb-4">
+                <h5>Color:</h5>
+                <div class="btn-group" role="group" aria-label="Color selection">
+                    <input type="radio" class="btn-check" name="color" id="black" autocomplete="off" checked>
+                    <label class="btn btn-outline-dark" for="black">Black</label>
+                    <input type="radio" class="btn-check" name="color" id="silver" autocomplete="off">
+                    <label class="btn btn-outline-secondary" for="silver">Silver</label>
+                    <input type="radio" class="btn-check" name="color" id="blue" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="blue">Blue</label>
+                </div>
+            </div> -->
+            <!-- <div class="mb-4">
+                <label for="quantity" class="form-label">Quantity:</label>
+                <input type="text" class="form-control" id="quantity" value="{{data.rating.count}}"  style="width: 80px;" disabled>
+            </div> -->
+            <button class="btn  btn-lg mb-3 me-2">
+                    <i class="bi bi-cart-plus"></i> Order 
+                </button> 
+        </div>
+    </div>
+</div>
