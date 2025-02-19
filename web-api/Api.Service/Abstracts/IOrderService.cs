@@ -8,5 +8,7 @@ namespace Api.Service.Abstracts
         Task<string> AddOrderAsync(Order order, List<IFormFile> photos);
         Task<string> DeleteOrderAsync(int id);
         Task<List<Order>> GetOrderListAsync();
+        IQueryable<Order> GetQueryable();
+        Task<Order> GetOrderById(int orderId);
     }
 }

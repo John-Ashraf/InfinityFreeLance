@@ -73,6 +73,14 @@ namespace Api.Service.Implementation
         {
             return await _orderRepository.GetTableNoTracking().ToListAsync();
         }
+        public IQueryable<Order> GetQueryable()
+        {
+            return _orderRepository.GetTableAsTracking().AsQueryable();
+        }
+        public async Task<Order> GetOrderById(int orderId)
+        {
+            return await _orderRepository.GetTableNoTracking().Where(x => x.Id == orderId).SingleOrDefaultAsync();
+        }
         #endregion
     }
 }

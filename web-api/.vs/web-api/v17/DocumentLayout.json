@@ -1,42 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\",
+  "WorkspaceRootPath": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.core\\features\\orders\\queries\\handlers\\orderquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|d:\\web\\c#\\projects\\infinity\\web-api\\api.core\\features\\orders\\queries\\handlers\\orderquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\queries\\handlers\\orderquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.core\\mapping\\orders\\queries\\getorderbyidmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\mapping\\orders\\queries\\getorderbyidmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|d:\\web\\c#\\projects\\infinity\\web-api\\api.core\\features\\orders\\queries\\models\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\queries\\models\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.core\\mapping\\orders\\commands\\addordermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\mapping\\orders\\commands\\addordermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|d:\\web\\c#\\projects\\infinity\\web-api\\api.service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|solutionrelative:api.service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\web-api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.data\\entities\\tables\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|solutionrelative:api.data\\entities\\tables\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.core\\features\\orders\\queries\\models\\getorderslistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\queries\\models\\getorderslistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.service\\abstracts\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|d:\\web\\c#\\projects\\infinity\\web-api\\api.service\\abstracts\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|solutionrelative:api.service\\abstracts\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|d:\\freelanceprojects\\infinityfreelance\\web-api\\api.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|solutionrelative:api.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|d:\\web\\c#\\projects\\infinity\\web-api\\web-api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|d:\\web\\c#\\projects\\infinity\\web-api\\api.core\\features\\orders\\queries\\responses\\getsingleorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\queries\\responses\\getsingleorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,111 +39,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetOrderByIdMapping.cs",
-              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Mapping\\Orders\\Queries\\GetOrderByIdMapping.cs",
-              "RelativeDocumentMoniker": "Api.core\\Mapping\\Orders\\Queries\\GetOrderByIdMapping.cs",
-              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Mapping\\Orders\\Queries\\GetOrderByIdMapping.cs",
-              "RelativeToolTip": "Api.core\\Mapping\\Orders\\Queries\\GetOrderByIdMapping.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwCYAAAAHAAAAAAAAAA==",
+              "Title": "GetOrderByIdQuery.cs",
+              "DocumentMoniker": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.core\\Features\\Orders\\Queries\\Models\\GetOrderByIdQuery.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Queries\\Models\\GetOrderByIdQuery.cs",
+              "ToolTip": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.core\\Features\\Orders\\Queries\\Models\\GetOrderByIdQuery.cs",
+              "RelativeToolTip": "Api.core\\Features\\Orders\\Queries\\Models\\GetOrderByIdQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T20:57:31.028Z"
+              "WhenOpened": "2025-02-19T20:23:51.52Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "OrderQueriesHandler.cs",
-              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
+              "DocumentMoniker": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
               "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
-              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
+              "ToolTip": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
               "RelativeToolTip": "Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAwCcAAAAgAAAAAAAAAA==",
+              "ViewState": "AQIAADYAAAAAAAAAAAAzwEIAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T20:05:32.297Z",
+              "WhenOpened": "2025-02-19T20:37:16.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetOrdersListQuery.cs",
-              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Queries\\Models\\GetOrdersListQuery.cs",
-              "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Queries\\Models\\GetOrdersListQuery.cs",
-              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Queries\\Models\\GetOrdersListQuery.cs",
-              "RelativeToolTip": "Api.core\\Features\\Orders\\Queries\\Models\\GetOrdersListQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.Service\\Abstracts\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Api.Service\\Abstracts\\IOrderService.cs",
+              "ToolTip": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.Service\\Abstracts\\IOrderService.cs",
+              "RelativeToolTip": "Api.Service\\Abstracts\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:58:15.558Z"
+              "WhenOpened": "2025-02-19T20:36:23.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Router.cs",
-              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\AppMetaData\\Router.cs",
-              "RelativeDocumentMoniker": "Api.Data\\AppMetaData\\Router.cs",
-              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\AppMetaData\\Router.cs",
-              "RelativeToolTip": "Api.Data\\AppMetaData\\Router.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAuwEkAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.Service\\Implementation\\OrderService.cs",
+              "RelativeDocumentMoniker": "Api.Service\\Implementation\\OrderService.cs",
+              "ToolTip": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.Service\\Implementation\\OrderService.cs",
+              "RelativeToolTip": "Api.Service\\Implementation\\OrderService.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAUwEoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:13:04.255Z"
+              "WhenOpened": "2025-02-19T20:33:00.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\web-api\\Controllers\\OrderController.cs",
+              "DocumentMoniker": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\web-api\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "web-api\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\web-api\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\web-api\\Controllers\\OrderController.cs",
               "RelativeToolTip": "web-api\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAWwBEAAAAIAAAAAAAAAA==",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:06:10.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddOrderMapping.cs",
-              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Mapping\\Orders\\Commands\\AddOrderMapping.cs",
-              "RelativeDocumentMoniker": "Api.core\\Mapping\\Orders\\Commands\\AddOrderMapping.cs",
-              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.core\\Mapping\\Orders\\Commands\\AddOrderMapping.cs",
-              "RelativeToolTip": "Api.core\\Mapping\\Orders\\Commands\\AddOrderMapping.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T18:20:42.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\OrderService.cs",
-              "RelativeDocumentMoniker": "Api.Service\\Implementation\\OrderService.cs",
-              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\OrderService.cs",
-              "RelativeToolTip": "Api.Service\\Implementation\\OrderService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAawDEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T18:08:36.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\Abstracts\\IOrderService.cs",
-              "RelativeDocumentMoniker": "Api.Service\\Abstracts\\IOrderService.cs",
-              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\Abstracts\\IOrderService.cs",
-              "RelativeToolTip": "Api.Service\\Abstracts\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T18:08:15.991Z"
+              "WhenOpened": "2025-02-19T20:29:40.399Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\Order.cs",
-              "RelativeDocumentMoniker": "Api.Data\\Entities\\Tables\\Order.cs",
-              "ToolTip": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\Order.cs",
-              "RelativeToolTip": "Api.Data\\Entities\\Tables\\Order.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAAApAAAAAAAAAA==",
+              "Title": "GetSingleOrderResponse.cs",
+              "DocumentMoniker": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.core\\Features\\Orders\\Queries\\Responses\\GetSingleOrderResponse.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Queries\\Responses\\GetSingleOrderResponse.cs",
+              "ToolTip": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.core\\Features\\Orders\\Queries\\Responses\\GetSingleOrderResponse.cs",
+              "RelativeToolTip": "Api.core\\Features\\Orders\\Queries\\Responses\\GetSingleOrderResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T00:17:47.242Z"
+              "WhenOpened": "2025-02-19T20:25:21.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             }
           ]
         }

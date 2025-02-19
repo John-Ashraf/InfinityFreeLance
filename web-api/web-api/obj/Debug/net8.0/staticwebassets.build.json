@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qLOfg5zTlJUKsGDzowFvDmVedwq4XzgjR79DlZ97wBo=",
+  "Hash": "Ax5DNuT83c8JQEWpN7nue+vgMjMqek/L/mFkg4gaBq4=",
   "Source": "web-api",
   "BasePath": "_content/web-api",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "web-api\\wwwroot",
       "Source": "web-api",
-      "ContentRoot": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\",
+      "ContentRoot": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\web-api\\wwwroot\\",
       "BasePath": "_content/web-api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Products\\50849ea2e1da464e93a488f306cb1f1c.jpg",
+      "Identity": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\web-api\\wwwroot\\Products\\50849ea2e1da464e93a488f306cb1f1c.jpg",
       "SourceId": "web-api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\",
+      "ContentRoot": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\web-api\\wwwroot\\",
       "BasePath": "_content/web-api",
       "RelativePath": "Products/50849ea2e1da464e93a488f306cb1f1c.jpg",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\Products\\50849ea2e1da464e93a488f306cb1f1c.jpg"
     },
     {
-      "Identity": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Products\\c7459c2dc682445ebdb2b5e97c3c6310.jpg",
+      "Identity": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\web-api\\wwwroot\\Products\\c7459c2dc682445ebdb2b5e97c3c6310.jpg",
       "SourceId": "web-api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\",
+      "ContentRoot": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\web-api\\wwwroot\\",
       "BasePath": "_content/web-api",
       "RelativePath": "Products/c7459c2dc682445ebdb2b5e97c3c6310.jpg",
       "AssetKind": "All",

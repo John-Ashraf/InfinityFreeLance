@@ -5171,19 +5171,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\johna\\.nuget\\packages\\": {}
+    "C:\\Users\\steve\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\Api.Service.csproj",
+      "projectUniqueName": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.Service\\Api.Service.csproj",
       "projectName": "Api.Service",
-      "projectPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\Api.Service.csproj",
-      "packagesPath": "C:\\Users\\johna\\.nuget\\packages\\",
-      "outputPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Service\\obj\\",
+      "projectPath": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.Service\\Api.Service.csproj",
+      "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
+      "outputPath": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.Service\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\johna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5197,11 +5202,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj": {
-              "projectPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj"
+            "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.Data\\Api.Data.csproj": {
+              "projectPath": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.Data\\Api.Data.csproj"
             },
-            "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj": {
-              "projectPath": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj"
+            "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj": {
+              "projectPath": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj"
             }
           }
         }
@@ -5250,7 +5255,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
