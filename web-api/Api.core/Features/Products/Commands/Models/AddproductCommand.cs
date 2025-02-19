@@ -1,5 +1,6 @@
 ﻿using Api.Core.Bases;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 
 namespace Api.Core.Features.Products.Commands.Models
 {
@@ -9,8 +10,9 @@ namespace Api.Core.Features.Products.Commands.Models
 
         public decimal Price { get; set; }
 
-        public List<string> Photos { get; set; } = new List<string>();
+        public List<IFormFile> Photos { get; set; } = new List<IFormFile>();
 
         public string Description { get; set; } = String.Empty;
+        public int Catid { get; set; }
     }
 }

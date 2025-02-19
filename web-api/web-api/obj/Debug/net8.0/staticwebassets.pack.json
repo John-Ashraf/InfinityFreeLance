@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Products\\50849ea2e1da464e93a488f306cb1f1c.jpg",
+      "PackagePath": "staticwebassets\\Products\\50849ea2e1da464e93a488f306cb1f1c.jpg"
+    },
+    {
+      "Id": "D:\\FreelanceProjects\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Products\\c7459c2dc682445ebdb2b5e97c3c6310.jpg",
+      "PackagePath": "staticwebassets\\Products\\c7459c2dc682445ebdb2b5e97c3c6310.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.web-api.props",
+      "PackagePath": "build\\web-api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.web-api.props",
+      "PackagePath": "buildMultiTargeting\\web-api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.web-api.props",
+      "PackagePath": "buildTransitive\\web-api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.web-api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

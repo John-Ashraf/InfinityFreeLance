@@ -18,6 +18,8 @@ namespace Api.Service
             _ = services.AddTransient<IApplicationUserService, ApplicationUserService>();
             _ = services.AddTransient<IProductService, ProductService>();
             _ = services.AddTransient<ICategoryService, CategoryService>();
+            _ = services.AddTransient<IFileService, FileService>();
+            _ = services.AddTransient<IOrderService, OrderService>();
             return services;
         }
     }

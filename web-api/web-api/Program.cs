@@ -74,7 +74,7 @@ namespace web_api
             _ = app.UseHttpsRedirection();
             _ = app.UseCors(CORS);
             _ = app.UseAuthorization();
-
+            _ = app.UseStaticFiles();
 
             _ = app.MapControllers();
 

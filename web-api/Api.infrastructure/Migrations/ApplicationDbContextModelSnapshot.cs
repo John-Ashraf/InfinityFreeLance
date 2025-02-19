@@ -137,7 +137,7 @@ namespace Api.Infrastructure.Migrations
 
                     b.HasIndex("AppUserId");
 
-                    b.ToTable("UserRefershToken");
+                    b.ToTable("UserRefershToken", (string)null);
                 });
 
             modelBuilder.Entity("Api.Data.Entities.Tables.Category", b =>
@@ -154,7 +154,7 @@ namespace Api.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Category");
+                    b.ToTable("Category", (string)null);
                 });
 
             modelBuilder.Entity("Api.Data.Entities.Tables.Order", b =>
@@ -200,7 +200,7 @@ namespace Api.Infrastructure.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("Api.Data.Entities.Tables.Product", b =>
@@ -233,7 +233,7 @@ namespace Api.Infrastructure.Migrations
 
                     b.HasIndex("ProductCategoryId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

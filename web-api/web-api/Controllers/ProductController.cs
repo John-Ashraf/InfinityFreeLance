@@ -34,6 +34,12 @@ namespace web_api.Controllers
             var response = await Mediator.Send(model);
             return NewResult(response);
         }
+        [HttpPut(Router.ProductRoute.Edit)]
+        public async Task<IActionResult> EditProduct([FromForm] EditProductCommand model)
+        {
+            var response = await Mediator.Send(model);
+            return NewResult(response);
+        }
         [HttpDelete(Router.ProductRoute.Delete)]
         public async Task<IActionResult> DeleteProdutById([FromRoute] int id)
         {

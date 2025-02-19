@@ -20,4 +20,9 @@
     <ProjectReference Include="..\Api.core\Api.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Orders\" />
+    <Folder Include="wwwroot\Products\" />
+  </ItemGroup>
+
 </Project>

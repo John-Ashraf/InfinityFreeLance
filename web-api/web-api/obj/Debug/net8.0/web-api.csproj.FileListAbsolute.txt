@@ -390,3 +390,4 @@ D:\FreelanceProjects\InfinityFreeLance\web-api\web-api\obj\Debug\net8.0\ref\web-
 D:\FreelanceProjects\InfinityFreeLance\web-api\web-api\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\FreelanceProjects\InfinityFreeLance\web-api\web-api\obj\Debug\net8.0\web-api.MvcApplicationPartsAssemblyInfo.cs
 D:\FreelanceProjects\InfinityFreeLance\web-api\web-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\FreelanceProjects\InfinityFreeLance\web-api\web-api\bin\Debug\net8.0\web-api.staticwebassets.runtime.json
