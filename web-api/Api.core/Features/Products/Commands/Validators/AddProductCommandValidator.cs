@@ -33,8 +33,6 @@ namespace Api.Core.Features.Products.Commands.Validators
 
         public void ApplyCustomValidationsRules()
         {
-            _ = RuleFor(x => x.Price)
-               .LessThanOrEqualTo(0).WithMessage("Name is Exist");
         }
         #endregion
     }

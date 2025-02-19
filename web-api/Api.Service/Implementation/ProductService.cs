@@ -35,6 +35,10 @@ namespace Api.Service.Implementation
         }
         public async Task<string> AddproductAsync(Product product, List<IFormFile> files)
         {
+            if (product.Price <= 0)
+            {
+                return "InvalidPrice";
+            }
             var context = _httpContextAccessor.HttpContext.Request;
             var baseUrl = context.Scheme + "://" + context.Host;
             foreach (var photo in files)
