@@ -1,14 +1,15 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 // import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment';
+import { Observable } from 'rxjs';
 // import { Iproduct } from '../models/iproduct';
 interface ProductData {
-  name: string;
-  decription: string;
-  price: string;
-  CatId:string;
-  photos: File[];
+  Name: string;
+  Description: string;
+  Price: string;
+  Catid:string;
+  Photos: File[];
 }
 @Injectable({
   providedIn: 'root'
@@ -28,9 +29,14 @@ export class ApiProductsService {
    getproductById(id:number){//Product Details
     return this.httpClient.get(`${environment.baseUrl}/products/${id}`)
    }
-   AddProduct (product:ProductData){
-    return this.httpClient.post(`${environment.baseurl2}/Api/V1/ProductRoute/Create`,product);
-   }
+   AddProduct(product: FormData): Observable<any> {
+    console.log('Sending product data:', product);
+    const headers = new HttpHeaders({ 'Content-Type': 'multipart/form-data' }); // <-- Debug here
+    return this.httpClient.post(
+      `${environment.baseurl2}/Api/V1/ProductRoute/Create`,
+      product
+    );
+  }
    
    
   // getProductById(id:number):Observable<Iproduct>{//details

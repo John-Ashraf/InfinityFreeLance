@@ -6,11 +6,11 @@ import { CategoryServiceService } from '../../services/category-service.service'
 import { ApiProductsService } from '../../services/api-products.service';
 
 interface ProductData {
-  name: string;
-  decription: string;
-  price: string;
-  CatId:string;
-  photos: File[];
+  Name: string;
+  Description: string;
+  Price: string;
+  Catid:string;
+  Photos: File[];
 }
 interface category{
   id:number;
@@ -27,11 +27,11 @@ interface category{
 export class AddProductComponent implements OnInit {
   categoryList!:category[];
   product: ProductData = {
-    name: '',
-    decription: '',
-    price: '',
-    CatId: '',
-    photos: []
+    Name: '',
+    Description: '',
+    Price: '',
+    Catid: '',
+    Photos: []
   };
   constructor(private categoryservice:CategoryServiceService,private productservice:ApiProductsService){
     
@@ -77,7 +77,7 @@ export class AddProductComponent implements OnInit {
     if (files) {
       for (let i = 0; i < files.length; i++) {
         this.selectedFiles.push(files[i]);
-        this.product.photos.push(files[i]);
+        this.product.Photos.push(files[i]);
         
         // Create preview for the image
         const reader = new FileReader();
@@ -92,7 +92,7 @@ export class AddProductComponent implements OnInit {
   removeImage(index: number): void {
     this.selectedFiles.splice(index, 1);
     this.previewUrls.splice(index, 1);
-    this.product.photos.splice(index, 1);
+    this.product.Photos.splice(index, 1);
   }
 
   onDragOver(event: DragEvent): void {
@@ -109,7 +109,7 @@ export class AddProductComponent implements OnInit {
       for (let i = 0; i < files.length; i++) {
         if (files[i].type.startsWith('image/')) {
           this.selectedFiles.push(files[i]);
-          this.product.photos.push(files[i]);
+          this.product.Photos.push(files[i]);
           
           const reader = new FileReader();
           reader.onload = (e: any) => {
@@ -125,8 +125,20 @@ export class AddProductComponent implements OnInit {
     console.log('Submitted product data:', this.product);
     // Here you would typically send the data to your backend
     // Reset form after submission if needed
-    this.productservice.AddProduct(this.product).subscribe({
+    console.log(this.product);
 
+    const formData = new FormData();
+    formData.append('Name', this.product.Name);
+    formData.append('Description', this.product.Description);
+    formData.append('Price', this.product.Price);
+    if (this.product.Photos && this.product.Photos.length > 0) {
+      for (let i = 0; i < this.product.Photos.length; i++) {
+        formData.append('Photos', this.product.Photos[i], this.product.Photos[i].name); // Append each file individually
+      }
+    }
+    formData.append('Catid', this.product.Catid);
+    this.productservice.AddProduct(formData).subscribe({
+        
       next:(res:any)=> 
         {
           console.log("done");

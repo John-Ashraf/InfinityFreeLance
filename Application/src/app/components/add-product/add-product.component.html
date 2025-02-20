@@ -10,28 +10,28 @@
 
                 <!--  Name -->
                 <div class="mb-3">
-                    <label for="businessName" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="businessName" name="businessName"
-                        [(ngModel)]="product.name" placeholder="Enter your business name" required>
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name"
+                        [(ngModel)]="product.Name" placeholder="Enter your Product Name" required>
                 </div>
                 <div class="mb-3">
-                    <label for="businessName" class="form-label">Price</label>
-                    <input type="text" class="form-control" id="businessName" name="businessName"
-                        [(ngModel)]="product.price" placeholder="Enter your business name" required>
+                    <label for="price" class="form-label">Price</label>
+                    <input type="text" class="form-control" id="price" name="price"
+                        [(ngModel)]="product.Price" placeholder="Enter Product price" required>
                 </div>
 
                 <!-- Description -->
                 <div class="mb-3">
-                    <label for="businessAddress" class="form-label"> Description</label>
-                    <textarea class="form-control" id="businessAddress" name="businessAddress"
-                        [(ngModel)]="product.decription" placeholder="Enter your business address" rows="3"
+                    <label for="decription" class="form-label"> Description</label>
+                    <textarea class="form-control" id="decription" name="decription"
+                        [(ngModel)]="product.Description" placeholder="Enter product decription" rows="3"
                         required></textarea>
                 </div>
 
                 <!--  Category -->
                 <div class="mb-3">
-                    <label for="businessType" class="form-label">Category</label>
-                    <select class="form-select" id="businessType" name="businessType" [(ngModel)]="product.CatId"
+                    <label for="Category" class="form-label">Category</label>
+                    <select class="form-select" id="Category" name="Category" [(ngModel)]="product.Catid"
                         required>
                         <option value="" disabled selected>Select business type</option>
                         <option *ngFor="let type of categoryList" [value]="type.id">{{ type.name }}</option>

@@ -14,7 +14,7 @@ namespace Api.Core.Features.Products.Commands.Validators
         public void ApplyValidationsRules()
         {
             _ = RuleFor(x => x.Name)
-                 .NotEmpty().WithMessage("Name must be not empty")
+                 .NotEmpty().WithMessage("Name must be not empty!!")
                  .NotNull().WithMessage("Name must be not null");
             _ = RuleFor(x => x.Price)
      .NotEmpty().WithMessage("Price must be not empty")

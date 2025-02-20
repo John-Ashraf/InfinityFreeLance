@@ -9,6 +9,8 @@ export class CategoryServiceService {
 
   constructor(private httpClient:HttpClient) { }
   getListOfCategory(){//selectCategory
+      //console.log("testing");
+      
       return this.httpClient.get(`${environment.baseurl2}/Api/V1/CategoryRouteGetCategoryList`)
     }
 }

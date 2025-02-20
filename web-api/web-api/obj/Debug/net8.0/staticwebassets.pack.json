@@ -1,11 +1,15 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Products\\50849ea2e1da464e93a488f306cb1f1c.jpg",
+      "Id": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Products\\50849ea2e1da464e93a488f306cb1f1c.jpg",
       "PackagePath": "staticwebassets\\Products\\50849ea2e1da464e93a488f306cb1f1c.jpg"
     },
     {
-      "Id": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Products\\c7459c2dc682445ebdb2b5e97c3c6310.jpg",
+      "Id": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Products\\5cbe4d4a5d404c4b8a2f97415955f9ae.jpg",
+      "PackagePath": "staticwebassets\\Products\\5cbe4d4a5d404c4b8a2f97415955f9ae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Products\\c7459c2dc682445ebdb2b5e97c3c6310.jpg",
       "PackagePath": "staticwebassets\\Products\\c7459c2dc682445ebdb2b5e97c3c6310.jpg"
     },
     {
@@ -19,10 +23,6 @@
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.web-api.props",
       "PackagePath": "buildTransitive\\web-api.props"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.web-api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.web-api.Microsoft.AspNetCore.StaticWebAssets.props",
