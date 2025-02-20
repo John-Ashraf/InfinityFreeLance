@@ -466,6 +466,22 @@
   },
   {
     "ContainingType": "web_api.Controllers.OrderController",
+    "Method": "GetOrderById",
+    "RelativePath": "Api/V1/OrderRoute/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_api.Controllers.OrderController",
     "Method": "CreateOrder",
     "RelativePath": "Api/V1/OrderRoute/Create",
     "HttpMethod": "POST",
@@ -505,6 +521,27 @@
       {
         "Name": "PicsCustom",
         "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_api.Controllers.OrderController",
+    "Method": "GetPaginatedOrders",
+    "RelativePath": "Api/V1/OrderRoute/Paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],

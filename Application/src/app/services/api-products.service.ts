@@ -1,9 +1,15 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+// import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment';
 // import { Iproduct } from '../models/iproduct';
-
+interface ProductData {
+  name: string;
+  decription: string;
+  price: string;
+  CatId:string;
+  photos: File[];
+}
 @Injectable({
   providedIn: 'root'
 })
@@ -22,6 +28,10 @@ export class ApiProductsService {
    getproductById(id:number){//Product Details
     return this.httpClient.get(`${environment.baseUrl}/products/${id}`)
    }
+   AddProduct (product:ProductData){
+    return this.httpClient.post(`${environment.baseurl2}/Api/V1/ProductRoute/Create`,product);
+   }
+   
    
   // getProductById(id:number):Observable<Iproduct>{//details
   //   return this.httpClient.get<Iproduct>(`${environment.baseUrl}/products/${id}`)

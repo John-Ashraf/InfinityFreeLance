@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ax5DNuT83c8JQEWpN7nue+vgMjMqek/L/mFkg4gaBq4=",
+  "Hash": "vtWN21IfUSQCeaNunJBT4kI1NvKtpkbXoGYWtFaTD/c=",
   "Source": "web-api",
   "BasePath": "_content/web-api",
   "Mode": "Default",
@@ -10,49 +10,219 @@
     {
       "Name": "web-api\\wwwroot",
       "Source": "web-api",
-      "ContentRoot": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\web-api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\",
       "BasePath": "_content/web-api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\web-api\\wwwroot\\Products\\50849ea2e1da464e93a488f306cb1f1c.jpg",
+      "Identity": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Products\\50849ea2e1da464e93a488f306cb1f1c.jpg",
       "SourceId": "web-api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\web-api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\",
       "BasePath": "_content/web-api",
-      "RelativePath": "Products/50849ea2e1da464e93a488f306cb1f1c.jpg",
+      "RelativePath": "Products/50849ea2e1da464e93a488f306cb1f1c#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "14m1wv8omx",
+      "Integrity": "z134tjZfCmOAEyAAHNX1ACYXqAApPRUi9PoVGa4AGwU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Products\\50849ea2e1da464e93a488f306cb1f1c.jpg"
     },
     {
-      "Identity": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\web-api\\wwwroot\\Products\\c7459c2dc682445ebdb2b5e97c3c6310.jpg",
+      "Identity": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Products\\c7459c2dc682445ebdb2b5e97c3c6310.jpg",
       "SourceId": "web-api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\web-api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\",
       "BasePath": "_content/web-api",
-      "RelativePath": "Products/c7459c2dc682445ebdb2b5e97c3c6310.jpg",
+      "RelativePath": "Products/c7459c2dc682445ebdb2b5e97c3c6310#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "14m1wv8omx",
+      "Integrity": "z134tjZfCmOAEyAAHNX1ACYXqAApPRUi9PoVGa4AGwU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Products\\c7459c2dc682445ebdb2b5e97c3c6310.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Products/50849ea2e1da464e93a488f306cb1f1c.14m1wv8omx.jpg",
+      "AssetFile": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Products\\50849ea2e1da464e93a488f306cb1f1c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20766"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z134tjZfCmOAEyAAHNX1ACYXqAApPRUi9PoVGa4AGwU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 00:01:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "14m1wv8omx"
+        },
+        {
+          "Name": "label",
+          "Value": "Products/50849ea2e1da464e93a488f306cb1f1c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z134tjZfCmOAEyAAHNX1ACYXqAApPRUi9PoVGa4AGwU="
+        }
+      ]
+    },
+    {
+      "Route": "Products/50849ea2e1da464e93a488f306cb1f1c.jpg",
+      "AssetFile": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Products\\50849ea2e1da464e93a488f306cb1f1c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20766"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z134tjZfCmOAEyAAHNX1ACYXqAApPRUi9PoVGa4AGwU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 00:01:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z134tjZfCmOAEyAAHNX1ACYXqAApPRUi9PoVGa4AGwU="
+        }
+      ]
+    },
+    {
+      "Route": "Products/c7459c2dc682445ebdb2b5e97c3c6310.14m1wv8omx.jpg",
+      "AssetFile": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Products\\c7459c2dc682445ebdb2b5e97c3c6310.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20766"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z134tjZfCmOAEyAAHNX1ACYXqAApPRUi9PoVGa4AGwU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 00:01:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "14m1wv8omx"
+        },
+        {
+          "Name": "label",
+          "Value": "Products/c7459c2dc682445ebdb2b5e97c3c6310.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z134tjZfCmOAEyAAHNX1ACYXqAApPRUi9PoVGa4AGwU="
+        }
+      ]
+    },
+    {
+      "Route": "Products/c7459c2dc682445ebdb2b5e97c3c6310.jpg",
+      "AssetFile": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Products\\c7459c2dc682445ebdb2b5e97c3c6310.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20766"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z134tjZfCmOAEyAAHNX1ACYXqAApPRUi9PoVGa4AGwU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 00:01:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z134tjZfCmOAEyAAHNX1ACYXqAApPRUi9PoVGa4AGwU="
+        }
+      ]
     }
   ]
 }

@@ -1,29 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\",
+  "WorkspaceRootPath": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|d:\\web\\c#\\projects\\infinity\\web-api\\api.core\\features\\orders\\queries\\handlers\\orderquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|c:\\users\\pemax\\desktop\\new folder (2)\\infinityfreelance\\web-api\\api.service\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|solutionrelative:api.service\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\new folder (2)\\infinityfreelance\\web-api\\api.core\\features\\products\\commands\\validators\\addproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\products\\commands\\validators\\addproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\new folder (2)\\infinityfreelance\\web-api\\api.core\\features\\orders\\queries\\handlers\\orderquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\queries\\handlers\\orderquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|d:\\web\\c#\\projects\\infinity\\web-api\\api.core\\features\\orders\\queries\\models\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\new folder (2)\\infinityfreelance\\web-api\\api.core\\features\\orders\\queries\\models\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\queries\\models\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|d:\\web\\c#\\projects\\infinity\\web-api\\api.service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|c:\\users\\pemax\\desktop\\new folder (2)\\infinityfreelance\\web-api\\api.service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|solutionrelative:api.service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|d:\\web\\c#\\projects\\infinity\\web-api\\api.service\\abstracts\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|c:\\users\\pemax\\desktop\\new folder (2)\\infinityfreelance\\web-api\\api.service\\abstracts\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|solutionrelative:api.service\\abstracts\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|d:\\web\\c#\\projects\\infinity\\web-api\\web-api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|c:\\users\\pemax\\desktop\\new folder (2)\\infinityfreelance\\web-api\\web-api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|d:\\web\\c#\\projects\\infinity\\web-api\\api.core\\features\\orders\\queries\\responses\\getsingleorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\new folder (2)\\infinityfreelance\\web-api\\api.core\\features\\orders\\queries\\responses\\getsingleorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\queries\\responses\\getsingleorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,98 +46,101 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GetOrderByIdQuery.cs",
-              "DocumentMoniker": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.core\\Features\\Orders\\Queries\\Models\\GetOrderByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Queries\\Models\\GetOrderByIdQuery.cs",
               "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Queries\\Models\\GetOrderByIdQuery.cs",
-              "ToolTip": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.core\\Features\\Orders\\Queries\\Models\\GetOrderByIdQuery.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Queries\\Models\\GetOrderByIdQuery.cs",
               "RelativeToolTip": "Api.core\\Features\\Orders\\Queries\\Models\\GetOrderByIdQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T20:23:51.52Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderQueriesHandler.cs",
-              "DocumentMoniker": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
-              "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
-              "ToolTip": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
-              "RelativeToolTip": "Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAzwEIAAAA6AAAA",
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\ProductService.cs",
+              "RelativeDocumentMoniker": "Api.Service\\Implementation\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\ProductService.cs",
+              "RelativeToolTip": "Api.Service\\Implementation\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T20:37:16.503Z",
+              "WhenOpened": "2025-02-19T23:24:42.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.Service\\Abstracts\\IOrderService.cs",
-              "RelativeDocumentMoniker": "Api.Service\\Abstracts\\IOrderService.cs",
-              "ToolTip": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.Service\\Abstracts\\IOrderService.cs",
-              "RelativeToolTip": "Api.Service\\Abstracts\\IOrderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "DocumentIndex": 1,
+              "Title": "AddProductCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Commands\\Validators\\AddProductCommandValidator.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Products\\Commands\\Validators\\AddProductCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Commands\\Validators\\AddProductCommandValidator.cs",
+              "RelativeToolTip": "Api.core\\Features\\Products\\Commands\\Validators\\AddProductCommandValidator.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T20:36:23.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T23:24:25.467Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.Service\\Implementation\\OrderService.cs",
-              "RelativeDocumentMoniker": "Api.Service\\Implementation\\OrderService.cs",
-              "ToolTip": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.Service\\Implementation\\OrderService.cs",
-              "RelativeToolTip": "Api.Service\\Implementation\\OrderService.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAUwEoAAAAJAAAA",
+              "Title": "OrderQueriesHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
+              "RelativeToolTip": "Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T20:33:00.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\web-api\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "web-api\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\web-api\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "web-api\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T20:29:40.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T20:37:16.503Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\Api.Service\\Abstracts\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Api.Service\\Abstracts\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\Api.Service\\Abstracts\\IOrderService.cs",
+              "RelativeToolTip": "Api.Service\\Abstracts\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:36:23.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\OrderService.cs",
+              "RelativeDocumentMoniker": "Api.Service\\Implementation\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\OrderService.cs",
+              "RelativeToolTip": "Api.Service\\Implementation\\OrderService.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAUwEoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:33:00.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\web-api\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "web-api\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\web-api\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "web-api\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:29:40.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "GetSingleOrderResponse.cs",
-              "DocumentMoniker": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.core\\Features\\Orders\\Queries\\Responses\\GetSingleOrderResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Queries\\Responses\\GetSingleOrderResponse.cs",
               "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Queries\\Responses\\GetSingleOrderResponse.cs",
-              "ToolTip": "D:\\Web\\C#\\Projects\\Infinity\\web-api\\Api.core\\Features\\Orders\\Queries\\Responses\\GetSingleOrderResponse.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\New folder (2)\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Queries\\Responses\\GetSingleOrderResponse.cs",
               "RelativeToolTip": "Api.core\\Features\\Orders\\Queries\\Responses\\GetSingleOrderResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T20:25:21.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "WhenOpened": "2025-02-19T20:25:21.717Z"
             }
           ]
         }

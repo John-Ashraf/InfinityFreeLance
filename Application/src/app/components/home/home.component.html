@@ -1,1 +1,110 @@
-<p>home works!</p>
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+
+
+<!-- home-page.component.html -->
+<!-- Hero Section -->
+<!-- <section class="hero-section py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="display-4">T-shirt Mockup</h1>
+                <p class="lead">Display your logo or designs here</p>
+                <button class="btn btn-outline-secondary">PNG File</button>
+            </div>
+            <div class="col-md-6">
+                <img src="/api/placeholder/500/400" alt="T-shirt Mockup" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section> -->
+<div id="carouselExampleIndicators" class="carousel slide my-2 mx-auto" data-bs-ride="carousel">
+    <div class="carousel-indicators ">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item">
+            <img src="/shirts/Offer Banner.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item active">
+            <img src="/shirts/carousel.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+
+<!-- Blogs Section -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Products</h2>
+        <div class="row">
+            <div class="col-md-4" *ngFor="let item of products">
+                <div class="card h-100">
+                    <img src="{{item.image}}" class="card-img-top img-fluid" style="height: 300px;object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">{{item.title}}</h5>
+                        <!-- <p class="card-text">{{item.description}}</p> -->
+                        <p class="card-text"><strong>Price:</strong> {{item.price}} LE</p>
+                        <button class=" detailsBtn btn  mt-auto" routerLink="/details/{{item.id}}">Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <button class="btn productBtn" routerLink="/products">Go to all products >></button>
+        </div>
+    </div>
+</section>
+
+<!-- Design Section -->
+<section class="design-section py-5">
+    <div class="container ">
+        <h2 class="text-center mb-4">Custom Design</h2>
+        <div class="row align-items-center bgColorDesign ">
+            <div class="col-md-6 ">
+                <h2>Create Your Own Custom T-Shirt</h2>
+                <h3>Style It Your Way!</h3>
+                <p>Performance and design. Taken right to the edge.</p>
+                <button class="btn productBtn" routerLink="/design">Design</button>
+            </div>
+            <div class="col-md-6">
+                <img src="/shirts/front.png" alt="Custom Hoodie" class="img-fluid w-75 designImg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row align-items-center d-flex justify-content-between bgColorDesign">
+            <div class="col-md-5">
+                <p>This page is designed for customers to contact us to purchase the T-shirt. Simply fill out some basic
+                    information and upload the picture of the T-shirt to help us prepare your order. A sample image of
+                    the T-shirt is provided for easy reference.</p>
+                <button class="btn productBtn" routerLink="/contactus">Contact Us</button>
+            </div>
+            <div class="col-md-6 ContactImg">
+                <img src="/shirts/contactus2.png" alt="contactus">
+            </div>
+        </div>
+    </div>
+</section>
