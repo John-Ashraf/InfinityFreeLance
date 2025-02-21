@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\",
+  "WorkspaceRootPath": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\web-api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|c:\\users\\pemax\\desktop\\freelance\\infinityfreelance\\web-api\\web-api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\web-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|c:\\users\\pemax\\desktop\\freelance\\infinityfreelance\\web-api\\web-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.infrastructure\\seeder\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|c:\\users\\pemax\\desktop\\freelance\\infinityfreelance\\web-api\\api.infrastructure\\seeder\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|solutionrelative:api.infrastructure\\seeder\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\products\\commands\\handler\\productcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\products\\commands\\handler\\productcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\products\\commands\\handler\\productcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,35 +32,33 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\Program.cs",
               "RelativeDocumentMoniker": "web-api\\Program.cs",
-              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\Program.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\Program.cs",
               "RelativeToolTip": "web-api\\Program.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:59:56.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T00:59:56.476Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UserSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.infrastructure\\Seeder\\UserSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.infrastructure\\Seeder\\UserSeeder.cs",
               "RelativeDocumentMoniker": "Api.infrastructure\\Seeder\\UserSeeder.cs",
-              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.infrastructure\\Seeder\\UserSeeder.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.infrastructure\\Seeder\\UserSeeder.cs",
               "RelativeToolTip": "Api.infrastructure\\Seeder\\UserSeeder.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:57:35.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T00:57:35.749Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "web-api\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\Controllers\\ProductController.cs",
               "RelativeToolTip": "web-api\\Controllers\\ProductController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAuwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -71,14 +69,13 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ProductCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Commands\\Handler\\ProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Commands\\Handler\\ProductCommandHandler.cs",
               "RelativeDocumentMoniker": "Api.core\\Features\\Products\\Commands\\Handler\\ProductCommandHandler.cs",
-              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Commands\\Handler\\ProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Commands\\Handler\\ProductCommandHandler.cs",
               "RelativeToolTip": "Api.core\\Features\\Products\\Commands\\Handler\\ProductCommandHandler.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:39:00.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T00:39:00.063Z"
             }
           ]
         }

@@ -24,7 +24,7 @@ export class ProductsComponent implements OnInit {
     this.service.getAllProducts().subscribe({
       next:(res:any)=> 
         {
-          this.products = res
+          this.products = res.data
           this.loading =false
         },  
       error:(err)=>
@@ -42,7 +42,7 @@ export class ProductsComponent implements OnInit {
       next:(res:any)=>
       {
         this.loading =false
-        this.categories = res
+        this.categories = res.data
         // console.log(res)
       },
       error:(err)=>

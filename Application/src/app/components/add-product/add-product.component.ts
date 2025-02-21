@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { CategoryServiceService } from '../../services/category-service.service';
 import { ApiProductsService } from '../../services/api-products.service';
+import Swal from 'sweetalert2';
 
 interface ProductData {
   Name: string;
@@ -37,7 +38,7 @@ export class AddProductComponent implements OnInit {
     
   }
   ngOnInit(): void {
-    //console.log("init0");
+    // console.log("init0");
     this.getlistCategory();
   }
   getlistCategory(){
@@ -48,7 +49,7 @@ export class AddProductComponent implements OnInit {
         next:(res:any)=> 
           {
             this.categoryList = res.data
-           // console.log(this.categoryList);
+            console.log(this.categoryList);
           },  
         error:(err)=>
         {
@@ -121,7 +122,7 @@ export class AddProductComponent implements OnInit {
     }
   }
 
-  register(): void {
+  add(): void {
     console.log('Submitted product data:', this.product);
     // Here you would typically send the data to your backend
     // Reset form after submission if needed
@@ -141,12 +142,20 @@ export class AddProductComponent implements OnInit {
         
       next:(res:any)=> 
         {
-          console.log("done");
+          Swal.fire({
+            title: "Product Added Successful",
+            icon: "success",
+            draggable: true
+          });
         },  
       error:(err)=>
       {
-          console.log(this.product);
-          alert(err)
+          // console.log(this.product);
+          Swal.fire({
+            icon: "error",
+            title: `${err.message}`,
+            text: "Something went wrong!",
+          });
       }
     });
   }

@@ -1,11 +1,10 @@
 <!-- add-product.component.html -->
 <div class="container my-4">
-    <h2 class="text-center mb-3">Vendor Registration Form</h2>
-    <p class="text-center mb-4">Please fill out the form below to register as a vendor.</p>
-    <h2>{{product|json}}</h2>
+    <h2 class="text-center mb-3">Add Product</h2>
+    <p class="text-center mb-4">Please fill out the form</p>
     <div class="card shadow-sm">
         <div class="card-body">
-            <form (ngSubmit)="register()" #productForm="ngForm">
+            <form (ngSubmit)="add()" #productForm="ngForm">
                 <h4 class="mb-4"> Add Product</h4>
 
                 <!--  Name -->
@@ -33,7 +32,7 @@
                     <label for="Category" class="form-label">Category</label>
                     <select class="form-select" id="Category" name="Category" [(ngModel)]="product.Catid"
                         required>
-                        <option value="" disabled selected>Select business type</option>
+                        <option value="" disabled selected>Select category type</option>
                         <option *ngFor="let type of categoryList" [value]="type.id">{{ type.name }}</option>
                     </select>
                 </div>

@@ -1,2 +1,4 @@
 wwwroot\Products\50849ea2e1da464e93a488f306cb1f1c.jpg
+wwwroot\Products\5cbe4d4a5d404c4b8a2f97415955f9ae.jpg
 wwwroot\Products\c7459c2dc682445ebdb2b5e97c3c6310.jpg
+wwwroot\Products\cb3e1d20be60448492d6d48e729a1dc0.png

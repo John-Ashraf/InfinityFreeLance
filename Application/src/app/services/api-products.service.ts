@@ -18,10 +18,10 @@ export class ApiProductsService {
 
   constructor(private httpClient:HttpClient) { }
   getAllProducts(){//products
-   return this.httpClient.get(`${environment.baseUrl}/products`)
+   return this.httpClient.get(`${environment.baseurl2}/Api/V1/ProductRouteGetProductList`)
   }
   getAllCategories(){//Categories
-    return this.httpClient.get(`${environment.baseUrl}/products/categories`)
+    return this.httpClient.get(`${environment.baseurl2}/Api/V1/CategoryRouteGetCategoryList`)
    }
    getProductByCategories(keyword:string){
     return this.httpClient.get(`${environment.baseUrl}/products/category/${keyword}`)
