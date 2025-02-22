@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\products\\queries\\handler\\productquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\products\\queries\\handler\\productquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|c:\\users\\pemax\\desktop\\freelance\\infinityfreelance\\web-api\\web-api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ProductQueriesHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
+              "RelativeToolTip": "Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:32:35.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\Program.cs",
               "RelativeDocumentMoniker": "web-api\\Program.cs",
@@ -42,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserSeeder.cs",
               "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.infrastructure\\Seeder\\UserSeeder.cs",
               "RelativeDocumentMoniker": "Api.infrastructure\\Seeder\\UserSeeder.cs",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "web-api\\Controllers\\ProductController.cs",
@@ -62,12 +79,11 @@
               "RelativeToolTip": "web-api\\Controllers\\ProductController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAuwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:39:32.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T00:39:32.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Commands\\Handler\\ProductCommandHandler.cs",
               "RelativeDocumentMoniker": "Api.core\\Features\\Products\\Commands\\Handler\\ProductCommandHandler.cs",

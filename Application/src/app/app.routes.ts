@@ -10,13 +10,16 @@ import { HomePageComponent } from './components/home/home.component';
 import { AddProductComponent } from './components/add-product/add-product.component';
 
 export const routes: Routes = [
-
-    {path:"home" , component:HomePageComponent},
-    {path:"contactus" , component:ContactusComponent},
-    {path:"design" , component:DesignComponent},
-    {path:'products' , component:ProductsComponent},
-    {path:'details/:id' , component:DetailsComponent},
-    {path:'aboutus' , component:AboutusComponent},
-    {path:'order' , component:OrderComponent},
-    {path:'addProducts' , component:AddProductComponent},
+    {
+        path: 'admin',
+        loadChildren: () => import('./admin/adminComponents/admin.routes').then(m => m.adminRoutes)
+    },
+    { path: "home", component: HomePageComponent },
+    { path: "contactus", component: ContactusComponent },
+    { path: "design", component: DesignComponent },
+    { path: 'products', component: ProductsComponent },
+    { path: 'details/:id', component: DetailsComponent },
+    { path: 'aboutus', component: AboutusComponent },
+    { path: 'order/:id', component: OrderComponent },
+    { path: 'addProducts', component: AddProductComponent },
 ];

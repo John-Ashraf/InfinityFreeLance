@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\products\\commands\\models\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\products\\commands\\models\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\products\\commands\\validators\\deleteproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\products\\commands\\validators\\deleteproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\products\\commands\\handler\\productcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\products\\commands\\handler\\productcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\products\\commands\\validators\\addproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\products\\commands\\validators\\addproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\products\\queries\\handler\\productquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\products\\queries\\handler\\productquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|c:\\users\\pemax\\desktop\\freelance\\infinityfreelance\\web-api\\web-api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|c:\\users\\pemax\\desktop\\freelance\\infinityfreelance\\web-api\\api.infrastructure\\seeder\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|solutionrelative:api.infrastructure\\seeder\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\products\\commands\\handler\\productcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\products\\commands\\handler\\productcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +42,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Commands\\Models\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Products\\Commands\\Models\\DeleteProductCommand.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Commands\\Models\\DeleteProductCommand.cs",
+              "RelativeToolTip": "Api.core\\Features\\Products\\Commands\\Models\\DeleteProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T20:40:27.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DeleteProductCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Commands\\Validators\\DeleteProductCommandValidator.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Products\\Commands\\Validators\\DeleteProductCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Commands\\Validators\\DeleteProductCommandValidator.cs",
+              "RelativeToolTip": "Api.core\\Features\\Products\\Commands\\Validators\\DeleteProductCommandValidator.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAhwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T20:40:21.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddProductCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Commands\\Validators\\AddProductCommandValidator.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Products\\Commands\\Validators\\AddProductCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Commands\\Validators\\AddProductCommandValidator.cs",
+              "RelativeToolTip": "Api.core\\Features\\Products\\Commands\\Validators\\AddProductCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T20:34:21.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductQueriesHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
+              "RelativeToolTip": "Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:32:35.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\Program.cs",
               "RelativeDocumentMoniker": "web-api\\Program.cs",
@@ -42,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "UserSeeder.cs",
               "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.infrastructure\\Seeder\\UserSeeder.cs",
               "RelativeDocumentMoniker": "Api.infrastructure\\Seeder\\UserSeeder.cs",
@@ -54,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "web-api\\Controllers\\ProductController.cs",
@@ -62,20 +130,20 @@
               "RelativeToolTip": "web-api\\Controllers\\ProductController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAuwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:39:32.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T00:39:32.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ProductCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Commands\\Handler\\ProductCommandHandler.cs",
               "RelativeDocumentMoniker": "Api.core\\Features\\Products\\Commands\\Handler\\ProductCommandHandler.cs",
               "ToolTip": "C:\\Users\\Pemax\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Commands\\Handler\\ProductCommandHandler.cs",
               "RelativeToolTip": "Api.core\\Features\\Products\\Commands\\Handler\\ProductCommandHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T00:39:00.063Z"
+              "WhenOpened": "2025-02-20T00:39:00.063Z",
+              "EditorCaption": ""
             }
           ]
         }

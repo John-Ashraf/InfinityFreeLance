@@ -1,9 +1,16 @@
-// export interface Iproduct {
-//     imgUrl: string,
-//     description: any;
-//     id: number,
-//     name: string,
-//     price: number,
-//     catId: number,
-//     quantity: number,
-// }
+export interface Iproduct {
+    id: number,
+    name: string,
+    price: number,
+    photos: string[],
+    description: string,
+    categoryName: string
+}
+export interface ProductApiResponse{
+    statusCode: number;
+    meta: any;
+    succeeded: boolean;
+    message: string;
+    errors: any;
+    data: Iproduct[];
+}

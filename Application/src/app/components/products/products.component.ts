@@ -3,6 +3,8 @@ import { ApiProductsService } from '../../services/api-products.service';
 import { CommonModule } from '@angular/common';
 import { SpinnerComponent } from "../spinner/spinner.component";
 import { RouterLink } from '@angular/router';
+import { Iproduct } from '../../models/iproduct';
+import { Icategory } from '../../models/icategory';
 
 @Component({
   selector: 'app-products',
@@ -11,8 +13,8 @@ import { RouterLink } from '@angular/router';
   styleUrl: './products.component.css'
 })
 export class ProductsComponent implements OnInit {
-  products:any[]=[];
-  categories:any[]=[];
+  products:Iproduct[]=[];
+  categories:Icategory[]=[];
   loading:boolean=false;
    constructor(private service:ApiProductsService){}
   ngOnInit(): void {

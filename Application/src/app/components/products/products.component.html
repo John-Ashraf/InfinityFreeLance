@@ -2,7 +2,7 @@
     <label for=""><b>Choose type of place</b> </label>
     <select class="form-select" aria-label="Default select" (change)="filterCategories($event)">
         <option value="all" selected> All </option>
-        <option value="{{category.Name}}" *ngFor="let category of categories">{{category.name}}</option>
+        <option value="{{category.name}}" *ngFor="let category of categories">{{category.name}}</option>
     </select>
 </div>
 

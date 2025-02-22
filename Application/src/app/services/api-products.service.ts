@@ -27,7 +27,7 @@ export class ApiProductsService {
     return this.httpClient.get(`${environment.baseUrl}/products/category/${keyword}`)
    }
    getproductById(id:number){//Product Details
-    return this.httpClient.get(`${environment.baseUrl}/products/${id}`)
+    return this.httpClient.get(`${environment.baseurl2}/Api/V1/ProductRoute/${id}`)
    }
    AddProduct(product: FormData): Observable<any> {
     console.log('Sending product data:', product);
