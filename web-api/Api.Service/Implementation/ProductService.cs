@@ -70,12 +70,6 @@ namespace Api.Service.Implementation
             foreach (var photo in prod.Photos)
             {
                 var res = await _fileService.DeleteImage("Products", photo);
-                switch (res)
-                {
-                    case "FailedToDeleteImage": return "FailedToDeleteImage";
-                    case "ImageNotFound": return "ImageNotFound";
-
-                }
 
             }
             await _productRepository.DeleteAsync(prod);
