@@ -6,6 +6,7 @@ namespace Api.Service.Abstracts
     public interface IProductService
     {
         Task<Product> GetProductById(int productId);
+        Task<List<Product>> GetProductsByCatId(int catid);
         Task<List<Product>> GetAllProducts();
         Task<string> AddproductAsync(Product product, List<IFormFile> files);
         Task<string> DeleteProductById(int Id);

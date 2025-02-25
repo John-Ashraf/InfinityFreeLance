@@ -6,6 +6,7 @@ import { OrderServiceService } from '../../services/order-service.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ApiProductsService } from '../../services/api-products.service';
 import { IproductById } from '../../models/iproduct-by-id';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-order',
@@ -16,13 +17,13 @@ import { IproductById } from '../../models/iproduct-by-id';
 export class OrderComponent implements OnInit {
   // Define the orderData object to hold form data
   orderData: Iorder = {
-    ProductName: '',
+    ProductId: 0,
     Quantity: 0,
-    PhoneNumber: '',
-    Size: '',
+    Phone: '',
+    size: '',
     Address: '',
-    Message: '',
-    Photos: [], // This will hold the selected files
+    Notes: '',
+    PicsCustom: [], // This will hold the selected files
     date: new Date().toISOString(), // Reset date
     price: 0, // Add this field
     totalPrice: 0, // Add this field
@@ -43,19 +44,16 @@ export class OrderComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.productDetails = this.router.getCurrentNavigation()?.extras.state?.['product'];
-    if (this.productDetails) {
-      this.orderData.ProductName = this.productDetails.name;
-      this.orderData.price = this.productDetails.price;
-      this.calculateTotalPrice();
-      this.getProductDetails();
-    }
+    
+    this.getProductDetails();
+    
   }
-
+  // not important
   getProductDetails() {
     this.service.getproductById(this.id).subscribe({
       next: (res: any) => {
         this.data = res.data;
+        console.log(this.data);
       }
     });
   }
@@ -90,7 +88,7 @@ export class OrderComponent implements OnInit {
     for (let i = 0; i < files.length; i++) {
       const file = files[i];
       if (file.type.startsWith('image/')) {
-        this.orderData.Photos.push(file); // Add file to orderData.Photos
+        this.orderData.PicsCustom.push(file); // Add file to orderData.Photos
 
         // Create a preview URL for the image
         const reader = new FileReader();
@@ -104,7 +102,7 @@ export class OrderComponent implements OnInit {
 
   // Remove an image
   removeImage(index: number): void {
-    this.orderData.Photos.splice(index, 1); // Remove file from orderData.Photos
+    this.orderData.PicsCustom.splice(index, 1); // Remove file from orderData.Photos
     this.previewUrls.splice(index, 1); // Remove preview URL
   }
   calculateTotalPrice(){
@@ -116,29 +114,36 @@ export class OrderComponent implements OnInit {
 
 
   // Handle form submission
-  order(form: NgForm): void {
-    if (form.valid) {
-      // Send the orderData object to the server
-      this.orderService.postOrder(this.orderData).subscribe({
-        next: (res: any) => {
-          console.log('Order submitted successfully', res);
-          // Reset the form and clear selected files
-          // form.resetForm();
-          // this.orderData = {
-          //   ProductName: '',
-          //   Quantity: 0,
-          //   PhoneNumber: '',
-          //   Size: '',
-          //   Address: '',
-          //   Message: '',
-          //   Photos: []
-          // };
-          // this.previewUrls = [];
-        },
-        error: (err: any) => {
-          console.log('Error submitting order', err);
-        }
-      });
-    }
+  order(): void {
+    console.log("inorder")
+    const formData = new FormData();
+    formData.append('ProductId', this.data.id.toString());
+    formData.append('Phone', this.orderData.Phone);
+    formData.append('Notes', this.orderData.Notes);
+    formData.append('Quantity', this.orderData.Quantity.toString());
+    formData.append('Address', this.orderData.Address);
+    formData.append('size', this.orderData.size+": "+this.orderData.Quantity.toString());
+    this.orderData.PicsCustom.forEach((file) => {
+      formData.append('PicsCustom', file, file.name);
+    });
+    console.log(formData);
+    this.orderService.postOrder(formData).subscribe({
+      next: (res: any) => {
+        console.log('Order submitted successfully', res);
+        Swal.fire({
+                    title: "Order Added Successful",
+                    icon: "success",
+                    draggable: true
+                  });
+      },
+      error: (err: any) => {
+        console.log('Error submitting order', err);
+        Swal.fire({
+                    icon: "error",
+                    title: `${err.message}`,
+                    text: "Something went wrong!",
+                  });
+      }
+    });
   }
 }

@@ -14,7 +14,7 @@
     <div class="col-12 col-lg-6 bg-light my-auto mx-auto mt-3 mb-3 border rounded">
         <div class="row align-items-lg-center h-100">
             <div class="col-12">
-                <form action="#!" #sendOrder="ngForm" (ngSubmit)="order(sendOrder)">
+                <form action="#!" #sendOrder="ngForm" (ngSubmit)="order()">
                     <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
                         <div class="col-12">
                             <!-- <label for="fullname" class="form-label">Full Name <span
@@ -23,8 +23,8 @@
                                 name="fullname" value="" required> -->
                             <label for="ProductName" class="form-label">Product Name <span
                                     class="text-danger">*</span></label>
-                            <input type="text" class="form-control" id="ProductName" name="ProductName" value=""
-                            [(ngModel)]="orderData.ProductName"  required>
+                            <input type="text" class="form-control" id="ProductName" name="ProductName" value="{{this.data.name}}"
+                            required disabled>
                         </div>
                         <div class="col-12 col-md-6">
                             <label for="Quantity" class="form-label">Quantity <span class="text-danger">*</span></label>
@@ -66,14 +66,14 @@
                                         </g>
                                     </svg>
                                 </span>
-                                <input type="text" class="form-control" id="phone" name="phone" value=""  [(ngModel)]="orderData.PhoneNumber" required>
+                                <input type="text" class="form-control" id="phone" name="phone" value=""  [(ngModel)]="orderData.Phone" required>
                             </div>
                         </div>
                         <div class="col-12">
                             <!-- <label for="subject" class="form-label">Subject <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="subject" name="subject" value="" required> -->
                             <label for="Category" class="form-label">Size</label>
-                            <select class="form-select" id="size" name="size" [(ngModel)]="orderData.Size" required>
+                            <select class="form-select" id="size" name="size" [(ngModel)]="orderData.size" required>
                                 <option value="" disabled selected>Select Size </option>
                                 <option>small</option>
                                 <option>medium</option>
@@ -127,7 +127,7 @@
                         </div>
                         <div class="col-12">
                             <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
-                            <textarea class="form-control" id="message" name="message" [(ngModel)]="orderData.Message" rows="3" required></textarea>
+                            <textarea class="form-control" id="message" name="message" [(ngModel)]="orderData.Notes" rows="3" required></textarea>
                         </div>
                         <div class="col-12">
                             <div class="d-grid">

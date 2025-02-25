@@ -19,14 +19,14 @@ export class AdminLoginComponent {
   }
   constructor(private loginService:LoginAdminServiceService){}
   login(){
-    // const formData = new FormData();
-    //   formData.append('UserName', this.data.UserName);
-    //   formData.append('Password', this.data.Password);
-    const formData = {
-      UserName: this.data.UserName,
-      Password: this.data.Password
-    };
-      console.log(formData);
+    const formData = new FormData();
+      formData.append('UserName', this.data.UserName);
+      formData.append('Password', this.data.Password);
+    // const formData = {
+    //   UserName: this.data.UserName,
+    //   Password: this.data.Password
+    // };
+      console.log(this.data);
       this.loginService.postLogin(formData).subscribe({
         next:(res)=>{
           console.log(res)

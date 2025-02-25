@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj": {}
+    "C:\\Users\\Pemax\\Desktop\\frelance2\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj": {
+    "C:\\Users\\Pemax\\Desktop\\frelance2\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Pemax\\Desktop\\frelance2\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj",
         "projectName": "Api.Data",
-        "projectPath": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj",
-        "packagesPath": "C:\\Users\\johna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.Data\\obj\\",
+        "projectPath": "C:\\Users\\Pemax\\Desktop\\frelance2\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj",
+        "packagesPath": "C:\\Users\\Pemax\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pemax\\Desktop\\frelance2\\InfinityFreeLance\\web-api\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\johna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pemax\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -74,21 +80,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj": {
+    "C:\\Users\\Pemax\\Desktop\\frelance2\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Pemax\\Desktop\\frelance2\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj",
         "projectName": "Api.Infrastructure",
-        "projectPath": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\johna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Pemax\\Desktop\\frelance2\\InfinityFreeLance\\web-api\\Api.infrastructure\\Api.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Pemax\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pemax\\Desktop\\frelance2\\InfinityFreeLance\\web-api\\Api.infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\johna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pemax\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,14 +106,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj": {
-                "projectPath": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj"
+              "C:\\Users\\Pemax\\Desktop\\frelance2\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj": {
+                "projectPath": "C:\\Users\\Pemax\\Desktop\\frelance2\\InfinityFreeLance\\web-api\\Api.Data\\Api.Data.csproj"
               }
             }
           }
@@ -117,7 +128,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -184,7 +196,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,11 +1,11 @@
 export interface Iorder{
-    ProductName: string;
+    ProductId: number;
     Quantity: number;
-    PhoneNumber: string;
-    Size: string;
+    Phone: string;
+    size: string;
     Address: string;
-    Message: string;
-    Photos: File[];
+    Notes: string;
+    PicsCustom: File[];
     date: string; // Add this field
     price: number; // Add this field
     totalPrice: number; // Add this field

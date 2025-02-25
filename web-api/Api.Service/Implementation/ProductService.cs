@@ -107,6 +107,11 @@ namespace Api.Service.Implementation
             return "Success";
 
         }
+
+        public async Task<List<Product>> GetProductsByCatId(int catid)
+        {
+            return await _productRepository.GetTableNoTracking().Include(x => x.ProductCategory).Where(p => p.ProductCategory.Id == catid).ToListAsync();
+        }
         #endregion
     }
 }
