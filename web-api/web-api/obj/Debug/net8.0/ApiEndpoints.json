@@ -689,6 +689,22 @@
   },
   {
     "ContainingType": "web_api.Controllers.ProductController",
+    "Method": "GetproductsByCategory",
+    "RelativePath": "Api/V1/ProductRouteCategory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_api.Controllers.ProductController",
     "Method": "GetAllProducts",
     "RelativePath": "Api/V1/ProductRouteGetProductList",
     "HttpMethod": "GET",

@@ -1,7 +1,6 @@
 ﻿using Api.Core.Bases;
 using Api.Core.Features.Products.Queries.Models;
 using Api.Core.Features.Products.Queries.Response;
-using Api.Data.Entities.Tables;
 using Api.Service.Abstracts;
 using AutoMapper;
 using MediatR;
@@ -13,8 +12,10 @@ namespace Api.Core.Features.Products.Queries.Handler
     public class ProductQueriesHandler : ResponseHandler
                                     , IRequestHandler<GetProductByIdQuery, Response<GetProductByIdResponse>>
                                     , IRequestHandler<GetAllProductsQuery, Response<List<GetProductByIdResponse>>>
-                                    , IRequestHandler<GetPaginatedProductsQuery, PaginatedResult<GetProductByIdResponse>>
                                     , IRequestHandler<GetProductsByCategory, Response<List<GetProductByIdResponse>>>
+                                    , IRequestHandler<GetPaginatedProductsQuery, PaginatedResult<GetProductByIdResponse>>
+
+
 
     {
         #region Fields
@@ -31,22 +32,7 @@ namespace Api.Core.Features.Products.Queries.Handler
 
         #endregion
         #region Function Handler
-        public async Task<Response<List<GetProductByIdResponse>>> Handle(GetProductsByCategory request, CancellationToken cancellationToken)
-        {
-            var Products = await _productService.GetProductsByCatId(request.id);
-            List<GetProductByIdResponse> res=new List<GetProductByIdResponse>();
-            foreach(var product in Products)
-            {
-                var tmp = _mapper.Map<GetProductByIdResponse>(product);
-                res.Add(tmp);
-            }
-           
-            return Success<List<GetProductByIdResponse>>(res);
 
-
-
-
-        }
         public async Task<Response<GetProductByIdResponse>> Handle(GetProductByIdQuery request, CancellationToken cancellationToken)
         {
             var Product = await _productService.GetProductById(request.id);
@@ -77,7 +63,17 @@ namespace Api.Core.Features.Products.Queries.Handler
             return paginatedList;
         }
 
-       
+        public async Task<Response<List<GetProductByIdResponse>>> Handle(GetProductsByCategory request, CancellationToken cancellationToken)
+        {
+            var products = await _productService.GetProductsByCatId(request.id);
+            var result = new List<GetProductByIdResponse>();
+            foreach (var product in products)
+            {
+                var tmp = _mapper.Map<GetProductByIdResponse>(product);
+                result.Add(tmp);
+            }
+            return Success(result);
+        }
 
 
         #endregion

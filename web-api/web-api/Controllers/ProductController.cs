@@ -16,6 +16,12 @@ namespace web_api.Controllers
             var response = await Mediator.Send(new GetAllProductsQuery());
             return NewResult(response);
         }
+        [HttpGet(Router.ProductRoute.GetProductsByCategory)]
+        public async Task<IActionResult> GetproductsByCategory(int id)
+        {
+            var response = await Mediator.Send(new GetProductsByCategory { id = id });
+            return NewResult(response);
+        }
         [HttpGet(Router.ProductRoute.Paginated)]
         public async Task<IActionResult> GetPaginatedProducts([FromQuery] GetPaginatedProductsQuery Query)
         {
