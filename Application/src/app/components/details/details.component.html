@@ -42,9 +42,9 @@
                 <label for="quantity" class="form-label">Quantity:</label>
                 <input type="text" class="form-control" id="quantity" value="{{data.rating.count}}"  style="width: 80px;" disabled>
             </div> -->
-            <button class="btn  btn-lg mb-3 me-2" routerLink="/order/{{id}}">
-                    <i class="bi bi-cart-plus"></i> Order 
-                </button> 
+            <button class="btn btn-lg mb-3 me-2" [routerLink]="['/order', id]" [state]="{ product: data }">
+                <i class="bi bi-cart-plus"></i> Order 
+            </button>
         </div>
     </div>
 </div>
