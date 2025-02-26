@@ -2,8 +2,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { CategoryServiceService } from '../../services/category-service.service';
-import { ApiProductsService } from '../../services/api-products.service';
+import { CategoryServiceService } from '../../../services/category-service.service';
+import { ApiProductsService } from '../../../services/api-products.service';
 import Swal from 'sweetalert2';
 
 interface ProductData {

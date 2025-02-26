@@ -3,6 +3,11 @@ export interface Iorder{
     Quantity: number;
     Phone: string;
     size: string;
+    smallSize: string;
+    mediumSize: string;
+    largeSize: string;
+    xlSize: string;
+    xxlSize: string;
     Address: string;
     Notes: string;
     PicsCustom: File[];

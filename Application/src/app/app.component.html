@@ -1,4 +1,11 @@
-<app-navbar></app-navbar>
+<ng-container *ngIf="isAdminPage(); else userNavbar">
+    <app-admin-navbar></app-admin-navbar>
+</ng-container>
+<ng-template #userNavbar>
+    <app-navbar></app-navbar>
+</ng-template>
+
+<router-outlet></router-outlet>
+
 <router-outlet></router-outlet>
 <app-footer></app-footer>
-

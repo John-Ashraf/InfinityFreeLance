@@ -20,7 +20,12 @@ export class OrderComponent implements OnInit {
     ProductId: 0,
     Quantity: 0,
     Phone: '',
-    size: '',
+    size: 'Small ',
+    smallSize: 'Small ',
+    mediumSize: 'Medium ',
+    largeSize: 'Large',
+    xlSize: 'XL',
+    xxlSize: 'XXL',
     Address: '',
     Notes: '',
     PicsCustom: [], // This will hold the selected files
@@ -44,11 +49,9 @@ export class OrderComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    
     this.getProductDetails();
-    
   }
-  // not important
+
   getProductDetails() {
     this.service.getproductById(this.id).subscribe({
       next: (res: any) => {
@@ -59,52 +62,52 @@ export class OrderComponent implements OnInit {
   }
 
   // Handle file selection
-  onFileSelected(event: any): void {
-    const files = event.target.files;
-    if (files) {
-      this.handleFiles(files);
-    }
-  }
+  // onFileSelected(event: any): void {
+  //   const files = event.target.files;
+  //   if (files) {
+  //     this.handleFiles(files);
+  //   }
+  // }
 
-  // Handle drag-and-drop
-  onDrop(event: DragEvent): void {
-    event.preventDefault();
-    event.stopPropagation();
+  // // Handle drag-and-drop
+  // onDrop(event: DragEvent): void {
+  //   event.preventDefault();
+  //   event.stopPropagation();
 
-    if (event.dataTransfer && event.dataTransfer.files) {
-      const files = event.dataTransfer.files;
-      this.handleFiles(files);
-    }
-  }
+  //   if (event.dataTransfer && event.dataTransfer.files) {
+  //     const files = event.dataTransfer.files;
+  //     this.handleFiles(files);
+  //   }
+  // }
 
-  // Prevent default behavior for drag-over
-  onDragOver(event: DragEvent): void {
-    event.preventDefault();
-    event.stopPropagation();
-  }
+  // // Prevent default behavior for drag-over
+  // onDragOver(event: DragEvent): void {
+  //   event.preventDefault();
+  //   event.stopPropagation();
+  // }
 
-  // Handle files (common logic for file selection and drag-and-drop)
-  handleFiles(files: FileList): void {
-    for (let i = 0; i < files.length; i++) {
-      const file = files[i];
-      if (file.type.startsWith('image/')) {
-        this.orderData.PicsCustom.push(file); // Add file to orderData.Photos
+  // // Handle files (common logic for file selection and drag-and-drop)
+  // handleFiles(files: FileList): void {
+  //   for (let i = 0; i < files.length; i++) {
+  //     const file = files[i];
+  //     if (file.type.startsWith('image/')) {
+  //       this.orderData.PicsCustom.push(file); // Add file to orderData.Photos
 
-        // Create a preview URL for the image
-        const reader = new FileReader();
-        reader.onload = (e: any) => {
-          this.previewUrls.push(e.target.result);
-        };
-        reader.readAsDataURL(file);
-      }
-    }
-  }
+  //       // Create a preview URL for the image
+  //       const reader = new FileReader();
+  //       reader.onload = (e: any) => {
+  //         this.previewUrls.push(e.target.result);
+  //       };
+  //       reader.readAsDataURL(file);
+  //     }
+  //   }
+  // }
 
   // Remove an image
-  removeImage(index: number): void {
-    this.orderData.PicsCustom.splice(index, 1); // Remove file from orderData.Photos
-    this.previewUrls.splice(index, 1); // Remove preview URL
-  }
+  // removeImage(index: number): void {
+  //   this.orderData.PicsCustom.splice(index, 1); // Remove file from orderData.Photos
+  //   this.previewUrls.splice(index, 1); // Remove preview URL
+  // }
   calculateTotalPrice(){
     this.orderData.totalPrice = this.orderData.price * this.orderData.Quantity;
   }

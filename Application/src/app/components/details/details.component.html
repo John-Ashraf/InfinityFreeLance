@@ -9,39 +9,14 @@
                 <img *ngFor="let photo of data.photos" src="{{photo}}" alt="Thumbnail 1" class="thumbnail rounded active">
             </div>
         </div>
-
         <!-- Product Details -->
         <div class="col-md-6">
             <h2 class="mb-3">{{data.name}}</h2>
             <div class="mb-3">
                 <span class="h4 me-2">${{data.price}}</span>
             </div>
-            <!-- <div class="mb-3">
-                <i class="bi bi-star-fill text-warning"></i>
-                <i class="bi bi-star-fill text-warning"></i>
-                <i class="bi bi-star-fill text-warning"></i>
-                <i class="bi bi-star-fill text-warning"></i>
-                <i class="bi bi-star-half text-warning"></i>
-                <span class="ms-2">{{data.rating.rate}}</span>
-            </div> -->
-
             <!-- description -->
             <p class="mb-4">{{data.description}}</p>
-            <!-- <div class="mb-4">
-                <h5>Color:</h5>
-                <div class="btn-group" role="group" aria-label="Color selection">
-                    <input type="radio" class="btn-check" name="color" id="black" autocomplete="off" checked>
-                    <label class="btn btn-outline-dark" for="black">Black</label>
-                    <input type="radio" class="btn-check" name="color" id="silver" autocomplete="off">
-                    <label class="btn btn-outline-secondary" for="silver">Silver</label>
-                    <input type="radio" class="btn-check" name="color" id="blue" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="blue">Blue</label>
-                </div>
-            </div> -->
-            <!-- <div class="mb-4">
-                <label for="quantity" class="form-label">Quantity:</label>
-                <input type="text" class="form-control" id="quantity" value="{{data.rating.count}}"  style="width: 80px;" disabled>
-            </div> -->
             <button class="btn btn-lg mb-3 me-2" [routerLink]="['/order', id]" [state]="{ product: data }">
                 <i class="bi bi-cart-plus"></i> Order 
             </button>
