@@ -1,34 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\",
+  "WorkspaceRootPath": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\frelance\\infinityfreelance\\web-api\\api.core\\features\\products\\queries\\handler\\productquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\products\\queries\\handler\\productquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance2\\infinityfreelance\\web-api\\api.service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|solutionrelative:api.service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|c:\\users\\pemax\\desktop\\frelance\\infinityfreelance\\web-api\\api.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|solutionrelative:api.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance2\\infinityfreelance\\web-api\\web-api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|c:\\users\\pemax\\desktop\\frelance\\infinityfreelance\\web-api\\web-api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B1193E0-0558-4D0C-A1FA-FAD5A62600BA}|web-api\\web-api.csproj|solutionrelative:web-api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\frelance\\infinityfreelance\\web-api\\api.core\\features\\products\\queries\\models\\getproductsbycategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\products\\queries\\models\\getproductsbycategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\frelance\\infinityfreelance\\web-api\\api.core\\features\\products\\queries\\models\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\products\\queries\\models\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\frelance\\infinityfreelance\\web-api\\api.core\\features\\products\\queries\\models\\getpaginatedproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\products\\queries\\models\\getpaginatedproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\frelance\\infinityfreelance\\web-api\\api.core\\features\\products\\queries\\models\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\products\\queries\\models\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance2\\infinityfreelance\\web-api\\api.core\\features\\orders\\commands\\handlers\\ordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\commands\\handlers\\ordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,92 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetAllProductsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Models\\GetAllProductsQuery.cs",
-              "RelativeDocumentMoniker": "Api.core\\Features\\Products\\Queries\\Models\\GetAllProductsQuery.cs",
-              "ToolTip": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Models\\GetAllProductsQuery.cs",
-              "RelativeToolTip": "Api.core\\Features\\Products\\Queries\\Models\\GetAllProductsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABXAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\web-api\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "web-api\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\web-api\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "web-api\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T19:44:27.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetPaginatedProductsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Models\\GetPaginatedProductsQuery.cs",
-              "RelativeDocumentMoniker": "Api.core\\Features\\Products\\Queries\\Models\\GetPaginatedProductsQuery.cs",
-              "ToolTip": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Models\\GetPaginatedProductsQuery.cs",
-              "RelativeToolTip": "Api.core\\Features\\Products\\Queries\\Models\\GetPaginatedProductsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T19:44:20.081Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetProductsByCategory.cs",
-              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Models\\GetProductsByCategory.cs",
-              "RelativeDocumentMoniker": "Api.core\\Features\\Products\\Queries\\Models\\GetProductsByCategory.cs",
-              "ToolTip": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Models\\GetProductsByCategory.cs",
-              "RelativeToolTip": "Api.core\\Features\\Products\\Queries\\Models\\GetProductsByCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T19:44:15.389Z"
+              "WhenOpened": "2025-02-27T23:33:12.715Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductQueriesHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
-              "RelativeDocumentMoniker": "Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
-              "ToolTip": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
-              "RelativeToolTip": "Api.core\\Features\\Products\\Queries\\Handler\\ProductQueriesHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\OrderService.cs",
+              "RelativeDocumentMoniker": "Api.Service\\Implementation\\OrderService.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\OrderService.cs",
+              "RelativeToolTip": "Api.Service\\Implementation\\OrderService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAQwD0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T19:42:54.829Z",
+              "WhenOpened": "2025-02-27T23:29:33.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\web-api\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "web-api\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\web-api\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "web-api\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Title": "OrderCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
+              "RelativeToolTip": "Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T19:46:49.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Router.cs",
-              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.Data\\AppMetaData\\Router.cs",
-              "RelativeDocumentMoniker": "Api.Data\\AppMetaData\\Router.cs",
-              "ToolTip": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.Data\\AppMetaData\\Router.cs",
-              "RelativeToolTip": "Api.Data\\AppMetaData\\Router.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwDkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T19:48:42.372Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetProductByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Models\\GetProductByIdQuery.cs",
-              "RelativeDocumentMoniker": "Api.core\\Features\\Products\\Queries\\Models\\GetProductByIdQuery.cs",
-              "ToolTip": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Products\\Queries\\Models\\GetProductByIdQuery.cs",
-              "RelativeToolTip": "Api.core\\Features\\Products\\Queries\\Models\\GetProductByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T19:42:37.277Z"
+              "WhenOpened": "2025-02-27T23:29:15.676Z",
+              "EditorCaption": ""
             }
           ]
         }

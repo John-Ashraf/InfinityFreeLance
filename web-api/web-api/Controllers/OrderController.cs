@@ -1,6 +1,5 @@
 ﻿using Api.Core.Features.Orders.Commands.Models;
 using Api.Core.Features.Orders.Queries.Models;
-using Api.Core.Features.Products.Queries.Models;
 using Api.Data.AppMetaData;
 using Microsoft.AspNetCore.Mvc;
 using web_api.Base;
@@ -18,9 +17,9 @@ namespace web_api.Controllers
             return NewResult(response);
         }
         [HttpDelete(Router.OrderRoute.Delete)]
-        public async Task<IActionResult> DeleteOrder([FromRoute] DeleteOrderCommand command)
+        public async Task<IActionResult> DeleteOrder([FromRoute] int id)
         {
-            var response = await Mediator.Send(command);
+            var response = await Mediator.Send(new DeleteOrderCommand(id));
             return NewResult(response);
         }
         [HttpGet(Router.OrderRoute.GetAll)]
