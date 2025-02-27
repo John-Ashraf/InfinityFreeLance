@@ -4,6 +4,7 @@ import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.compo
 import { AdminProductsComponent } from './admin-products/admin-products.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { AddProductComponent } from './add-product/add-product.component';
+import { AdminOrdersComponent } from './admin-orders/admin-orders.component';
 // import { AdminGuard } from '../guards/admin.guard'; // Import the guard
 
 export const adminRoutes: Routes = [
@@ -16,6 +17,10 @@ export const adminRoutes: Routes = [
     path: 'products',
     component: AdminProductsComponent,
     // canActivate: [AdminGuard] // Protect this route
+  },
+  {
+    path:'orders' , 
+    component:AdminOrdersComponent,
   },
   {
     path: 'login',

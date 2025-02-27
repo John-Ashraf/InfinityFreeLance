@@ -40,23 +40,23 @@
                             </div> -->
                             <div class="d-flex gap-2 mb-2">
                                 <input type="text" class="form-control inputSize" id="size" name="size"  [(ngModel)]="orderData.smallSize" required disabled>
-                                <input type="number" class="form-control" id="Quantity" name="Quantity" [(ngModel)]="orderData.Quantity" (change)="onQuantityChange()" required>
+                                <input type="number" class="form-control" id="smallQuantity" name="smallQuantity" [(ngModel)]="orderData.smallQuantity" required>
                             </div>
                             <div class="d-flex gap-2 mb-2">
                                 <input type="text" class="form-control inputSize" id="medium" name="medium"  [(ngModel)]="orderData.mediumSize" required disabled>
-                                <input type="number" class="form-control" id="Quantity" name="Quantity" [(ngModel)]="orderData.Quantity" (change)="onQuantityChange()" required>
+                                <input type="number" class="form-control" id="mediumQuantity" name="mediumQuantity" [(ngModel)]="orderData.mediumQuantity"  required>
                             </div>
                             <div class="d-flex gap-2 mb-2">
                                 <input type="text" class="form-control inputSize" id="large" name="large"  [(ngModel)]="orderData.largeSize" required disabled>
-                                <input type="number" class="form-control" id="Quantity" name="Quantity" [(ngModel)]="orderData.Quantity" (change)="onQuantityChange()" required>
+                                <input type="number" class="form-control" id="largeQuantity" name="largeQuantity" [(ngModel)]="orderData.largeQuantity"  required>
                             </div>
                             <div class="d-flex gap-2 mb-2">
                                 <input type="text" class="form-control inputSize" id="xl" name="xl"  [(ngModel)]="orderData.xlSize" required disabled>
-                                <input type="number" class="form-control" id="Quantity" name="Quantity" [(ngModel)]="orderData.Quantity" (change)="onQuantityChange()" required>
+                                <input type="number" class="form-control" id="xlQuantity" name="xlQuantity" [(ngModel)]="orderData.xlQuantity"  required>
                             </div>
                             <div class="d-flex gap-2 mb-2">
                                 <input type="text" class="form-control inputSize" id="xxl" name="xxl"  [(ngModel)]="orderData.xxlSize"  required disabled>
-                                <input type="number" class="form-control" id="Quantity" name="Quantity" [(ngModel)]="orderData.Quantity" (change)="onQuantityChange()" required>
+                                <input type="number" class="form-control" id="xllQuantity" name="xllQuantity" [(ngModel)]="orderData.xllQuantity"  required>
                             </div>
                         </div>
                         
@@ -64,18 +64,7 @@
                             <label for="phone" class="form-label">Phone Number <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="phone" name="phone" [(ngModel)]="orderData.Phone" required>
                         </div>
-                        <!-- <div class="col-12">
-                            <label for="size" class="form-label">Size</label>
-                            <select class="form-select" id="size" name="size" [(ngModel)]="orderData.size" required>
-                                <option value="" disabled selected>Select Size</option>
-                                <option>small</option>
-                                <option>medium</option>
-                                <option>large</option>
-                                <option>XL</option>
-                                <option>XXL</option>
-                                <option>XXXL</option>
-                            </select>
-                        </div> -->
+
                         <div class="col-12">
                             <label for="Address" class="form-label">Address<span class="text-danger">*</span></label>
                             <textarea class="form-control" id="Address" name="Address" [(ngModel)]="orderData.Address" rows="3" required></textarea>

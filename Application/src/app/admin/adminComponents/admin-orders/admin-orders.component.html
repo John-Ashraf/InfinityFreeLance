@@ -5,23 +5,25 @@
                 <thead>
                     <tr>
                         <th>Date</th>
+                        <!-- <th>ProductName</th> -->
                         <th>Quantity</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- @for (product of products; track $index) { -->
+                    @for (order of orders; track $index) {
                     <tr>
-                        <td>21/5/2003</td>
-                        <td>5</td>
+                        <td>{{order.date | date:"medium" }}</td>
+                        <!-- <td></td> -->
+                        <td>{{order.quantity}}</td>
                         <td>
                             <div class="btn-group">
-                                <button class="btn btn-danger btn-sm" >Delete</button>
+                                <button class="btn btn-danger btn-sm" (click)="deleteOrder(order.id)" >Delete</button>
                                 <button class="btn btn-primary btn-sm ms-2" >View</button>
                             </div>
                         </td>
                     </tr>
-                    <!-- } -->
+                    }
                 </tbody>
             </table>
         </div>

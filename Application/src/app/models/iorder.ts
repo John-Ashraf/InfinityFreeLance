@@ -2,12 +2,16 @@ export interface Iorder{
     ProductId: number;
     Quantity: number;
     Phone: string;
-    size: string;
     smallSize: string;
     mediumSize: string;
     largeSize: string;
     xlSize: string;
     xxlSize: string;
+    smallQuantity:number;
+    mediumQuantity:number;
+    largeQuantity:number;
+    xlQuantity:number;
+    xllQuantity:number;
     Address: string;
     Notes: string;
     PicsCustom: File[];

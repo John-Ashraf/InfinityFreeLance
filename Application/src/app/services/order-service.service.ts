@@ -11,8 +11,13 @@ export class OrderServiceService {
   constructor(private httpClient: HttpClient) { }
 
   postOrder(orderData: FormData) {
-
-  
     return this.httpClient.post(`${environment.baseurl2}/Api/V1/OrderRoute/Create`, orderData);
+  }
+  getAllOrders(){
+    return this.httpClient.get(`${environment.baseurl2}/Api/V1/OrderRouteGetOrdersList`)
+  }
+  deleteOrder(id:number)
+  {
+    return this.httpClient.delete(`${environment.baseurl2}/Api/V1/OrderRoute/${id}`)
   }
 }

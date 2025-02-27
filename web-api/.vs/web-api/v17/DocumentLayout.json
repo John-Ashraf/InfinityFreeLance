@@ -38,32 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Router.cs",
-              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.Data\\AppMetaData\\Router.cs",
-              "RelativeDocumentMoniker": "Api.Data\\AppMetaData\\Router.cs",
-              "ToolTip": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.Data\\AppMetaData\\Router.cs",
-              "RelativeToolTip": "Api.Data\\AppMetaData\\Router.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwDkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T19:48:42.372Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\web-api\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "web-api\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\web-api\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "web-api\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T19:46:49.367Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -112,6 +88,30 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T19:42:54.829Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\web-api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "web-api\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\web-api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "web-api\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:46:49.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Router.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.Data\\AppMetaData\\Router.cs",
+              "RelativeDocumentMoniker": "Api.Data\\AppMetaData\\Router.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\frelance\\InfinityFreeLance\\web-api\\Api.Data\\AppMetaData\\Router.cs",
+              "RelativeToolTip": "Api.Data\\AppMetaData\\Router.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:48:42.372Z"
             },
             {
               "$type": "Document",
