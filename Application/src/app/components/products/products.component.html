@@ -1,26 +1,48 @@
-<div class="categories w-25">
-    <label for=""><b>Choose type of place</b> </label>
-    <select class="form-select" aria-label="Default select" (change)="filterCategories($event)">
-        <option value="all" selected> All </option>
-        <option value="{{category.name}}" *ngFor="let category of categories">{{category.name}}</option>
+<!-- Dropdown for category selection (optional) -->
+<!-- <div class="container category-dropdown mt-4">
+    <label class="form-label fw-bold">Choose Type of Place</label>
+    <select class="form-select" aria-label="Category select" (change)="filterCategories($event)">
+        <option value="-1" selected>All</option>
+        <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
     </select>
+</div> -->
+
+
+<!-- Category Buttons -->
+<div class="container mt-4">
+    <h3 class="text-center mb-4 fw-bold">Choose Type of Place</h3>
+    <div class="row justify-content-center">
+        <div class="col-6 col-md-3 col-lg-2 mb-3">
+            <button class="btn category-btn" [class.active]="selectedCategory === -1" (click)="filterByCategory(-1)">
+                All
+            </button>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mb-3" *ngFor="let category of categories">
+            <button class="btn category-btn" [class.active]="selectedCategory === category.id"
+                (click)="filterByCategory(category.id)">
+                {{ category.name }}
+            </button>
+        </div>
+    </div>
 </div>
 
+<!-- Product Cards -->
 <div class="container mt-5">
-    <div class="row"  *ngIf="!loading">
-        <div class="col-md-4 mb-4" *ngFor="let item of products">
-            <div class="card h-100">
-                <img src="{{item.photos[0]}}" class="card-img-top img-fluid" style="height: 300px;object-fit: contain;">
+    <div class="row" *ngIf="!loading">
+        <div class="col-md-6 col-lg-4 mb-4" *ngFor="let item of products; let i = index">
+            <div class="card product-card h-100" [class.show]="showProducts[i]">
+                <img [src]="item.photos[0]" class="card-img-top img-fluid">
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">{{item.name}}</h5>
-                    <p class="card-text"><strong>Price:</strong> {{item.price}} LE</p>
-                    <button class="btn  mt-auto"  routerLink="/details/{{item.id}}" >Details</button>
+                    <h5 class="card-title">{{ item.name }}</h5>
+                    <p class="card-text"><strong>Price:</strong> {{ item.price }} EGP</p>
+                    <button class="btn details-btn mt-auto" routerLink="/details/{{item.id}}">View Details</button>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="text-center w-100 mb-5" *ngIf="loading">
+<!-- Show Spinner Only When "loading" is True -->
+<div class="text-center mt-3" *ngIf="loading">
     <app-spinner></app-spinner>
 </div>

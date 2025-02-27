@@ -24,7 +24,7 @@ export class HomePageComponent {
     this.loading = true;
     this.service.getAllProducts().subscribe({
       next: (res: any) => {
-        this.products = res.data
+        this.products = res.data.slice(0, 3);
         this.loading = false
       },
       error: (err) => {

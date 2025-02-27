@@ -8,74 +8,103 @@ import { Icategory } from '../../models/icategory';
 
 @Component({
   selector: 'app-products',
-  imports: [CommonModule, SpinnerComponent,RouterLink],
+  standalone: true,
+  imports: [CommonModule, SpinnerComponent, RouterLink],
   templateUrl: './products.component.html',
   styleUrl: './products.component.css'
 })
 export class ProductsComponent implements OnInit {
-  products:Iproduct[]=[];
-  categories:Icategory[]=[];
-  loading:boolean=false;
-   constructor(private service:ApiProductsService){}
+  products: Iproduct[] = [];
+  categories: Icategory[] = [];
+  loading: boolean = false;
+  selectedCategory: number = -1; // Default to "All"
+  showProducts: boolean[] = []; // Controls the animation state of each card
+
+  constructor(private service: ApiProductsService) {}
+
   ngOnInit(): void {
     this.getProducts();
-    this. getCategories();
+    this.getCategories();
   }
-  getProducts(){
-    this.loading =true;
+
+  getProducts(): void {
+    this.loading = true;
+    this.products = []; 
+    this.showProducts = []; 
+
     this.service.getAllProducts().subscribe({
-      next:(res:any)=> 
-        {
-          this.products = res.data
-          this.loading =false
-        },  
-      error:(err)=>
-      {
-          this.loading =false
-          alert(err)
+      next: (res: any) => {
+        this.loading = false;
+        this.products = res.data;
+        this.triggerAnimation();
+      },
+      error: (err) => {
+        this.loading = false;
+        alert(err);
       }
-
-    })
+    });
   }
 
-  getCategories(){
-    this.loading =true
+  getCategories(): void {
+    this.loading = true;
     this.service.getAllCategories().subscribe({
-      next:(res:any)=>
-      {
-        this.loading =false
-        this.categories = res.data
-        // console.log(res)
+      next: (res: any) => {
+        this.loading = false;
+        this.categories = res.data;
       },
-      error:(err)=>
-      {
-        this.loading =false
-        alert(err)
+      error: (err) => {
+        this.loading = false;
+        alert(err);
       }
-
-    })
+    });
   }
 
-  filterCategories(event:any){
-    let value =event.target.value;
-    (value==="all")?this.getProducts():this.getSpecifcCategories(value);
-    console.log(value);
+  filterByCategory(categoryId: number): void {
+    this.selectedCategory = categoryId;
+    this.products = []; 
+    this.showProducts = []; 
+
+    if (categoryId === -1) {
+      this.getProducts();
+    } else {
+      this.getSpecifcCategories(categoryId);
+    }
   }
 
-  getSpecifcCategories(keyword:string){
-    this.loading =true
-    this.service.getProductByCategories(keyword).subscribe({
-      next:(res:any)=>
-      {
-        // console.log(res),
-        this.loading =false
-        this.products = res
+  getSpecifcCategories(categoryId: number): void {
+    this.loading = true;
+    this.products = []; 
+    this.showProducts = []; 
+
+    this.service.getProductByCategories(categoryId).subscribe({
+      next: (res: any) => {
+        this.loading = false;
+        this.products = res.data;
+        this.triggerAnimation();
       },
-      error:(err)=>
-      {
-        this.loading =false
-        alert(err)
+      error: (err) => {
+        this.loading = false;
+        alert(err);
       }
-    })
+    });
+  }
+
+  triggerAnimation(): void {
+    this.products.forEach((_, index) => {
+      setTimeout(() => {
+        this.showProducts[index] = true;
+      }, index * 200); // Delay each card by 200ms
+    });
   }
 }
+
+
+
+    // filterCategories(event: any): void {
+   //   const value = event.target.value;
+   //   if (value === "-1") {  //for all data
+   //     this.getProducts();
+   //   } else { // for specific data
+   //     this.getSpecifcCategories(Number(value));
+   //   }
+   // }
