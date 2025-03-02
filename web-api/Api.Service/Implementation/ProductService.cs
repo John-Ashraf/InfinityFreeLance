@@ -91,18 +91,22 @@ namespace Api.Service.Implementation
         {
             var context = _httpContextAccessor.HttpContext.Request;
             var baseUrl = context.Scheme + "://" + context.Host;
-
-            foreach (var file in files)
+            if (files.Count > 0)
             {
-                var url = await _fileService.UploadImage("Products", file);
-                switch (url)
+                product.Photos.Clear();
+                foreach (var file in files)
                 {
-                    case "FailedToDeleteImage": return "FailedToDeleteImage";
-                    case "ImageNotFound": return "ImageNotFound";
+                    var url = await _fileService.UploadImage("Products", file);
+                    switch (url)
+                    {
+                        case "FailedToDeleteImage": return "FailedToDeleteImage";
+                        case "ImageNotFound": return "ImageNotFound";
 
+                    }
+                    product.Photos.Add(baseUrl + url);
                 }
-                product.Photos.Add(baseUrl + url);
             }
+
             await _productRepository.UpdateAsync(product);
             return "Success";
 

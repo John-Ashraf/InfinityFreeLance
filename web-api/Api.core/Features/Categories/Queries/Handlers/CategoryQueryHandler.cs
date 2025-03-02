@@ -1,6 +1,7 @@
 ﻿using Api.Core.Bases;
 using Api.Core.Features.Categories.Queries.Models;
 using Api.Core.Features.Categories.Queries.Response;
+using Api.Data.Entities.Tables;
 using Api.Service.Abstracts;
 using MediatR;
 
@@ -25,7 +26,7 @@ namespace Api.Core.Features.Categories.Queries.Handlers
             var Categories = await _categoryService.GetCategoriesList();
             foreach (var Category in Categories)
             {
-                response.Add(new GetSingleCategoryResponse { Name = Category.Name, id = Category.Id });
+                response.Add(new GetSingleCategoryResponse { Name = Category.Name, id = Category.Id, NameAr = Category.NameAr, photo = Category.Photo });
             }
             return Success(response);
 
@@ -38,7 +39,7 @@ namespace Api.Core.Features.Categories.Queries.Handlers
             {
                 return NotFound<GetSingleCategoryResponse>();
             }
-            var response = new GetSingleCategoryResponse { id = category.Id, Name = category.Name };
+            var response = new GetSingleCategoryResponse { id = category.Id, Name = category.Name, NameAr = category.NameAr, photo = category.Photo };
             return Success(response);
         }
 

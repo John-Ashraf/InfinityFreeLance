@@ -8,6 +8,7 @@ namespace Api.Core.Features.Products.Commands.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public string NameAr { get; set; }
 
         public decimal Price { get; set; }
 

@@ -7,6 +7,7 @@ namespace Api.Core.Features.Products.Commands.Models
     public class AddproductCommand : IRequest<Response<string>>
     {
         public string Name { get; set; } = String.Empty;
+        public string NameAr { get; set; } = String.Empty;
 
         public decimal Price { get; set; }
 

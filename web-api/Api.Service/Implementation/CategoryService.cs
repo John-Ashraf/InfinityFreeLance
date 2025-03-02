@@ -1,6 +1,7 @@
 ﻿using Api.Data.Entities.Tables;
 using Api.Infrastructure.Abstracts;
 using Api.Service.Abstracts;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 
 namespace Api.Service.Implementation
@@ -9,24 +10,31 @@ namespace Api.Service.Implementation
     {
         #region Fields
         private readonly ICategoryRepository _categoryRepository;
+        private readonly IFileService _fileService;
+        private readonly IHttpContextAccessor _httpContextAccessor;
         #endregion
         #region Constructor
-        public CategoryService(ICategoryRepository categoryRepository)
+        public CategoryService(ICategoryRepository categoryRepository, IFileService fileService, IHttpContextAccessor httpContextAccessor)
         {
             this._categoryRepository = categoryRepository;
+            _fileService = fileService;
+            _httpContextAccessor = httpContextAccessor;
         }
 
 
         #endregion
         #region HandleFunctions
-        public async Task<string> AddCategoryAsync(string categoryName)
+        public async Task<string> AddCategoryAsync(string categoryName, string CategoryNameAr, IFormFile Photo)
         {
             var dublicate = await _categoryRepository.GetTableNoTracking().Where(c => c.Name == categoryName).SingleOrDefaultAsync();
             if (dublicate != null)
             {
                 return "NameIsExist";
             }
-            var category = new Category { Name = categoryName };
+            var context = _httpContextAccessor.HttpContext.Request;
+            var baseUrl = context.Scheme + "://" + context.Host;
+            var url = _fileService.UploadImage("Category", Photo);
+            var category = new Category { Name = categoryName, Photo = baseUrl + url.Result, NameAr = CategoryNameAr };
             var res = await _categoryRepository.AddAsync(category);
             return "Success";
         }
@@ -42,14 +50,20 @@ namespace Api.Service.Implementation
             return "Success";
         }
 
-        public async Task<string> EditCategoryAsync(Category category)
+        public async Task<string> EditCategoryAsync(Category category, IFormFile photo)
         {
             var tmp = await _categoryRepository.GetTableNoTracking().Where(c => c.Id == category.Id).SingleOrDefaultAsync();
             if (tmp == null)
             {
                 return "CategoryIsNotExist";
             }
-            await _categoryRepository.UpdateAsync(category);
+            var context = _httpContextAccessor.HttpContext.Request;
+            var baseUrl = context.Scheme + "://" + context.Host;
+            var url = _fileService.UploadImage("Category", photo);
+            tmp.Photo = baseUrl + url.Result;
+            tmp.Name = category.Name;
+            tmp.NameAr = category.NameAr;
+            await _categoryRepository.UpdateAsync(tmp);
             return "Success";
         }
 

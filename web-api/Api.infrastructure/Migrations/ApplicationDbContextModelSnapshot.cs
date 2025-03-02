@@ -137,7 +137,7 @@ namespace Api.Infrastructure.Migrations
 
                     b.HasIndex("AppUserId");
 
-                    b.ToTable("UserRefershToken", (string)null);
+                    b.ToTable("UserRefershToken");
                 });
 
             modelBuilder.Entity("Api.Data.Entities.Tables.Category", b =>
@@ -152,9 +152,17 @@ namespace Api.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("NameAr")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Photo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
-                    b.ToTable("Category", (string)null);
+                    b.ToTable("Category");
                 });
 
             modelBuilder.Entity("Api.Data.Entities.Tables.Order", b =>
@@ -179,7 +187,7 @@ namespace Api.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("PicsCustom")
+                    b.PrimitiveCollection<string>("PicsCustom")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -200,7 +208,7 @@ namespace Api.Infrastructure.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("Orders", (string)null);
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("Api.Data.Entities.Tables.Product", b =>
@@ -215,11 +223,19 @@ namespace Api.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("DescriptionAr")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Photos")
+                    b.Property<string>("NameAr")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.PrimitiveCollection<string>("Photos")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -233,7 +249,7 @@ namespace Api.Infrastructure.Migrations
 
                     b.HasIndex("ProductCategoryId");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

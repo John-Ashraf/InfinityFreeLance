@@ -13,7 +13,8 @@ namespace Api.Core.Mapping.Products
                 .ForMember(x => x.Photos, opt => opt.MapFrom(src => src.Photos))
                 .ForMember(x => x.Id, opt => opt.MapFrom(src => src.Id))
                 .ForMember(x => x.CategoryName, opt => opt.MapFrom(src => src.ProductCategory.Name))
-                .ForMember(x => x.Description, opt => opt.MapFrom(src => src.Description));
+                .ForMember(x => x.Description, opt => opt.MapFrom(src => src.Description))
+                .ForMember(x => x.NameAr, opt => opt.MapFrom(src => src.NameAr));
 
         }
     }

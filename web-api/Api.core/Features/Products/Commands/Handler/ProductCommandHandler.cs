@@ -34,7 +34,7 @@ namespace Api.Core.Features.Products.Commands.Handler
             var category = await _categoryService.GetCategoryByIdAsync(request.Catid);
             if (category == null) { return NotFound<string>("CategoryNotFound"); }
 
-            var product = new Product { Name = request.Name, Photos = new List<string>(), Description = request.Description, Price = request.Price, ProductCategory = category };
+            var product = new Product { Name = request.Name, Photos = new List<string>(), Description = request.Description, Price = request.Price, ProductCategory = category, NameAr = request.NameAr };
             var res = await _productService.AddproductAsync(product, request.Photos);
             if (res == "Success")
             {
@@ -62,7 +62,7 @@ namespace Api.Core.Features.Products.Commands.Handler
         {
             var category = await _categoryService.GetCategoryByIdAsync(request.CategoryId);
             if (category == null) { return NotFound<string>("InVaidCategoryId"); }
-            var Product = new Product { Id = request.Id, Name = request.Name, Price = request.Price, ProductCategory = category, Description = request.Description };
+            var Product = new Product { Id = request.Id, Name = request.Name, Price = request.Price, ProductCategory = category, Description = request.Description, NameAr = request.NameAr };
             var res = await _productService.EditProductAsync(Product, request.Photos);
             if (res == "Success")
             {

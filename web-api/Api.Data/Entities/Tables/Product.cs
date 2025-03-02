@@ -9,12 +9,13 @@ namespace Api.Data.Entities.Tables
 
         [Required]
         public string Name { get; set; } = String.Empty;
-
+        public string NameAr { get; set; }
         public decimal Price { get; set; }
 
         public List<string> Photos { get; set; } = new List<string>();
 
         public string Description { get; set; } = String.Empty;
+        public string DescriptionAr { get; set; } = String.Empty;
 
         public Category ProductCategory { get; set; }
     }

@@ -413,6 +413,16 @@
         "Name": "Name",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "NameAr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Photo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -603,6 +613,11 @@
         "IsRequired": false
       },
       {
+        "Name": "NameAr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "Price",
         "Type": "System.Decimal",
         "IsRequired": false
@@ -640,6 +655,11 @@
       },
       {
         "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NameAr",
         "Type": "System.String",
         "IsRequired": false
       },

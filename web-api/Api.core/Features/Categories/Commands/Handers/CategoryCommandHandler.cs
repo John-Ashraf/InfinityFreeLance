@@ -24,7 +24,7 @@ namespace Api.Core.Features.Categories.Commands.Handers
 
         public async Task<Response<string>> Handle(AddCategoryCommand request, CancellationToken cancellationToken)
         {
-            var res = await _categoryService.AddCategoryAsync(request.Name);
+            var res = await _categoryService.AddCategoryAsync(request.Name, request.NameAr, request.Photo);
             if (res == "Success")
             {
                 return Created<string>("Created");
@@ -49,8 +49,8 @@ namespace Api.Core.Features.Categories.Commands.Handers
 
         public async Task<Response<string>> Handle(EditCategoryCommand request, CancellationToken cancellationToken)
         {
-            Category category = new Category { Id = request.Id, Name = request.Name };
-            var res = await _categoryService.EditCategoryAsync(category);
+            Category category = new Category { Id = request.Id, Name = request.Name, NameAr = request.NameAr };
+            var res = await _categoryService.EditCategoryAsync(category, request.Photo);
             if (res == "Success")
             {
                 return Success<string>("Success");

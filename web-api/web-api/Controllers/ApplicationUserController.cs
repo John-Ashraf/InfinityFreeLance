@@ -9,6 +9,7 @@ namespace web_api.Controllers
     [ApiController]
     public class ApplicationUserController : AppControllerBase
     {
+
         [HttpPost(Router.ApplicationUserRouting.Create)]
         public async Task<IActionResult> CreateUser([FromBody] AddUserCommand model)
         {

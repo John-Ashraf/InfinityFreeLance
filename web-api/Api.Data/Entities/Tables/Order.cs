@@ -20,7 +20,7 @@ namespace Api.Data.Entities.Tables
 
         public DateTime Date { get; set; }
 
-        public string Size { get; set; } // Assuming sizes are stored as a comma-separated string
+        public string Size { get; set; } // Assuming sizes are stored as a comma-separated string 
 
         public string Phone { get; set; }
 
