@@ -5,6 +5,8 @@ import { AdminProductsComponent } from './admin-products/admin-products.componen
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { AddProductComponent } from './add-product/add-product.component';
 import { AdminOrdersComponent } from './admin-orders/admin-orders.component';
+import { AdminCategoryComponent } from './admin-category/admin-category.component';
+import { AdminAllCategoryComponent } from './admin-all-category/admin-all-category.component';
 // import { AdminGuard } from '../guards/admin.guard'; // Import the guard
 
 export const adminRoutes: Routes = [
@@ -16,6 +18,16 @@ export const adminRoutes: Routes = [
   {
     path: 'products',
     component: AdminProductsComponent,
+    // canActivate: [AdminGuard] // Protect this route
+  },
+  {
+    path: 'addCategory',
+    component: AdminCategoryComponent ,
+    // canActivate: [AdminGuard] // Protect this route
+  },
+  {
+    path: 'Category',
+    component: AdminAllCategoryComponent ,
     // canActivate: [AdminGuard] // Protect this route
   },
   {

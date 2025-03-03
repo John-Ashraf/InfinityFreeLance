@@ -18,7 +18,7 @@ export const routes: Routes = [
     { path: "contactus", component: ContactusComponent },
     { path: "design", component: DesignComponent },
     { path: 'products', component: ProductsComponent },
-    // { path: 'categories', component: CategoriesComponent },
+    { path: 'categories', component: CategoriesComponent },
     { path: 'details/:id', component: DetailsComponent },
     { path: 'aboutus', component: AboutusComponent },
     { path: 'order/:id', component: OrderComponent },

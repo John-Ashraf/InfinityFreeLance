@@ -59,6 +59,15 @@ export class ProductsComponent implements OnInit {
     });
   }
 
+  filterCategories(event: any): void {
+    const value = event.target.value;
+    if (value === "-1") {  //for all data
+      this.getProducts();
+    } else { // for specific data
+      this.getSpecifcCategories(Number(value));
+    }
+   }
+
   filterByCategory(categoryId: number): void {
     this.selectedCategory = categoryId;
     this.products = []; 
@@ -100,11 +109,4 @@ export class ProductsComponent implements OnInit {
 
 
 
-    // filterCategories(event: any): void {
-   //   const value = event.target.value;
-   //   if (value === "-1") {  //for all data
-   //     this.getProducts();
-   //   } else { // for specific data
-   //     this.getSpecifcCategories(Number(value));
-   //   }
-   // }
+  

@@ -663,11 +663,24 @@
                 "properties": {
                   "Name": {
                     "type": "string"
+                  },
+                  "NameAr": {
+                    "type": "string"
+                  },
+                  "Photo": {
+                    "type": "string",
+                    "format": "binary"
                   }
                 }
               },
               "encoding": {
                 "Name": {
+                  "style": "form"
+                },
+                "NameAr": {
+                  "style": "form"
+                },
+                "Photo": {
                   "style": "form"
                 }
               }
@@ -991,6 +1004,9 @@
                   "Name": {
                     "type": "string"
                   },
+                  "NameAr": {
+                    "type": "string"
+                  },
                   "Price": {
                     "type": "number",
                     "format": "double"
@@ -1013,6 +1029,9 @@
               },
               "encoding": {
                 "Name": {
+                  "style": "form"
+                },
+                "NameAr": {
                   "style": "form"
                 },
                 "Price": {
@@ -1056,6 +1075,9 @@
                   "Name": {
                     "type": "string"
                   },
+                  "NameAr": {
+                    "type": "string"
+                  },
                   "Price": {
                     "type": "number",
                     "format": "double"
@@ -1081,6 +1103,9 @@
                   "style": "form"
                 },
                 "Name": {
+                  "style": "form"
+                },
+                "NameAr": {
                   "style": "form"
                 },
                 "Price": {

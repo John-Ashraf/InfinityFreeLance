@@ -37,5 +37,8 @@ export class ApiProductsService {
       product
     );
   }
-
+  deleteProduct(id:number)
+  {
+    return this.httpClient.delete(`${environment.baseurl2}/Api/V1/ProductRoute/${id}`)
+  }
 }

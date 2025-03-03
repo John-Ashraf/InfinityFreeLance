@@ -12,4 +12,12 @@ export class CategoryServiceService {
       // console.log("testing");
       return this.httpClient.get(`${environment.baseurl2}/Api/V1/CategoryRouteGetCategoryList`)
     }
+    postCategory(data:FormData){
+      return this.httpClient.post(`${environment.baseurl2}/Api/V1/CategoryRoute/Create`,data)
+
+    }
+    deleteCategory(id:number)
+    {
+      return this.httpClient.delete(`${environment.baseurl2}/Api/V1/CategoryRoute/${id}`)
+    }
 }
