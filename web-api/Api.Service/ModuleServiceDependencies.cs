@@ -20,6 +20,7 @@ namespace Api.Service
             _ = services.AddTransient<ICategoryService, CategoryService>();
             _ = services.AddTransient<IFileService, FileService>();
             _ = services.AddTransient<IOrderService, OrderService>();
+            _ = services.AddTransient<INewsService, NewsService>();
             return services;
         }
     }

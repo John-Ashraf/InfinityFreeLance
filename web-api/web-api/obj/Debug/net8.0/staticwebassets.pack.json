@@ -1,6 +1,21 @@
 {
   "Files": [
     {
+<<<<<<< HEAD
+      "Id": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Category\\044f5d5af62a4f9a880d2cdf2a860fa2.jpg",
+      "PackagePath": "staticwebassets\\Category\\044f5d5af62a4f9a880d2cdf2a860fa2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Category\\32348290d62f4427bdeb77bf31b636c3.jpg",
+      "PackagePath": "staticwebassets\\Category\\32348290d62f4427bdeb77bf31b636c3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Category\\b7b4ab9a979f4b6c891f63ecea552192.jpg",
+      "PackagePath": "staticwebassets\\Category\\b7b4ab9a979f4b6c891f63ecea552192.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Orders\\69ea4e30c03a4f89b7a77f435cf1fbce.png",
+=======
       "Id": "C:\\Users\\Pemax\\Desktop\\lastFreelance\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Category\\044f5d5af62a4f9a880d2cdf2a860fa2.jpg",
       "PackagePath": "staticwebassets\\Category\\044f5d5af62a4f9a880d2cdf2a860fa2.jpg"
     },
@@ -14,6 +29,7 @@
     },
     {
       "Id": "C:\\Users\\Pemax\\Desktop\\lastFreelance\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Orders\\69ea4e30c03a4f89b7a77f435cf1fbce.png",
+>>>>>>> c59d01755ecc80a109c5f805e8bd5ce061405019
       "PackagePath": "staticwebassets\\Orders\\69ea4e30c03a4f89b7a77f435cf1fbce.png"
     },
     {

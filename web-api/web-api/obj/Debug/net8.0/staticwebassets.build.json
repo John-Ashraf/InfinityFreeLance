@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+  "Hash": "UL0hGZimrYrtAC7QmUKRcYZ7CZDfdnIPt8quYpmw1T0=",
+=======
   "Hash": "QeLE7e8W81y/bGSIobidVp+5AUWix9qz7VeVqR8UEXQ=",
+>>>>>>> c59d01755ecc80a109c5f805e8bd5ce061405019
   "Source": "web-api",
   "BasePath": "_content/web-api",
   "Mode": "Default",
@@ -17,7 +21,68 @@
   ],
   "Assets": [
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Category\\044f5d5af62a4f9a880d2cdf2a860fa2.jpg",
+      "SourceId": "web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\",
+      "BasePath": "_content/web-api",
+      "RelativePath": "Category/044f5d5af62a4f9a880d2cdf2a860fa2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Category\\044f5d5af62a4f9a880d2cdf2a860fa2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Category\\32348290d62f4427bdeb77bf31b636c3.jpg",
+      "SourceId": "web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\",
+      "BasePath": "_content/web-api",
+      "RelativePath": "Category/32348290d62f4427bdeb77bf31b636c3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Category\\32348290d62f4427bdeb77bf31b636c3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Category\\b7b4ab9a979f4b6c891f63ecea552192.jpg",
+      "SourceId": "web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\",
+      "BasePath": "_content/web-api",
+      "RelativePath": "Category/b7b4ab9a979f4b6c891f63ecea552192.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Category\\b7b4ab9a979f4b6c891f63ecea552192.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Orders\\69ea4e30c03a4f89b7a77f435cf1fbce.png",
+=======
       "Identity": "C:\\Users\\Pemax\\Desktop\\lastFreelance\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\Category\\044f5d5af62a4f9a880d2cdf2a860fa2.jpg",
+>>>>>>> c59d01755ecc80a109c5f805e8bd5ce061405019
       "SourceId": "web-api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pemax\\Desktop\\lastFreelance\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\",

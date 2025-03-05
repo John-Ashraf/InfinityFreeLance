@@ -14,6 +14,7 @@ namespace Api.Infrastructure
             _ = services.AddTransient<IOrderRepository, OrderRepository>();
             _ = services.AddTransient<IProductRepository, ProductRepository>();
             _ = services.AddTransient<ICategoryRepository, CategoryRepository>();
+            _ = services.AddTransient<INewsRepository, NewsRespository>();
             return services;
         }
 

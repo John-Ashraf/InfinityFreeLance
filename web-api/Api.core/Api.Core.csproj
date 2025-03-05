@@ -21,6 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Features\News\Commands\Handler\" />
+    <Folder Include="Features\News\Queries\" />
     <Folder Include="Mapping\Authorization\" />
     <Folder Include="Mapping\Products\Commands\" />
     <Folder Include="Mapping\Roles\Command\" />
