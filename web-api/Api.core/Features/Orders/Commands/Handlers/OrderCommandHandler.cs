@@ -30,21 +30,40 @@ namespace Api.Core.Features.Orders.Commands.Handlers
         public async Task<Response<string>> Handle(AddOrderCommand request, CancellationToken cancellationToken)
         {
 
-            var Product = await _productService.GetProductById(request.ProductId);
-            if (Product == null)
+            if (request.ProductId != null)
             {
-                return BadRequest<string>("ProductIsNotExist");
-            }
-            var Order = _mapper.Map<Order>(request);
-            Order.TotalPrice = Order.Quantity * Product.Price;
+                int pid = (int)request.ProductId;
+                var Product = await _productService.GetProductById(pid);
+                if (Product == null)
+                {
+                    return BadRequest<string>("ProductIsNotExist");
+                }
+                var Order = _mapper.Map<Order>(request);
+                Order.TotalPrice = Order.Quantity * Product.Price;
 
-            Order.Date = DateTime.UtcNow;
-            var res = await _orderService.AddOrderAsync(Order, request.PicsCustom);
-            if (res == "Success")
-            {
-                return Created<string>("Done");
+                Order.Date = DateTime.UtcNow;
+                var res = await _orderService.AddOrderAsync(Order, request.PicsCustom);
+                if (res == "Success")
+                {
+                    return Created<string>("Done");
+                }
+                return BadRequest<string>(res);
             }
-            return BadRequest<string>(res);
+            else
+            {
+                var Order = _mapper.Map<Order>(request);
+                Order.TotalPrice = 9999999999;
+
+                Order.Date = DateTime.UtcNow;
+                var res = await _orderService.AddOrderAsync(Order, request.PicsCustom);
+                if (res == "Success")
+                {
+                    return Created<string>("Done");
+                }
+                return BadRequest<string>(res);
+            }
+
+
 
         }
 

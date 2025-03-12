@@ -15,6 +15,8 @@ namespace Api.Core.Mapping.Orders
                 .ForMember(x => x.Phone, opt => opt.MapFrom(src => src.Phone))
                 .ForMember(x => x.Address, opt => opt.MapFrom(src => src.Address))
                 .ForMember(x => x.Size, opt => opt.MapFrom(src => src.size))
+                .ForMember(x => x.Name, opt => opt.MapFrom(src => src.Name))
+                .ForMember(x => x.Email, opt => opt.MapFrom(src => src.Email))
                 .ForMember(x => x.Notes, opt => opt.MapFrom(src => src.Notes));
         }
     }

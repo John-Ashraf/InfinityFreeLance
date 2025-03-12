@@ -1,4 +1,4 @@
-﻿using Api.Core.Features.News.Commands.Models;
+﻿using Api.Core.Features.NewsF.Commands.Models;
 using FluentValidation;
 
 namespace Api.Core.Features.News.Commands.Validators

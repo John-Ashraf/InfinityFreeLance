@@ -47,6 +47,11 @@ namespace Api.Service.Implementation
             return "Success";
         }
 
+        public async Task<News> GetNewsByIdasync(int id)
+        {
+            return await _newRepository.GetByIdAsync(id);
+        }
+
         public async Task<List<News>> GetNewsListasync()
         {
             return await _newRepository.GetTableNoTracking().ToListAsync();

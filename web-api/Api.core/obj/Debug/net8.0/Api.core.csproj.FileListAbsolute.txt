@@ -78,26 +78,6 @@ C:\Users\Pemax\Desktop\New folder (2)\InfinityFreeLance\web-api\Api.core\obj\Deb
 C:\Users\Pemax\Desktop\New folder (2)\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\refint\Api.Core.dll
 C:\Users\Pemax\Desktop\New folder (2)\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.pdb
 C:\Users\Pemax\Desktop\New folder (2)\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\ref\Api.Core.dll
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Core.deps.json
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Core.dll
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Core.pdb
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Data.dll
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Infrastructure.dll
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Service.dll
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Data.pdb
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Infrastructure.pdb
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Service.pdb
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.csproj.AssemblyReference.cache
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.AssemblyInfoInputs.cache
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.AssemblyInfo.cs
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.csproj.CoreCompileInputs.cache
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.sourcelink.json
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.csproj.Up2Date
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.dll
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\refint\Api.Core.dll
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.pdb
-C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\ref\Api.Core.dll
 C:\Users\Pemax\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Core.deps.json
 C:\Users\Pemax\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Core.dll
 C:\Users\Pemax\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Core.pdb
@@ -198,3 +178,23 @@ C:\Users\Pemax\Desktop\lastFreelance\InfinityFreeLance\web-api\Api.core\obj\Debu
 C:\Users\Pemax\Desktop\lastFreelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\refint\Api.Core.dll
 C:\Users\Pemax\Desktop\lastFreelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.pdb
 C:\Users\Pemax\Desktop\lastFreelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\ref\Api.Core.dll
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Core.deps.json
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Core.dll
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Core.pdb
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Data.dll
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Infrastructure.dll
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Service.dll
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Data.pdb
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Infrastructure.pdb
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\bin\Debug\net8.0\Api.Service.pdb
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.csproj.AssemblyReference.cache
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.AssemblyInfoInputs.cache
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.AssemblyInfo.cs
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.csproj.CoreCompileInputs.cache
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.sourcelink.json
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.csproj.Up2Date
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.dll
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\refint\Api.Core.dll
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\Api.Core.pdb
+C:\Users\johna\OneDrive\Desktop\freelance\InfinityFreeLance\web-api\Api.core\obj\Debug\net8.0\ref\Api.Core.dll

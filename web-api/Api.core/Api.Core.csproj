@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Features\NewsF\**" />
+    <EmbeddedResource Remove="Features\NewsF\**" />
+    <None Remove="Features\NewsF\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="FluentValidation" Version="11.11.0" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
@@ -21,8 +27,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\News\Commands\Handler\" />
-    <Folder Include="Features\News\Queries\" />
     <Folder Include="Mapping\Authorization\" />
     <Folder Include="Mapping\Products\Commands\" />
     <Folder Include="Mapping\Roles\Command\" />

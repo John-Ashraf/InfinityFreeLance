@@ -9,6 +9,7 @@ namespace Api.Service.Abstracts
         Task<string> DeleteNewsasync(int id);
         Task<string> EditNewsasync(News news);
         Task<List<News>> GetNewsListasync();
+        Task<News> GetNewsByIdasync(int id);
         IQueryable<News> GetNewsQueryableasync();
     }
 }

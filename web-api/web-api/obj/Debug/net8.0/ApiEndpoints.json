@@ -459,6 +459,74 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "web_api.Controllers.NewsController",
+    "Method": "CreateNews",
+    "RelativePath": "Api/V1/NewsRoute/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_api.Controllers.NewsController",
+    "Method": "GetById",
+    "RelativePath": "Api/V1/NewsRoute/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_api.Controllers.NewsController",
+    "Method": "CreateNews",
+    "RelativePath": "Api/V1/NewsRoute/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Content",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Photo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_api.Controllers.NewsController",
+    "Method": "GetAll",
+    "RelativePath": "Api/V1/NewsRouteGetNewsList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "web_api.Controllers.OrderController",
     "Method": "DeleteOrder",
     "RelativePath": "Api/V1/OrderRoute/{id}",
@@ -500,7 +568,7 @@
     "Parameters": [
       {
         "Name": "ProductId",
-        "Type": "System.Int32",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
@@ -515,6 +583,16 @@
       },
       {
         "Name": "Phone",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
         "Type": "System.String",
         "IsRequired": false
       },

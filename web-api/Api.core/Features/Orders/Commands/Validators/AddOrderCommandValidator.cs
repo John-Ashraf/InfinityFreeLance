@@ -16,9 +16,9 @@ namespace Api.Core.Features.Orders.Commands.Validators
         #region Actions
         public void ApplyValidationsRules()
         {
-            _ = RuleFor(x => x.ProductId)
-                 .NotEmpty().WithMessage("ProductId must be not empty")
-                 .NotNull().WithMessage("ProductId must be not null");
+            _ = RuleFor(x => x.size)
+                 .NotEmpty().WithMessage("size must be not empty")
+                 .NotNull().WithMessage("size must be not null");
             _ = RuleFor(x => x.Quantity)
                  .NotEmpty().WithMessage("Quantity must be not empty")
                  .NotNull().WithMessage("Quantity must be not null");
@@ -29,6 +29,12 @@ namespace Api.Core.Features.Orders.Commands.Validators
             _ = RuleFor(x => x.Phone)
                  .NotEmpty().WithMessage("Phone must be not empty")
                  .NotNull().WithMessage("Phone must be not null");
+            _ = RuleFor(x => x.Email)
+             .NotEmpty().WithMessage("Email must be not empty")
+             .NotNull().WithMessage("Email must be not null");
+            _ = RuleFor(x => x.Name)
+            .NotEmpty().WithMessage("Name must be not empty")
+            .NotNull().WithMessage("Name must be not null");
 
         }
 

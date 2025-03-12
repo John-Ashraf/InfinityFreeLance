@@ -1,97 +1,122 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "WorkspaceRootPath": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\",
+  "WorkspaceRootPath": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\Api.infrastructure\\Migrations\\20250304231232_add news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Api.infrastructure\\Migrations\\20250304231232_add news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\orders\\commands\\handlers\\ordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\commands\\handlers\\ordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance2\\infinityfreelance\\web-api\\api.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E67CED-D11A-4229-A462-B59F63EA4C8F}|Api.infrastructure\\Api.Infrastructure.csproj|solutionrelative:api.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\middleware\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\middleware\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance2\\infinityfreelance\\web-api\\api.data\\entities\\tables\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|solutionrelative:api.data\\entities\\tables\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\orders\\queries\\handlers\\orderquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\queries\\handlers\\orderquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance2\\infinityfreelance\\web-api\\api.core\\features\\categories\\commands\\models\\addcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\categories\\commands\\models\\addcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.data\\entities\\tables\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|solutionrelative:api.data\\entities\\tables\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\orders\\commands\\models\\deleteordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\commands\\models\\deleteordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\orders\\commands\\models\\addordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\commands\\models\\addordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
-=======
-  "WorkspaceRootPath": "C:\\Users\\Pemax\\Desktop\\lastFreelance\\InfinityFreeLance\\web-api\\",
-  "Documents": [],
->>>>>>> c59d01755ecc80a109c5f805e8bd5ce061405019
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-<<<<<<< HEAD
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250304231232_add news.cs",
-              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\Api.infrastructure\\Migrations\\20250304231232_add news.cs",
-              "RelativeDocumentMoniker": "Api.infrastructure\\Migrations\\20250304231232_add news.cs",
-              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\Api.infrastructure\\Migrations\\20250304231232_add news.cs",
-              "RelativeToolTip": "Api.infrastructure\\Migrations\\20250304231232_add news.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T23:12:32.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\Api.infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Api.infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\Api.infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Api.infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "ErrorHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\MiddleWare\\ErrorHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Api.core\\MiddleWare\\ErrorHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\MiddleWare\\ErrorHandlerMiddleware.cs",
+              "RelativeToolTip": "Api.core\\MiddleWare\\ErrorHandlerMiddleware.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwBsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T23:11:44.596Z",
+              "WhenOpened": "2025-03-12T18:13:20.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "News.cs",
-              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\News.cs",
-              "RelativeDocumentMoniker": "Api.Data\\Entities\\Tables\\News.cs",
-              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\News.cs",
-              "RelativeToolTip": "Api.Data\\Entities\\Tables\\News.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "OrderQueriesHandler.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
+              "RelativeToolTip": "Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAYwEwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T23:07:58.204Z",
+              "WhenOpened": "2025-03-12T17:59:22.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
+              "RelativeToolTip": "Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:28:56.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddOrderCommand.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\AddOrderCommand.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Commands\\Models\\AddOrderCommand.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\AddOrderCommand.cs",
+              "RelativeToolTip": "Api.core\\Features\\Orders\\Commands\\Models\\AddOrderCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:24:53.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteOrderCommand.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\DeleteOrderCommand.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Commands\\Models\\DeleteOrderCommand.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\DeleteOrderCommand.cs",
+              "RelativeToolTip": "Api.core\\Features\\Orders\\Commands\\Models\\DeleteOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:26:23.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AddCategoryCommand.cs",
-              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\Api.core\\Features\\Categories\\Commands\\Models\\AddCategoryCommand.cs",
-              "RelativeDocumentMoniker": "Api.core\\Features\\Categories\\Commands\\Models\\AddCategoryCommand.cs",
-              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance2\\InfinityFreeLance\\web-api\\Api.core\\Features\\Categories\\Commands\\Models\\AddCategoryCommand.cs",
-              "RelativeToolTip": "Api.core\\Features\\Categories\\Commands\\Models\\AddCategoryCommand.cs",
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\Order.cs",
+              "RelativeDocumentMoniker": "Api.Data\\Entities\\Tables\\Order.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\Order.cs",
+              "RelativeToolTip": "Api.Data\\Entities\\Tables\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T10:38:25.815Z",
+              "WhenOpened": "2025-03-12T17:22:06.377Z",
               "EditorCaption": ""
             }
           ]
         }
       ]
-=======
-      "DocumentGroups": []
->>>>>>> c59d01755ecc80a109c5f805e8bd5ce061405019
     }
   ]
 }

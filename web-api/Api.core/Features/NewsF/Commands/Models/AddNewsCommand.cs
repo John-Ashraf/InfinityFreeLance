@@ -2,7 +2,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Http;
 
-namespace Api.Core.Features.News.Commands.Models
+namespace Api.Core.Features.NewsF.Commands.Models
 {
     public class AddNewsCommand : IRequest<Response<string>>
     {

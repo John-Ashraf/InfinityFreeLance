@@ -17,6 +17,7 @@ namespace Api.Data.Entities.Tables
         public decimal TotalPrice { get; set; }
 
         public int Quantity { get; set; }
+        public string Name { get; set; }
 
         public DateTime Date { get; set; }
 
@@ -25,6 +26,7 @@ namespace Api.Data.Entities.Tables
         public string Phone { get; set; }
 
         public string Address { get; set; }
+        public string Email { get; set; }
 
         public string? Notes { get; set; }
 
