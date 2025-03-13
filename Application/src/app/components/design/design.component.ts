@@ -1,10 +1,11 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { RouterLink } from '@angular/router';
 import Konva from 'konva';
 
 @Component({
   selector: 'app-design',
-  imports: [FormsModule],
+  imports: [FormsModule,RouterLink],
   templateUrl: './design.component.html',
   styleUrls: ['./design.component.css'],
 })
@@ -73,6 +74,7 @@ export class DesignComponent implements OnInit {
   leftSleeveFontFamily = 'Arial'; // Font family for left sleeve
 
   currentView: 'front' | 'back' | 'right' | 'left' = 'front';
+id: any|string;
 
   ngOnInit() {
     this.initializeKonva();

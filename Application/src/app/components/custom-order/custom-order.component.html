@@ -1,0 +1,114 @@
+<section class="py-3 py-md-5 py-xl-8">
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+                <h2 class="mb-4 display-5 text-center">Custom Order  </h2>
+                <p class="text-secondary mb-5 text-center lead fs-4">
+                    Our team is available to provide prompt and helpful responses to all inquiries. You can reach us via
+                    phone, email, or by filling out the contact form below.
+                </p>
+                <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+            </div>
+        </div>
+
+        <!-- Flex container for image and form -->
+        <div
+            class="d-flex flex-column flex-md-row align-items-center align-items-md-start justify-content-center gap-4">
+            <!-- Order Form -->
+            <div class="col-12 col-md-6 bg-light p-4 border rounded">
+                <form action="#!" #sendOrder="ngForm" (ngSubmit)="order()">
+                    <div class="row gy-4">
+                        <!-- Size and Quantity Fields -->
+                        <div class="col-12 col-md-6">
+                            <div class="d-flex gap-5">
+                                <label for="size" class="form-label">Size <span class="text-danger">*</span></label>
+                                <label for="size" class="form-label">Quantity <span class="text-danger">*</span></label>
+                            </div>
+                            <div class="d-flex gap-2 mb-2">
+                                <input type="text" class="form-control inputSize" id="size" name="size"
+                                    [(ngModel)]="orderData.smallSize" required disabled>
+                                <input type="number" class="form-control" id="smallQuantity" name="smallQuantity"
+                                    [(ngModel)]="orderData.smallQuantity" required>
+                            </div>
+                            <div class="d-flex gap-2 mb-2">
+                                <input type="text" class="form-control inputSize" id="medium" name="medium"
+                                    [(ngModel)]="orderData.mediumSize" required disabled>
+                                <input type="number" class="form-control" id="mediumQuantity" name="mediumQuantity"
+                                    [(ngModel)]="orderData.mediumQuantity" required>
+                            </div>
+                            <div class="d-flex gap-2 mb-2">
+                                <input type="text" class="form-control inputSize" id="large" name="large"
+                                    [(ngModel)]="orderData.largeSize" required disabled>
+                                <input type="number" class="form-control" id="largeQuantity" name="largeQuantity"
+                                    [(ngModel)]="orderData.largeQuantity" required>
+                            </div>
+                            <div class="d-flex gap-2 mb-2">
+                                <input type="text" class="form-control inputSize" id="xl" name="xl"
+                                    [(ngModel)]="orderData.xlSize" required disabled>
+                                <input type="number" class="form-control" id="xlQuantity" name="xlQuantity"
+                                    [(ngModel)]="orderData.xlQuantity" required>
+                            </div>
+                            <div class="d-flex gap-2 mb-2">
+                                <input type="text" class="form-control inputSize" id="xxl" name="xxl"
+                                    [(ngModel)]="orderData.xxlSize" required disabled>
+                                <input type="number" class="form-control" id="xllQuantity" name="xllQuantity"
+                                    [(ngModel)]="orderData.xllQuantity" required>
+                            </div>
+                        </div>
+
+                        <!-- Phone Number -->
+                        <div class="col-12 col-md-7">
+                            <label for="phone" class="form-label">Phone Number <span
+                                    class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="phone" name="phone"
+                                [(ngModel)]="orderData.Phone" required>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="col-12">
+                            <label for="Address" class="form-label">Address <span class="text-danger">*</span></label>
+                            <textarea class="form-control" id="Address" name="Address" [(ngModel)]="orderData.Address"
+                                rows="3" required></textarea>
+                        </div>
+
+                        <!-- Notes -->
+                        <div class="col-12">
+                            <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                            <textarea class="form-control" id="message" name="message" [(ngModel)]="orderData.Notes"
+                                rows="3" required></textarea>
+                        </div>
+
+                        <!-- File Upload for Photos -->
+                        <div class="col-12">
+                            <label for="photos" class="form-label">Upload Photos For Custom Design <span
+                                    class="text-danger">*</span></label>
+                            <input type="file" class="form-control" id="photos" name="photos"
+                                (change)="onFileSelected($event)" multiple accept="image/*">
+                        </div>
+
+                        <!-- Preview of Selected Photos -->
+                        <div class="col-12">
+                            <div class="d-flex flex-wrap gap-2">
+                                <div *ngFor="let url of previewUrls; let i = index" class="position-relative">
+                                    <img [src]="url" alt="Preview" class="img-thumbnail"
+                                        style="width: 100px; height: 100px;">
+                                    <button type="button" class="btn btn-danger btn-sm position-absolute top-0 end-0"
+                                        (click)="removeImage(i)">×</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="col-12">
+                            <div class="d-grid">
+                                <button class="btn btn-lg btn-priary" type="submit">
+                                    <i class="bi bi-cart-plus"></i> Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

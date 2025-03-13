@@ -17,7 +17,8 @@
             </div>
             <!-- description -->
             <p class="mb-4">{{data.description}}</p>
-            <button class="btn btn-lg mb-3 me-2" [routerLink]="['/order', id]" [state]="{ product: data }">
+            <button class="btn btn-lg mb-3 me-2" [routerLink]="['/order', id]" >
+                <!-- [state]="{ product: data }" -->
                 <i class="bi bi-cart-plus"></i> Order 
             </button>
         </div>

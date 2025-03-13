@@ -1,0 +1,57 @@
+{
+    "userNavbar": {
+        "home": "Home",
+        "Products": "Products",
+        "Category": "Categories",
+        "Design": "Design T-shirt",
+        "AboutUs": "About Us",
+        "ContactUs": "Contact Us"
+    },
+    "general": {
+        "Previous": "Previous",
+        "Next": "Next",
+        "Price": "Price",
+        "PriceSign":"EGP"
+    },
+    "buttons": {
+        "Explore": "Explore",
+        "ViewAllCategories": "View All Categories",
+        "Details": "Details",
+        "GoToAllProducts": "Go to all Products",
+        "Design": "Design",
+        "ContactUs": "Contact Us"
+    },
+    "home": {
+        "CategoryTitle": "Shop by Category",
+        "ProductTitle": "Shop by Products",
+        "DesignTitle": "Create Custom Design",
+        "DesignSubtitle": "Create Your Own Custom T-Shirt",
+        "DesignSubtitle2": "Style It Your Way!",
+        "DesignDescription": "Performance and design. Taken right to the edge.",
+        "ContactTitle": "Contact Us",
+        "ContactDescription": "We're here to help! If you have any questions or need support, feel free to reach out to us. Our team is ready to assist you and will respond to your inquiries as soon as possible."
+    },
+    "about": {
+    "whyChooseUs": "Why Choose Us?",
+    "description": "With years of experience and deep industry knowledge, we have a proven track record of success and are constantly pushing ourselves to stay ahead of the curve.",
+    "evolutionProcedure": "Our evolution procedure is super intelligent.",
+    "deliverServices": "We deliver services beyond expectations.",
+    "hireUs": "Let's hire us to reach your objectives.",
+    "connectNow": "Connect Now"
+  },
+  "contactus": {
+    "CONTACT_US": "Contact us",
+    "CONTACT_DESC": "Our team is available to provide prompt and helpful responses to all inquiries. You can reach us via phone, email, or by filling out the contact form below.",
+    "GET_IN_TOUCH": "Get in touch to buy your t-shirt",
+    "Contact_description": "We're always on the lookout to work with new clients. If you're interested in working with us, please get in touch in one of the following ways.",
+    "ADDRESS": "Address",
+    "PHONE": "Phone",
+    "EMAIL": "E-Mail",
+    "OPENING_HOURS": "Opening Hours",
+    "MON_FRI": "Mon - Fri",
+    "SAT_SUN": "Sat - Sun",
+    "TIME_9_5": "9am - 5pm",
+    "TIME_9_2": "9am - 2pm"
+  }
+  
+}

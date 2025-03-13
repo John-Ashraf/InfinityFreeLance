@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\",
+  "WorkspaceRootPath": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\orders\\commands\\handlers\\ordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\commands\\handlers\\ordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\middleware\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\middleware\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\orders\\queries\\handlers\\orderquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\queries\\handlers\\orderquerieshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.data\\entities\\tables\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|solutionrelative:api.data\\entities\\tables\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\orders\\commands\\models\\deleteordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\lastfree\\infinityfreelance\\web-api\\api.core\\features\\orders\\commands\\models\\deleteordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\commands\\models\\deleteordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\orders\\commands\\models\\addordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\lastfree\\infinityfreelance\\web-api\\api.core\\features\\orders\\commands\\handlers\\ordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\commands\\handlers\\ordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|c:\\users\\pemax\\desktop\\lastfree\\infinityfreelance\\web-api\\api.data\\entities\\tables\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|solutionrelative:api.data\\entities\\tables\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|c:\\users\\pemax\\desktop\\lastfree\\infinityfreelance\\web-api\\api.data\\entities\\tables\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|solutionrelative:api.data\\entities\\tables\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|c:\\users\\pemax\\desktop\\lastfree\\infinityfreelance\\web-api\\api.service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|solutionrelative:api.service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\lastfree\\infinityfreelance\\web-api\\api.core\\features\\orders\\commands\\models\\addordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\commands\\models\\addordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,84 +34,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\Product.cs",
+              "RelativeDocumentMoniker": "Api.Data\\Entities\\Tables\\Product.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\Product.cs",
+              "RelativeToolTip": "Api.Data\\Entities\\Tables\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:17:54.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\OrderService.cs",
+              "RelativeDocumentMoniker": "Api.Service\\Implementation\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\OrderService.cs",
+              "RelativeToolTip": "Api.Service\\Implementation\\OrderService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:16:02.615Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ErrorHandlerMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\MiddleWare\\ErrorHandlerMiddleware.cs",
-              "RelativeDocumentMoniker": "Api.core\\MiddleWare\\ErrorHandlerMiddleware.cs",
-              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\MiddleWare\\ErrorHandlerMiddleware.cs",
-              "RelativeToolTip": "Api.core\\MiddleWare\\ErrorHandlerMiddleware.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAuwBsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T18:13:20.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderQueriesHandler.cs",
-              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
-              "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
-              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
-              "RelativeToolTip": "Api.core\\Features\\Orders\\Queries\\Handlers\\OrderQueriesHandler.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAYwEwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T17:59:22.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "OrderCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
               "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
-              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
               "RelativeToolTip": "Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAcwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T17:28:56.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T17:28:56.818Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "AddOrderCommand.cs",
-              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\AddOrderCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\AddOrderCommand.cs",
               "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Commands\\Models\\AddOrderCommand.cs",
-              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\AddOrderCommand.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\AddOrderCommand.cs",
               "RelativeToolTip": "Api.core\\Features\\Orders\\Commands\\Models\\AddOrderCommand.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T17:24:53.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T17:24:53.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\Order.cs",
+              "RelativeDocumentMoniker": "Api.Data\\Entities\\Tables\\Order.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\Order.cs",
+              "RelativeToolTip": "Api.Data\\Entities\\Tables\\Order.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:22:06.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "DeleteOrderCommand.cs",
-              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\DeleteOrderCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\DeleteOrderCommand.cs",
               "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Commands\\Models\\DeleteOrderCommand.cs",
-              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\DeleteOrderCommand.cs",
+              "ToolTip": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\DeleteOrderCommand.cs",
               "RelativeToolTip": "Api.core\\Features\\Orders\\Commands\\Models\\DeleteOrderCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T17:26:23.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\Order.cs",
-              "RelativeDocumentMoniker": "Api.Data\\Entities\\Tables\\Order.cs",
-              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\Order.cs",
-              "RelativeToolTip": "Api.Data\\Entities\\Tables\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T17:22:06.377Z",
               "EditorCaption": ""
             }
           ]

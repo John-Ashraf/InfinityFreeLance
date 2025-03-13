@@ -154,7 +154,7 @@ export class OrderComponent implements OnInit {
     console.log(formData);
     this.orderService.postOrder(formData).subscribe({
       next: (res: any) => {
-        console.log('Order submitted successfully', res);
+        // console.log('Order submitted successfully', res);
         Swal.fire({
           title: "Order Added Successful",
           icon: "success",

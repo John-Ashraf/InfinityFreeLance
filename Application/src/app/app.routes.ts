@@ -8,6 +8,8 @@ import { ProductsComponent } from './components/products/products.component';
 import { DetailsComponent } from './components/details/details.component';
 import { HomePageComponent } from './components/home/home.component';
 import { CategoriesComponent } from './components/categories/categories.component';
+import { ProductByCategoryComponent } from './components/product-by-category/product-by-category.component';
+import { CustomOrderComponent } from './components/custom-order/custom-order.component';
 
 export const routes: Routes = [
     {
@@ -16,10 +18,13 @@ export const routes: Routes = [
     },
     { path: "home", component: HomePageComponent },
     { path: "contactus", component: ContactusComponent },
+    { path: "productByCategory/:id", component: ProductByCategoryComponent },
     { path: "design", component: DesignComponent },
     { path: 'products', component: ProductsComponent },
     { path: 'categories', component: CategoriesComponent },
     { path: 'details/:id', component: DetailsComponent },
     { path: 'aboutus', component: AboutusComponent },
     { path: 'order/:id', component: OrderComponent },
+    { path: 'customeOrder', component: CustomOrderComponent },
+    {path: '', redirectTo: 'home',pathMatch: 'full' },// Default route 
 ];

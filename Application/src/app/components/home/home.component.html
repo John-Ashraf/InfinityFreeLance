@@ -1,12 +1,9 @@
-
 <!-- Bootstrap Icons -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet"> -->
 
-<!-- <h1>peter</h1> -->
-<!-- home-page.component.html -->
 <!-- Hero Section -->
 <div id="carouselExampleIndicators" class="carousel slide my-2 mx-auto" data-bs-ride="carousel">
-    <div class="carousel-indicators ">
+    <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
@@ -34,44 +31,65 @@
     </button>
 </div>
 
-
-
-<!-- Blogs Section -->
-<section class="py-5">
+<!-- Category Section -->
+<section class="py-5 category-section">
     <div class="container">
-        <h2 class="text-center mb-4">Products</h2>
-        <div class="row">
-            <div class="col-md-4" *ngFor="let item of products">
-                <div class="card h-100">
-                    <img src="{{item.photos[0]}}" class="card-img-top img-fluid" style="height: 300px;object-fit: contain;">
+        <h2 class="text-center mb-4 section-title">{{'home.CategoryTitle'|translate}}</h2>
+        <div class="row bgColorDesign ">
+            <div class="col-lg-6 col-md-6 mb-5" *ngFor="let category of categories">
+                <div class="card category-card h-100">
+                    <div class="card-img-wrapper">
+                        <img src="{{category.photo}}" class="card-img-top img-fluid" alt="{{category.name}}">
+                    </div>
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">{{item.description}}</h5>
-                        <!-- <p class="card-text">{{item.description}}</p> -->
-                        <p class="card-text"><strong>Price:</strong> {{item.price}} EGP</p>
-                        <button class=" detailsBtn btn  mt-auto" routerLink="/details/{{item.id}}">Details</button>
+                        <h5 class="card-title">{{getCategoryName(category)}}</h5>
+                        <button class="btn detailsBtn mt-auto"
+                            routerLink="/productByCategory/{{category.id}}">{{'buttons.Explore'|translate}}</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="text-center mt-4">
-            <button class="btn productBtn" routerLink="/products">Go to all products >></button>
+            <button class="btn all-categories-btn" routerLink="/categories">{{'buttons.ViewAllCategories'|translate}} &rarr;</button>
+        </div>
+    </div>
+</section>
+
+<!-- Product Section -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4 section-title">{{'home.ProductTitle'|translate}}</h2>
+        <div class="row bgColorDesign">
+            <div class="col-md-4" *ngFor="let item of products">
+                <div class="card h-100">
+                    <img src="{{item.photos[0]}}" class="card-img-top img-fluid">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">{{item.description}}</h5>
+                        <p class="card-text"><strong>{{'general.Price'|translate}}:</strong> {{ item.price }}<span>{{'general.PriceSign'|translate}}</span></p>
+                        <button class="btn detailsBtn mt-auto" routerLink="/details/{{item.id}}">{{'buttons.Details'|translate}}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <button class="btn productBtn" routerLink="/products">{{'buttons.GoToAllProducts'|translate}} &rarr;</button>
         </div>
     </div>
 </section>
 
 <!-- Design Section -->
 <section class="design-section py-5">
-    <div class="container ">
-        <h2 class="text-center mb-4">Custom Design</h2>
-        <div class="row align-items-center bgColorDesign ">
-            <div class="col-md-6 ">
-                <h2>Create Your Own Custom T-Shirt</h2>
-                <h3>Style It Your Way!</h3>
-                <p>Performance and design. Taken right to the edge.</p>
-                <button class="btn productBtn" routerLink="/design">Design</button>
+    <div class="container">
+        <h2 class="text-center mb-4 section-title">{{'home.DesignTitle'|translate}}</h2>
+        <div class="row align-items-center bgColorDesign">
+            <div class="col-md-6">
+                <h2>{{'home.DesignSubtitle'|translate}}</h2>
+                <h3>{{'home.DesignSubtitle2'|translate}}</h3>
+                <p>{{'home.DesignDescription'|translate}}</p>
+                <button class="btn productBtn" routerLink="/design">{{'buttons.Design'|translate}}</button>
             </div>
             <div class="col-md-6">
-                <img src="/shirts/front.png" alt="Custom Hoodie" class="img-fluid w-75 designImg">
+                <img src="/shirts/front.png" alt="Custom T-Shirt" class="img-fluid w-75 designImg">
             </div>
         </div>
     </div>
@@ -80,16 +98,14 @@
 <!-- Contact Section -->
 <section class="py-5">
     <div class="container">
-        <h2 class="text-center mb-4">Contact Us</h2>
+        <h2 class="text-center mb-4 section-title"> {{'home.ContactTitle'|translate}}</h2>
         <div class="row align-items-center d-flex justify-content-between bgColorDesign">
             <div class="col-md-5">
-                <p>This page is designed for customers to contact us to purchase the T-shirt. Simply fill out some basic
-                    information and upload the picture of the T-shirt to help us prepare your order. A sample image of
-                    the T-shirt is provided for easy reference.</p>
-                <button class="btn productBtn" routerLink="/contactus">Contact Us</button>
+                <p>{{'home.ContactDescription'|translate}}</p>
+                <button class="btn productBtn" routerLink="/contactus">{{'buttons.ContactUs'|translate}}</button>
             </div>
             <div class="col-md-6 ContactImg">
-                <img src="/shirts/contactus2.png" alt="contactus">
+                <img src="/shirts/contactus2.png" alt="Contact Us">
             </div>
         </div>
     </div>
