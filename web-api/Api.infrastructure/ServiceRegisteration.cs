@@ -43,7 +43,7 @@ namespace Api.Infrastructure
             var emailSettings = new EmailSettings();
 
             configuration.GetSection(nameof(jwtSettings)).Bind(jwtSettings);
-            //configuration.GetSection(nameof(EmailSettings)).Bind(emailSettings);
+            configuration.GetSection(nameof(EmailSettings)).Bind(emailSettings);
 
 
             _ = services.AddSingleton(jwtSettings);

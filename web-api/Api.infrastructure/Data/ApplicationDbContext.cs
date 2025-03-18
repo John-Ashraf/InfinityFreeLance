@@ -15,6 +15,7 @@ namespace Api.Infrastructure.Data
         public DbSet<Order> Orders { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<News> News { get; set; }
+        public DbSet<CustomOrder> CustomOrders { get; set; }
 
 
     }

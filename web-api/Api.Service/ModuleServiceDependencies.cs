@@ -21,6 +21,7 @@ namespace Api.Service
             _ = services.AddTransient<IFileService, FileService>();
             _ = services.AddTransient<IOrderService, OrderService>();
             _ = services.AddTransient<INewsService, NewsService>();
+            _ = services.AddTransient<ICustomOrderService, CustomOrderService>();
             return services;
         }
     }

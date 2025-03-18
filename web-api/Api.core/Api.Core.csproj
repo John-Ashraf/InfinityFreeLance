@@ -27,6 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Features\CustomOrders\Queries\" />
     <Folder Include="Mapping\Authorization\" />
     <Folder Include="Mapping\Products\Commands\" />
     <Folder Include="Mapping\Roles\Command\" />
