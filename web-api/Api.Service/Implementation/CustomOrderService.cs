@@ -3,6 +3,7 @@ using Api.Infrastructure.Abstracts;
 using Api.Infrastructure.Data;
 using Api.Service.Abstracts;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 
 namespace Api.Service.Implementation;
 public class CustomOrderService : ICustomOrderService
@@ -34,15 +35,17 @@ public class CustomOrderService : ICustomOrderService
         {
             foreach (var photo in photos)
             {
-                var photourl = _fileService.UploadImage("CustomOrder", photo);
-                customOrder.Photos.Add(baseUrl + photourl);
+                var photourl = await _fileService.UploadImage("CustomOrder", photo);
+                customOrder.Photos.Add(baseUrl.ToString() + photourl.ToString());
             }
-            await _customOrderRepository.AddAsync(customOrder);
+            _ = await _customOrderRepository.AddAsync(customOrder);
             trans.Commit();
         }
         catch
         (Exception ex)
         {
+            trans.Rollback();
+
             return ex.ToString() + "  " + ex.Message.ToString();
         }
         return "Success";
@@ -58,6 +61,16 @@ public class CustomOrderService : ICustomOrderService
         await _customOrderRepository.DeleteAsync(customOrder);
 
         return "Success";
+    }
+
+    public async Task<CustomOrder> GetCustomOrderById(int id)
+    {
+        return await _customOrderRepository.GetByIdAsync(id);
+    }
+
+    public async Task<List<CustomOrder>> GetCustomOrders()
+    {
+        return await _customOrderRepository.GetTableNoTracking().ToListAsync();
     }
     #endregion
 

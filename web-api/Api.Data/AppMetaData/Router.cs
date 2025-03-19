@@ -85,7 +85,7 @@
             public const string Prefix = Rule + "NewsRoute";
             public const string GetAll = Prefix + "GetNewsList";
             public const string Create = Prefix + "/Create";
-            // public const string Paginated = Prefix + "/Paginated";
+            public const string Paginated = Prefix + "/Paginated";
             public const string GetByID = Prefix + "/{id}";
             //public const string Edit = Prefix + "/Edit";
             public const string Delete = Prefix + "/{id}";
@@ -93,8 +93,8 @@
         }
         public static class CustomOrder
         {
-            public const string Prefix = Rule + "NewsRoute";
-            public const string GetAll = Prefix + "GetNewsList";
+            public const string Prefix = Rule + "CustomOrders";
+            public const string GetAll = Prefix + "GetCustomOrderList";
             public const string Create = Prefix + "/Create";
             // public const string Paginated = Prefix + "/Paginated";
             public const string GetByID = Prefix + "/{id}";

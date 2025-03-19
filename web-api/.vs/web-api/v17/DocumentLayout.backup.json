@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\",
+  "WorkspaceRootPath": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\lastfree\\infinityfreelance\\web-api\\api.core\\features\\orders\\commands\\models\\deleteordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\commands\\models\\deleteordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\newsfeatures\\queries\\handler\\newsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\newsfeatures\\queries\\handler\\newsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\lastfree\\infinityfreelance\\web-api\\api.core\\features\\orders\\commands\\handlers\\ordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\commands\\handlers\\ordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\newsfeatures\\queries\\responses\\singlenewsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\newsfeatures\\queries\\responses\\singlenewsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|c:\\users\\pemax\\desktop\\lastfree\\infinityfreelance\\web-api\\api.data\\entities\\tables\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|solutionrelative:api.data\\entities\\tables\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\newsfeatures\\queries\\models\\getnewsbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\newsfeatures\\queries\\models\\getnewsbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|c:\\users\\pemax\\desktop\\lastfree\\infinityfreelance\\web-api\\api.data\\entities\\tables\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13EE599A-46D8-454D-AEB0-134D5A40F60F}|Api.Data\\Api.Data.csproj|solutionrelative:api.data\\entities\\tables\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\newsfeatures\\queries\\models\\getnewslistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\newsfeatures\\queries\\models\\getnewslistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|c:\\users\\pemax\\desktop\\lastfree\\infinityfreelance\\web-api\\api.service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|solutionrelative:api.service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\newsfeatures\\commands\\handler\\newscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\newsfeatures\\commands\\handler\\newscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\pemax\\desktop\\lastfree\\infinityfreelance\\web-api\\api.core\\features\\orders\\commands\\models\\addordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\orders\\commands\\models\\addordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.service\\implementation\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A34B304-AE91-44EC-8330-A3A9B5B7EFDC}|Api.Service\\Api.Service.csproj|solutionrelative:api.service\\implementation\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|c:\\users\\johna\\onedrive\\desktop\\freelance\\infinityfreelance\\web-api\\api.core\\features\\newsfeatures\\commands\\models\\addnewscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234BD92-2C28-4AD9-8D3E-FE7C5EA57273}|Api.core\\Api.Core.csproj|solutionrelative:api.core\\features\\newsfeatures\\commands\\models\\addnewscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,79 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\Product.cs",
-              "RelativeDocumentMoniker": "Api.Data\\Entities\\Tables\\Product.cs",
-              "ToolTip": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\Product.cs",
-              "RelativeToolTip": "Api.Data\\Entities\\Tables\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "NewsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\NewsFeatures\\Queries\\Handler\\NewsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\NewsFeatures\\Queries\\Handler\\NewsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\NewsFeatures\\Queries\\Handler\\NewsQueryHandler.cs",
+              "RelativeToolTip": "Api.core\\Features\\NewsFeatures\\Queries\\Handler\\NewsQueryHandler.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvzYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T18:17:54.832Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\OrderService.cs",
-              "RelativeDocumentMoniker": "Api.Service\\Implementation\\OrderService.cs",
-              "ToolTip": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\OrderService.cs",
-              "RelativeToolTip": "Api.Service\\Implementation\\OrderService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T18:16:02.615Z"
+              "WhenOpened": "2025-03-18T20:18:54.797Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OrderCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
-              "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
-              "RelativeToolTip": "Api.core\\Features\\Orders\\Commands\\Handlers\\OrderCommandHandler.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwB8AAAAAAAAAAAAAAA==",
+              "Title": "SingleNewsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\NewsFeatures\\Queries\\Responses\\SingleNewsResponse.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\NewsFeatures\\Queries\\Responses\\SingleNewsResponse.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\NewsFeatures\\Queries\\Responses\\SingleNewsResponse.cs",
+              "RelativeToolTip": "Api.core\\Features\\NewsFeatures\\Queries\\Responses\\SingleNewsResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T17:28:56.818Z"
+              "WhenOpened": "2025-03-18T23:33:57.153Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddOrderCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\AddOrderCommand.cs",
-              "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Commands\\Models\\AddOrderCommand.cs",
-              "ToolTip": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\AddOrderCommand.cs",
-              "RelativeToolTip": "Api.core\\Features\\Orders\\Commands\\Models\\AddOrderCommand.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "GetNewsListQuery.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\NewsFeatures\\Queries\\Models\\GetNewsListQuery.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\NewsFeatures\\Queries\\Models\\GetNewsListQuery.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\NewsFeatures\\Queries\\Models\\GetNewsListQuery.cs",
+              "RelativeToolTip": "Api.core\\Features\\NewsFeatures\\Queries\\Models\\GetNewsListQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T17:24:53.946Z"
+              "WhenOpened": "2025-03-18T23:33:53.515Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\Order.cs",
-              "RelativeDocumentMoniker": "Api.Data\\Entities\\Tables\\Order.cs",
-              "ToolTip": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.Data\\Entities\\Tables\\Order.cs",
-              "RelativeToolTip": "Api.Data\\Entities\\Tables\\Order.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Title": "GetNewsByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\NewsFeatures\\Queries\\Models\\GetNewsByIdQuery.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\NewsFeatures\\Queries\\Models\\GetNewsByIdQuery.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\NewsFeatures\\Queries\\Models\\GetNewsByIdQuery.cs",
+              "RelativeToolTip": "Api.core\\Features\\NewsFeatures\\Queries\\Models\\GetNewsByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T17:22:06.377Z"
+              "WhenOpened": "2025-03-18T23:33:51.547Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DeleteOrderCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\DeleteOrderCommand.cs",
-              "RelativeDocumentMoniker": "Api.core\\Features\\Orders\\Commands\\Models\\DeleteOrderCommand.cs",
-              "ToolTip": "C:\\Users\\Pemax\\Desktop\\lastFree\\InfinityFreeLance\\web-api\\Api.core\\Features\\Orders\\Commands\\Models\\DeleteOrderCommand.cs",
-              "RelativeToolTip": "Api.core\\Features\\Orders\\Commands\\Models\\DeleteOrderCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AddNewsCommand.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\NewsFeatures\\Commands\\Models\\AddNewsCommand.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\NewsFeatures\\Commands\\Models\\AddNewsCommand.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\NewsFeatures\\Commands\\Models\\AddNewsCommand.cs",
+              "RelativeToolTip": "Api.core\\Features\\NewsFeatures\\Commands\\Models\\AddNewsCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T17:26:23.673Z",
+              "WhenOpened": "2025-03-18T23:32:09.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewsCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\NewsFeatures\\Commands\\Handler\\NewsCommandHandler.cs",
+              "RelativeDocumentMoniker": "Api.core\\Features\\NewsFeatures\\Commands\\Handler\\NewsCommandHandler.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.core\\Features\\NewsFeatures\\Commands\\Handler\\NewsCommandHandler.cs",
+              "RelativeToolTip": "Api.core\\Features\\NewsFeatures\\Commands\\Handler\\NewsCommandHandler.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwB8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T20:18:54.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NewsService.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\NewsService.cs",
+              "RelativeDocumentMoniker": "Api.Service\\Implementation\\NewsService.cs",
+              "ToolTip": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\Api.Service\\Implementation\\NewsService.cs",
+              "RelativeToolTip": "Api.Service\\Implementation\\NewsService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T20:18:54.809Z",
               "EditorCaption": ""
             }
           ]

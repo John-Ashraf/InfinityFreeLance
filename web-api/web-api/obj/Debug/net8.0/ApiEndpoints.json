@@ -438,6 +438,89 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "web_api.Controllers.CustomOrderController",
+    "Method": "DeleteCustomOrder",
+    "RelativePath": "Api/V1/CustomOrders/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_api.Controllers.CustomOrderController",
+    "Method": "GetCustomOrderById",
+    "RelativePath": "Api/V1/CustomOrders/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_api.Controllers.CustomOrderController",
+    "Method": "CreateCustomOrder",
+    "RelativePath": "Api/V1/CustomOrders/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Notes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Photos",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_api.Controllers.CustomOrderController",
+    "Method": "GetCutomOrdersList",
+    "RelativePath": "Api/V1/CustomOrdersGetCustomOrderList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "web_api.Controllers.EmailController",
     "Method": "SendEmail",
     "RelativePath": "Api/V1/EmailsRoute/SendEmail",
@@ -504,7 +587,17 @@
         "IsRequired": false
       },
       {
+        "Name": "TitleAr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "Content",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentAr",
         "Type": "System.String",
         "IsRequired": false
       },

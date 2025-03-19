@@ -6,4 +6,6 @@ public interface ICustomOrderService
 {
     Task<string> CreateCustomOrder(CustomOrder customOrder, List<IFormFile> photos);
     Task<string> DeleteCustomOrder(int id);
+    Task<CustomOrder> GetCustomOrderById(int id);
+    Task<List<CustomOrder>> GetCustomOrders();
 }

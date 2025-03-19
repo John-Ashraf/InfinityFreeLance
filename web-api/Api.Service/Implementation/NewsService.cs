@@ -29,6 +29,7 @@ namespace Api.Service.Implementation
             var baseUrl = context.Scheme + "://" + context.Host;
             var imageUrl = await _fileService.UploadImage("News", photo);
             news.Image = baseUrl + imageUrl;
+
             _ = await _newRepository.AddAsync(news);
             return "Success";
         }

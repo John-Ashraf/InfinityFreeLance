@@ -7,5 +7,5 @@ public class CustomOrder
     public string Size { get; set; }
     public string Notes { get; set; }
     public string Address { get; set; }
-    public List<string> Photos { get; set; }
+    public List<string> Photos { get; set; } = new List<string>();
 }

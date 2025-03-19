@@ -1535,7 +1535,10 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1"
         },
         "runtime": {
-          "Api.Core.dll": {}
+          "Api.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Api.Data/1.0.0": {
@@ -1545,7 +1548,10 @@
           "Microsoft.Extensions.Identity.Stores": "9.0.1"
         },
         "runtime": {
-          "Api.Data.dll": {}
+          "Api.Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Api.Infrastructure/1.0.0": {
@@ -1561,7 +1567,10 @@
           "Swashbuckle.AspNetCore.Swagger": "7.2.0"
         },
         "runtime": {
-          "Api.Infrastructure.dll": {}
+          "Api.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Api.Service/1.0.0": {
@@ -1573,7 +1582,10 @@
           "System.Collections.Concurrent": "4.3.0"
         },
         "runtime": {
-          "Api.Service.dll": {}
+          "Api.Service.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

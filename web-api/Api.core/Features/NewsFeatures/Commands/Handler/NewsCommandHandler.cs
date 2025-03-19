@@ -23,7 +23,14 @@ namespace Api.Core.Features.NewsFeatures.Commands.Handler
 
         public async Task<Response<string>> Handle(AddNewsCommand request, CancellationToken cancellationToken)
         {
-            News newstmp = new News { Content = request.Content, Title = request.Title };
+            News newstmp = new News
+            {
+                Content = request.Content,
+                Title = request.Title,
+                ContentAr = request.ContentAr,
+                TitleAr = request.TitleAr,
+                LastUpdate = DateTime.UtcNow
+            };
             var res = await _newsService.AddNewsasync(newstmp, request.Photo);
             if (res == "Success")
             {

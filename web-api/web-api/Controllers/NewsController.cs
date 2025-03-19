@@ -34,5 +34,11 @@ namespace web_api.Controllers
             var response = await Mediator.Send(new GetNewsListQuery());
             return NewResult(response);
         }
+        [HttpGet(Router.NewsRoute.Paginated)]
+        public async Task<IActionResult> GetPaginatedList([FromQuery] GetNewsPaginatedQuery Query)
+        {
+            var response = await Mediator.Send(new GetNewsPaginatedQuery { PageSize = Query.PageSize, PageNumber = Query.PageNumber });
+            return Ok(response);
+        }
     }
 }
