@@ -13,6 +13,12 @@
                     <input type="text" class="form-control" id="name" name="name"
                         [(ngModel)]="product.Name" placeholder="Enter your Product Name" required>
                 </div>
+                 <!--  NameAr -->
+                 <div class="mb-3">
+                    <label for="name" class="form-label">NameAr</label>
+                    <input type="text" class="form-control" id="nameAR" name="nameAr"
+                        [(ngModel)]="product.NameAr" placeholder="Enter your Product Name in Arabic" required>
+                </div>
                 <div class="mb-3">
                     <label for="price" class="form-label">Price</label>
                     <input type="text" class="form-control" id="price" name="price"
@@ -37,7 +43,7 @@
                     </select>
                 </div>
 
-                <!-- Upload Business Images -->
+                <!-- Upload Product Images -->
                 <div class="mb-4">
                     <label class="form-label">Upload Product Images</label>
                     <div class="upload-area border rounded p-3 text-center position-relative"

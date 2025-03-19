@@ -18,6 +18,7 @@ export class AdminOrdersComponent implements OnInit {
   details: IproductById = {
     id: 0,
     name: '',
+    nameAr:'',
     price: 0,
     photos: [],
     description: '',

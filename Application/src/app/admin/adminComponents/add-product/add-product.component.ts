@@ -8,6 +8,7 @@ import Swal from 'sweetalert2';
 
 interface ProductData {
   Name: string;
+  NameAr:string;
   Description: string;
   Price: string;
   Catid:string;
@@ -29,6 +30,7 @@ export class AddProductComponent implements OnInit {
   categoryList!:category[];
   product: ProductData = {
     Name: '',
+    NameAr:'',
     Description: '',
     Price: '',
     Catid: '',
@@ -60,14 +62,7 @@ export class AddProductComponent implements OnInit {
     );
   }
 
-  // businessTypes = [
-  //   'Manufacturer',
-  //   'Distributor',
-  //   'Retailer',
-  //   'Service Provider',
-  //   'Wholesaler',
-  //   'Other'
-  // ];
+
  
 
   selectedFiles: File[] = [];
@@ -130,6 +125,7 @@ export class AddProductComponent implements OnInit {
 
     const formData = new FormData();
     formData.append('Name', this.product.Name);
+    formData.append('NameAr', this.product.NameAr);
     formData.append('Description', this.product.Description);
     formData.append('Price', this.product.Price);
     if (this.product.Photos && this.product.Photos.length > 0) {

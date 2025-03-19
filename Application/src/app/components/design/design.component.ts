@@ -1,15 +1,17 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild, OnDestroy } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import Konva from 'konva';
+import { TranslateService, TranslateModule, TranslatePipe } from '@ngx-translate/core';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-design',
-  imports: [FormsModule,RouterLink],
+  imports: [FormsModule, RouterLink, TranslateModule,TranslatePipe],
   templateUrl: './design.component.html',
   styleUrls: ['./design.component.css'],
 })
-export class DesignComponent implements OnInit {
+export class DesignComponent implements OnInit, OnDestroy {
   @ViewChild('frontStageContainer', { static: true }) frontStageContainer!: ElementRef;
   @ViewChild('backStageContainer', { static: true }) backStageContainer!: ElementRef;
   @ViewChild('rightSleeveStageContainer', { static: true }) rightSleeveStageContainer!: ElementRef;
@@ -74,10 +76,27 @@ export class DesignComponent implements OnInit {
   leftSleeveFontFamily = 'Arial'; // Font family for left sleeve
 
   currentView: 'front' | 'back' | 'right' | 'left' = 'front';
-id: any|string;
+  currentLanguage: string = 'en'; // Default language
+  private langChangeSubscription!: Subscription; // Subscription for language changes
+
+  constructor(private translate: TranslateService) {
+    this.currentLanguage = this.translate.currentLang || 'en'; // Get current language
+  }
 
   ngOnInit() {
     this.initializeKonva();
+
+    // Subscribe to language changes
+    this.langChangeSubscription = this.translate.onLangChange.subscribe((event) => {
+      this.currentLanguage = event.lang; // Update current language
+    });
+  }
+
+  ngOnDestroy(): void {
+    // Unsubscribe to avoid memory leaks
+    if (this.langChangeSubscription) {
+      this.langChangeSubscription.unsubscribe();
+    }
   }
 
   initializeKonva() {

@@ -26,7 +26,7 @@
                     <div class="row gy-4">
                         <div class="col-12">
                             <label for="ProductName" class="form-label">Product Name <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control" id="ProductName" name="ProductName" value="{{data.name}}" required disabled>
+                            <input type="text" class="form-control" id="ProductName" name="ProductName" value="{{ getProductName(data) }}" required disabled>
                         </div>
                         <br>
                         <div class="col-12 col-md-6 ">
@@ -34,10 +34,6 @@
                                 <label for="size" class="form-label">Size <span class="text-danger">*</span></label>
                                 <label for="size" class="form-label">Quantity <span class="text-danger">*</span></label>
                             </div>
-                            <!-- <div class="d-flex gap-2  mb-2">
-                                <input type="text" class="form-control" id="size" name="size"  [(ngModel)]="orderData.size" required disabled>
-                                <input type="number" class="form-control" id="Quantity" name="Quantity" [(ngModel)]="orderData.Quantity" (change)="onQuantityChange()" required>
-                            </div> -->
                             <div class="d-flex gap-2 mb-2">
                                 <input type="text" class="form-control inputSize" id="size" name="size"  [(ngModel)]="orderData.smallSize" required disabled>
                                 <input type="number" class="form-control" id="smallQuantity" name="smallQuantity" [(ngModel)]="orderData.smallQuantity" required>

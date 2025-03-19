@@ -1,6 +1,7 @@
 .product-image {
-    max-height: 400px;
-    object-fit: cover;
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: contain; /* Ensure the entire image is visible without cropping */
 }
 
 .thumbnail {
@@ -11,17 +12,18 @@
     opacity: 0.6;
     transition: opacity 0.3s ease;
 }
+
 .thumbnail:hover, .thumbnail.active {
     opacity: 1;
 }
-.main{
-    /* margin-left: 10rem; */
+
+.main {
     position: relative;
-    left: 10rem;
+    left: 0;
 }
+
 button {
-    width: 20%;
-    /* height: 30%; */
+    width: 100%;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.815);
     border: none;
@@ -30,25 +32,34 @@ button {
     font-size: 1rem;
     transition: background-color 0.3s ease;
     margin-bottom: 1rem;
-    color:white;
-  }
-  
-  button:hover {
+    color: white;
+}
+
+button:hover {
     background-color: rgba(0, 0, 0, 0.233);
     color: black;
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+@media screen and (max-width: 768px) {
     .row {
-        display: flex;
         flex-direction: column;
     }
-    button{
-        width: 50%;
+
+    .main {
+        left: 0;
+    }
+
+    button {
+        width: 100%;
     }
 }
-@media screen and (max-width: 1024px) {
-  .main{
-    position: relative;
-    left: 3rem;
-  }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .main {
+        left: 0;
+    }
+
+    button {
+        width: 50%;
+    }
 }

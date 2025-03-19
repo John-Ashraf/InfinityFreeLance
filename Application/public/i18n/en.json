@@ -7,6 +7,12 @@
         "AboutUs": "About Us",
         "ContactUs": "Contact Us"
     },
+    "hero": {
+        "Headline1": "Welcome to Our Store",
+        "Subheading1": "Discover the latest trends",
+        "Headline2": "Special Offers",
+        "Subheading2": "Get up to 50% off"
+      },
     "general": {
         "Previous": "Previous",
         "Next": "Next",
@@ -14,20 +20,31 @@
         "PriceSign":"EGP"
     },
     "buttons": {
-        "Explore": "Explore",
-        "ViewAllCategories": "View All Categories",
-        "Details": "Details",
-        "GoToAllProducts": "Go to all Products",
-        "Design": "Design",
-        "ContactUs": "Contact Us"
+     "ShopNow": "Shop Now",
+    "Explore": "Explore",
+    "ViewAllCategories": "View All Categories",
+    "GoToAllProducts": "Go to All Products",
+    "Details": "Details",
+    "Design": "Design",
+    "ContactUs": "Contact Us"
     },
+    "features": {
+        "Shipping": "Free Shipping",
+        "ShippingDesc": "On all orders over $50",
+        "Quality": "Quality Guarantee",
+        "QualityDesc": "High-quality products",
+        "Returns": "Easy Returns",
+        "ReturnsDesc": "30-day return policy",
+        "Support": "24/7 Support",
+        "SupportDesc": "Dedicated support"
+      },
     "home": {
         "CategoryTitle": "Shop by Category",
-        "ProductTitle": "Shop by Products",
-        "DesignTitle": "Create Custom Design",
-        "DesignSubtitle": "Create Your Own Custom T-Shirt",
-        "DesignSubtitle2": "Style It Your Way!",
-        "DesignDescription": "Performance and design. Taken right to the edge.",
+        "ProductTitle": "Featured Products",
+        "DesignTitle": "Custom Design",
+        "DesignSubtitle": "Create Your Own Style",
+        "DesignSubtitle2": "Unique & Personalized",
+        "DesignDescription": "Design your own custom t-shirts with our easy-to-use design tool.",
         "ContactTitle": "Contact Us",
         "ContactDescription": "We're here to help! If you have any questions or need support, feel free to reach out to us. Our team is ready to assist you and will respond to your inquiries as soon as possible."
     },
@@ -52,6 +69,46 @@
     "SAT_SUN": "Sat - Sun",
     "TIME_9_5": "9am - 5pm",
     "TIME_9_2": "9am - 2pm"
+  },
+  "products": {
+    "New": "New",
+    "chooseTypeOfPlace": "Choose Type of Place",
+    "all": "All",
+    "price": "Price",
+    "viewDetails": "View Details"
+  },
+  "categories": {
+    "chooseTypeOfPlace": "Choose Type of Place"
+  },
+  "details":{
+    "orderbtn":"Order"
+  },
+  "contact": {
+    "Address": "123 Main St, City, Country",
+    "Phone": "+123 456 7890",
+    "Email": "support@example.com"
+  },
+  "design": {
+    "title": "Design Your T-shirt",
+    "description": "Our team is here to help you design your perfect custom T-shirt. Whether you want to add text, logos, or unique designs, we’re ready to assist you every step of the way. Reach out to us via phone, email, or by filling out the Cutome Order form below.",
+    "front": "Front",
+    "back": "Back",
+    "rightSleeve": "Right Sleeve",
+    "leftSleeve": "Left Sleeve",
+    "shirtColor": "Shirt Color",
+    "text": "Text",
+    "textColor": "Text Color",
+    "fontSize": "Font Size",
+    "fontFamily": "Font Family",
+    "addLogo": "Add Logo or Image",
+    "deleteLogo": "Delete Logo",
+    "deleteLogoDescription": "Delete logo for each side in the t-shirt.",
+    "saveDesign": "Save Design",
+    "saveDesignDescription": "Save design for each side in the t-shirt.",
+    "order": "Order",
+    "Feature1": "Custom Designs",
+    "Feature2": "Satisfaction Guaranteed",
+    "Feature3": "Fast Delivery"
   }
   
 }

@@ -1,9 +1,7 @@
 <div class="container py-4">
     <div class="col-12 col-md-6 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
-        <h2 class="mb-4 display-5 text-center">Design Your T-shirt</h2>
-        <p class="text-secondary mb-5 text-center lead fs-4">Our team is available to provide prompt and helpful
-            responses to all inquiries. You can reach us via phone, email, or by filling out the contact form
-            below.</p>
+        <h2 class="mb-4 display-5 text-center">{{ 'design.title' | translate }}</h2>
+        <p class="text-secondary mb-5 text-center lead fs-4">{{ 'design.description' | translate }}</p>
         <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
     </div>
     <div class="row justify-content-center gap-5 py-5 ">
@@ -23,22 +21,22 @@
                 <!-- Switch to Front View -->
                 <button class="btn btn-secondary" (click)="switchView('front')">
                     <img src="/shirts/front.png" alt="Front" style="width: 100px; height: 100px;" />
-                    <p>Front</p>
+                    <p>{{ 'design.front' | translate }}</p>
                 </button>
                 <!-- Switch to Back View -->
                 <button class="btn btn-secondary" (click)="switchView('back')">
                     <img src="/shirts/back.png" alt="Back" style="width: 100px; height: 100px;" />
-                    <p>Back</p>
+                    <p>{{ 'design.back' | translate }}</p>
                 </button>
                 <!-- Switch to Right Sleeve View -->
                 <button class="btn btn-secondary" (click)="switchView('right')">
                     <img src="/shirts/right.png" alt="Right Sleeve" style="width: 100px; height: 100px;" />
-                    <p>Right Sleeve</p>
+                    <p>{{ 'design.rightSleeve' | translate }}</p>
                 </button>
                 <!-- Switch to Left Sleeve View -->
                 <button class="btn btn-secondary" (click)="switchView('left')">
                     <img src="/shirts/left.png" alt="Left Sleeve" style="width: 100px; height: 100px;" />
-                    <p>Left Sleeve</p>
+                    <p>{{ 'design.leftSleeve' | translate }}</p>
                 </button>
             </div>
         </div>
@@ -48,32 +46,32 @@
             <div class="settings-container bg-light p-3 rounded shadow">
                 <!-- Shirt Color Picker -->
                 <div class="mb-3">
-                    <label class="form-label">Shirt Color</label>
+                    <label class="form-label">{{ 'design.shirtColor' | translate }}</label>
                     <input type="color" class="form-control form-control-color" [(ngModel)]="color"
                         (change)="updateShirtColor(color)" />
                 </div>
 
                 <!-- Text Input -->
                 <div class="mb-3">
-                    <label class="form-label">Text</label>
+                    <label class="form-label">{{ 'design.text' | translate }}</label>
                     <input type="text" class="form-control" [(ngModel)]="textInput" />
                 </div>
 
                 <!-- Text Color Picker -->
                 <div class="mb-3">
-                    <label class="form-label">Text Color</label>
+                    <label class="form-label">{{ 'design.textColor' | translate }}</label>
                     <input type="color" class="form-control form-control-color" [(ngModel)]="textColor" />
                 </div>
 
                 <!-- Font Size Input -->
                 <div class="mb-3">
-                    <label class="form-label">Font Size</label>
+                    <label class="form-label">{{ 'design.fontSize' | translate }}</label>
                     <input type="number" class="form-control" [(ngModel)]="fontSize" />
                 </div>
 
                 <!-- Font Family Selector -->
                 <div class="mb-3">
-                    <label class="form-label">Font Family</label>
+                    <label class="form-label">{{ 'design.fontFamily' | translate }}</label>
                     <select class="form-select" [(ngModel)]="fontFamily">
                         <option value="Arial">Arial</option>
                         <option value="Times New Roman">Times New Roman</option>
@@ -84,24 +82,24 @@
 
                 <!-- Logo Upload -->
                 <div class="mb-3">
-                    <label class="form-label">Add Logo or Image</label>
+                    <label class="form-label">{{ 'design.addLogo' | translate }}</label>
                     <input type="file" class="form-control" (change)="onFileSelect($event)" accept="image/*" />
                 </div>
 
                 <!-- Delete Logo Button -->
                 <div class="mb-3">
-                    <button class="btn btn-danger w-100" (click)="deleteLogo()">Delete Logo</button>
-                    <p>Delete logo for each side in the t-shirt.</p>
+                    <button class="btn btn-danger w-100" (click)="deleteLogo()">{{ 'design.deleteLogo' | translate }}</button>
+                    <p>{{ 'design.deleteLogoDescription' | translate }}</p>
                 </div>
 
                 <!-- Save Design Button -->
-                <button class="btn btn-primary w-100" (click)="saveDesign()">Save Design </button>
-                <p>Save design for each side in the t-shirt.</p>
+                <button class="btn btn-primary w-100" (click)="saveDesign()">{{ 'design.saveDesign' | translate }}</button>
+                <p>{{ 'design.saveDesignDescription' | translate }}</p>
 
-                    <button class="btn btn-lg mb-3 me-2" routerLink="/customeOrder">
-                        <!-- [state]="{ product: data }" -->
-                        <i class="bi bi-cart-plus"></i> Order
-                    </button>
+                <!-- Order Button -->
+                <button class="btn btn-lg mb-3 me-2" routerLink="/customeOrder">
+                    <i class="bi bi-cart-plus"></i> {{ 'design.order' | translate }}
+                </button>
             </div>
         </div>
     </div>

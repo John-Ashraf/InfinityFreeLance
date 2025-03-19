@@ -1,6 +1,7 @@
 export interface IproductById {
     id: number,
     name: string,
+    nameAr: string,
     price: number,
     photos: string[],
     description: string,
