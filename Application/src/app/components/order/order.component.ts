@@ -7,12 +7,12 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { ApiProductsService } from '../../services/api-products.service';
 import { IproductById } from '../../models/iproduct-by-id';
 import Swal from 'sweetalert2';
-import { TranslateService } from '@ngx-translate/core'; // Import TranslateService
+import { TranslateService, TranslateModule } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-order',
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule,TranslateModule],
   templateUrl: './order.component.html',
   styleUrl: './order.component.css'
 })
@@ -37,6 +37,8 @@ export class OrderComponent implements OnInit, OnDestroy {
     date: new Date().toISOString(),
     price: 0,
     totalPrice: 0,
+    Name:'',
+    Email:'',
   };
 
   previewUrls: string[] = [];
@@ -105,6 +107,8 @@ export class OrderComponent implements OnInit, OnDestroy {
 
     const formData = new FormData();
     formData.append('ProductId', this.data.id.toString());
+    formData.append('Name', this.orderData.Name);
+    formData.append('Email', this.orderData.Email);
     formData.append('Phone', this.orderData.Phone);
     formData.append('Notes', this.orderData.Notes);
     formData.append('Quantity', totalQuantity.toString());

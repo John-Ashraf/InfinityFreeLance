@@ -2,14 +2,19 @@
     <div class="container">
         <div class="row justify-content-md-center">
             <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-                <h2 class="mb-4 display-5 text-center">Custom Order  </h2>
+                <h2 class="mb-4 display-5 text-center">{{ 'CUSTOM_ORDER.TITLE' | translate }}</h2>
                 <p class="text-secondary mb-5 text-center lead fs-4">
-                    Our team is available to provide prompt and helpful responses to all inquiries. You can reach us via
-                    phone, email, or by filling out the contact form below.
+                    {{ 'CUSTOM_ORDER.DESCRIPTION' | translate }}
                 </p>
                 <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
             </div>
         </div>
+
+        <!-- Language Switcher -->
+        <!-- <div class="text-center mb-4">
+        <button class="btn btn-primary me-2" (click)="switchLanguage('en')">English</button>
+        <button class="btn btn-primary" (click)="switchLanguage('ar')">العربية</button>
+      </div> -->
 
         <!-- Flex container for image and form -->
         <div
@@ -18,36 +23,59 @@
             <div class="col-12 col-md-6 bg-light p-4 border rounded">
                 <form action="#!" #sendOrder="ngForm" (ngSubmit)="order()">
                     <div class="row gy-4">
+                        <!-- Name Field -->
+                        <div class="col-12 col-md-7">
+                            <label for="name" class="form-label">{{ 'CUSTOM_ORDER.FORM.NAME' | translate }} <span
+                                    class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="name" name="name" [(ngModel)]="orderData.Name"
+                                required>
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="col-12 col-md-7">
+                            <label for="email" class="form-label">{{ 'CUSTOM_ORDER.FORM.EMAIL' | translate }} <span
+                                    class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                [(ngModel)]="orderData.Email" required>
+                        </div>
+
                         <!-- Size and Quantity Fields -->
                         <div class="col-12 col-md-6">
                             <div class="d-flex gap-5">
-                                <label for="size" class="form-label">Size <span class="text-danger">*</span></label>
-                                <label for="size" class="form-label">Quantity <span class="text-danger">*</span></label>
+                                <label for="size" class="form-label">{{ 'CUSTOM_ORDER.FORM.SIZE' | translate }} <span
+                                        class="text-danger">*</span></label>
+                                <label for="size" class="form-label">{{ 'CUSTOM_ORDER.FORM.QUANTITY' | translate }}
+                                    <span class="text-danger">*</span></label>
                             </div>
+                            <!-- Small Size -->
                             <div class="d-flex gap-2 mb-2">
                                 <input type="text" class="form-control inputSize" id="size" name="size"
                                     [(ngModel)]="orderData.smallSize" required disabled>
                                 <input type="number" class="form-control" id="smallQuantity" name="smallQuantity"
                                     [(ngModel)]="orderData.smallQuantity" required>
                             </div>
+                            <!-- Medium Size -->
                             <div class="d-flex gap-2 mb-2">
                                 <input type="text" class="form-control inputSize" id="medium" name="medium"
                                     [(ngModel)]="orderData.mediumSize" required disabled>
                                 <input type="number" class="form-control" id="mediumQuantity" name="mediumQuantity"
                                     [(ngModel)]="orderData.mediumQuantity" required>
                             </div>
+                            <!-- Large Size -->
                             <div class="d-flex gap-2 mb-2">
                                 <input type="text" class="form-control inputSize" id="large" name="large"
                                     [(ngModel)]="orderData.largeSize" required disabled>
                                 <input type="number" class="form-control" id="largeQuantity" name="largeQuantity"
                                     [(ngModel)]="orderData.largeQuantity" required>
                             </div>
+                            <!-- XL Size -->
                             <div class="d-flex gap-2 mb-2">
                                 <input type="text" class="form-control inputSize" id="xl" name="xl"
                                     [(ngModel)]="orderData.xlSize" required disabled>
                                 <input type="number" class="form-control" id="xlQuantity" name="xlQuantity"
                                     [(ngModel)]="orderData.xlQuantity" required>
                             </div>
+                            <!-- XXL Size -->
                             <div class="d-flex gap-2 mb-2">
                                 <input type="text" class="form-control inputSize" id="xxl" name="xxl"
                                     [(ngModel)]="orderData.xxlSize" required disabled>
@@ -55,32 +83,25 @@
                                     [(ngModel)]="orderData.xllQuantity" required>
                             </div>
                         </div>
-
-                        <!-- Phone Number -->
-                        <div class="col-12 col-md-7">
-                            <label for="phone" class="form-label">Phone Number <span
-                                    class="text-danger">*</span></label>
-                            <input type="text" class="form-control" id="phone" name="phone"
-                                [(ngModel)]="orderData.Phone" required>
-                        </div>
-
                         <!-- Address -->
                         <div class="col-12">
-                            <label for="Address" class="form-label">Address <span class="text-danger">*</span></label>
+                            <label for="Address" class="form-label">{{ 'CUSTOM_ORDER.FORM.ADDRESS' | translate }} <span
+                                    class="text-danger">*</span></label>
                             <textarea class="form-control" id="Address" name="Address" [(ngModel)]="orderData.Address"
                                 rows="3" required></textarea>
                         </div>
 
                         <!-- Notes -->
                         <div class="col-12">
-                            <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                            <label for="message" class="form-label">{{ 'CUSTOM_ORDER.FORM.NOTES' | translate }} <span
+                                    class="text-danger">*</span></label>
                             <textarea class="form-control" id="message" name="message" [(ngModel)]="orderData.Notes"
                                 rows="3" required></textarea>
                         </div>
 
                         <!-- File Upload for Photos -->
                         <div class="col-12">
-                            <label for="photos" class="form-label">Upload Photos For Custom Design <span
+                            <label for="photos" class="form-label">{{ 'CUSTOM_ORDER.FORM.PHOTOS' | translate }} <span
                                     class="text-danger">*</span></label>
                             <input type="file" class="form-control" id="photos" name="photos"
                                 (change)="onFileSelected($event)" multiple accept="image/*">
@@ -101,8 +122,8 @@
                         <!-- Submit Button -->
                         <div class="col-12">
                             <div class="d-grid">
-                                <button class="btn btn-lg btn-priary" type="submit">
-                                    <i class="bi bi-cart-plus"></i> Order Now
+                                <button class="btn btn-lg btn-primary" type="submit">
+                                    <i class="bi bi-cart-plus"></i> {{ 'CUSTOM_ORDER.FORM.SUBMIT_BUTTON' | translate }}
                                 </button>
                             </div>
                         </div>

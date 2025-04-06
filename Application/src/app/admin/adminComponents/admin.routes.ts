@@ -7,6 +7,8 @@ import { AddProductComponent } from './add-product/add-product.component';
 import { AdminOrdersComponent } from './admin-orders/admin-orders.component';
 import { AdminCategoryComponent } from './admin-category/admin-category.component';
 import { AdminAllCategoryComponent } from './admin-all-category/admin-all-category.component';
+import { AddNewsComponent } from './add-news/add-news.component';
+import { CustomeAdminGetOrderComponent } from './custome-admin-get-order/custome-admin-get-order.component';
 // import { AdminGuard } from '../guards/admin.guard'; // Import the guard
 
 export const adminRoutes: Routes = [
@@ -38,7 +40,15 @@ export const adminRoutes: Routes = [
     path: 'login',
     component: AdminLoginComponent
   },
-  { path: 'addProducts', component: AddProductComponent },
+  { path: 'addProducts',
+    component: AddProductComponent
+  },
+  { path: 'addNews',
+    component: AddNewsComponent
+  },
+  { path: 'customeAdminOrders',
+    component: CustomeAdminGetOrderComponent
+  },
   {
     path: '',
     redirectTo: 'dashboard',

@@ -1,5 +1,4 @@
-export interface Iorder{
-    ProductId: number;
+export interface IcustomeOrder{
     Quantity: number;
     Phone: string;
     smallSize: string;
@@ -14,7 +13,7 @@ export interface Iorder{
     xllQuantity:number;
     Address: string;
     Notes: string;
-    PicsCustom: File[];
+    Photo: File[];
     date: string; // Add this field
     price: number; // Add this field
     totalPrice: number; // Add this field

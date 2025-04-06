@@ -1,54 +1,54 @@
 {
-    "userNavbar": {
-        "home": "Home",
-        "Products": "Products",
-        "Category": "Categories",
-        "Design": "Design T-shirt",
-        "AboutUs": "About Us",
-        "ContactUs": "Contact Us"
-    },
-    "hero": {
-        "Headline1": "Welcome to Our Store",
-        "Subheading1": "Discover the latest trends",
-        "Headline2": "Special Offers",
-        "Subheading2": "Get up to 50% off"
-      },
-    "general": {
-        "Previous": "Previous",
-        "Next": "Next",
-        "Price": "Price",
-        "PriceSign":"EGP"
-    },
-    "buttons": {
-     "ShopNow": "Shop Now",
+  "userNavbar": {
+    "home": "Home",
+    "Products": "Products",
+    "Category": "Categories",
+    "Design": "Design T-shirt",
+    "AboutUs": "About Us",
+    "ContactUs": "Contact Us"
+  },
+  "hero": {
+    "Headline1": "Welcome to Our Store",
+    "Subheading1": "Discover the latest trends",
+    "Headline2": "Special Offers",
+    "Subheading2": "Get up to 50% off"
+  },
+  "general": {
+    "Previous": "Previous",
+    "Next": "Next",
+    "Price": "Price",
+    "PriceSign": "EGP"
+  },
+  "buttons": {
+    "ShopNow": "Shop Now",
     "Explore": "Explore",
     "ViewAllCategories": "View All Categories",
     "GoToAllProducts": "Go to All Products",
     "Details": "Details",
     "Design": "Design",
     "ContactUs": "Contact Us"
-    },
-    "features": {
-        "Shipping": "Free Shipping",
-        "ShippingDesc": "On all orders over $50",
-        "Quality": "Quality Guarantee",
-        "QualityDesc": "High-quality products",
-        "Returns": "Easy Returns",
-        "ReturnsDesc": "30-day return policy",
-        "Support": "24/7 Support",
-        "SupportDesc": "Dedicated support"
-      },
-    "home": {
-        "CategoryTitle": "Shop by Category",
-        "ProductTitle": "Featured Products",
-        "DesignTitle": "Custom Design",
-        "DesignSubtitle": "Create Your Own Style",
-        "DesignSubtitle2": "Unique & Personalized",
-        "DesignDescription": "Design your own custom t-shirts with our easy-to-use design tool.",
-        "ContactTitle": "Contact Us",
-        "ContactDescription": "We're here to help! If you have any questions or need support, feel free to reach out to us. Our team is ready to assist you and will respond to your inquiries as soon as possible."
-    },
-    "about": {
+  },
+  "features": {
+    "Shipping": "Free Shipping",
+    "ShippingDesc": "On all orders over $50",
+    "Quality": "Quality Guarantee",
+    "QualityDesc": "High-quality products",
+    "Returns": "Easy Returns",
+    "ReturnsDesc": "30-day return policy",
+    "Support": "24/7 Support",
+    "SupportDesc": "Dedicated support"
+  },
+  "home": {
+    "CategoryTitle": "Shop by Category",
+    "ProductTitle": "Featured Products",
+    "DesignTitle": "Custom Design",
+    "DesignSubtitle": "Create Your Own Style",
+    "DesignSubtitle2": "Unique & Personalized",
+    "DesignDescription": "Design your own custom t-shirts with our easy-to-use design tool.",
+    "ContactTitle": "Contact Us",
+    "ContactDescription": "We're here to help! If you have any questions or need support, feel free to reach out to us. Our team is ready to assist you and will respond to your inquiries as soon as possible."
+  },
+  "about": {
     "whyChooseUs": "Why Choose Us?",
     "description": "With years of experience and deep industry knowledge, we have a proven track record of success and are constantly pushing ourselves to stay ahead of the curve.",
     "evolutionProcedure": "Our evolution procedure is super intelligent.",
@@ -80,8 +80,8 @@
   "categories": {
     "chooseTypeOfPlace": "Choose Type of Place"
   },
-  "details":{
-    "orderbtn":"Order"
+  "details": {
+    "orderbtn": "Order"
   },
   "contact": {
     "Address": "123 Main St, City, Country",
@@ -96,6 +96,7 @@
     "rightSleeve": "Right Sleeve",
     "leftSleeve": "Left Sleeve",
     "shirtColor": "Shirt Color",
+    "customizeYourShirt":"Customize Your Shirt",
     "text": "Text",
     "textColor": "Text Color",
     "fontSize": "Font Size",
@@ -106,9 +107,32 @@
     "saveDesign": "Save Design",
     "saveDesignDescription": "Save design for each side in the t-shirt.",
     "order": "Order",
+    "textCustomization":"Add Text",
     "Feature1": "Custom Designs",
     "Feature2": "Satisfaction Guaranteed",
     "Feature3": "Fast Delivery"
+  },
+  "CUSTOM_ORDER": {
+    "TITLE": "Custom Order",
+    "DESCRIPTION": "Our team is available to provide prompt and helpful responses to all inquiries. You can reach us via phone, email, or by filling out the contact form below.",
+    "FORM": {
+      "NAME": "Name",
+      "EMAIL": "Email",
+      "PHONE": "Phone Number",
+      "SIZE": "Size",
+      "QUANTITY": "Quantity",
+      "ADDRESS": "Address",
+      "NOTES": "Message",
+      "PHOTOS": "Upload Photos For Custom Design",
+      "SUBMIT_BUTTON": "Order Now"
+    },
+    "ERRORS": {
+      "REQUIRED": "This field is required.",
+      "INVALID_EMAIL": "Please enter a valid email address.",
+      "INVALID_FILE_TYPE": "Please upload only image files."
+    },
+    "SUCCESS": {
+      "ORDER_ADDED": "Order Added Successfully"
+    }
   }
-  
 }

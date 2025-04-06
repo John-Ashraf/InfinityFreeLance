@@ -155,7 +155,7 @@ h2 {
 }
 
 .card-img-wrapper {
-  height: 220px;
+  height: 100%;
   position: relative;
   overflow: hidden;
   display: flex;
