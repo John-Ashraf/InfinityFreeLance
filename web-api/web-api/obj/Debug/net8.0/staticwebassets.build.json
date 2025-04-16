@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aOn+iG5EJ1h1jbNL6VCzekLaYG4mrkS1lycjdKflb4E=",
+  "Hash": "WeYknHwzgFSgmkZqp8SX7w7iGuTxXKXQ5w774zBls+M=",
   "Source": "web-api",
   "BasePath": "_content/web-api",
   "Mode": "Default",
@@ -300,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\News\\667511a4e3554636b1b7c6a6da9f107b.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\News\\c0ae5c5836424bf4b94f1cf9881bda19.jpg",
+      "SourceId": "web-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\",
+      "BasePath": "_content/web-api",
+      "RelativePath": "News/c0ae5c5836424bf4b94f1cf9881bda19.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\News\\c0ae5c5836424bf4b94f1cf9881bda19.jpg"
     },
     {
       "Identity": "C:\\Users\\johna\\OneDrive\\Desktop\\freelance\\InfinityFreeLance\\web-api\\web-api\\wwwroot\\News\\f9400e0d13624b189188aed536670815.jpg",

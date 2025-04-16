@@ -31,6 +31,7 @@ public class CustomOrderService : ICustomOrderService
         var trans = _dbcontext.Database.BeginTransaction();
         var context = _httpContextAccessor.HttpContext.Request;
         var baseUrl = context.Scheme + "://" + context.Host;
+        customOrder.Date = DateTime.UtcNow;
         try
         {
             foreach (var photo in photos)

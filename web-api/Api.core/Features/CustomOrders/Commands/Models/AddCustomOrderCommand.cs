@@ -10,5 +10,7 @@ public class AddCustomOrderCommand : IRequest<Response<string>>
     public string Size { get; set; }
     public string Notes { get; set; }
     public string Address { get; set; }
+    public string Phone { get; set; }
+    public double TotalPrice { get; set; }
     public List<IFormFile> Photos { get; set; }
 }

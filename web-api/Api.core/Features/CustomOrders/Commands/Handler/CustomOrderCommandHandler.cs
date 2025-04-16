@@ -30,6 +30,9 @@ public class CustomOrderCommandHandler : ResponseHandler
             Address = request.Address,
             Email = request.Email,
             Size = request.Size,
+            TotalPrice = request.TotalPrice,
+            Phone = request.Phone,
+            Date = DateTime.UtcNow,
 
         };
         var res = await _customOrderService.CreateCustomOrder(tmporder, request.Photos);

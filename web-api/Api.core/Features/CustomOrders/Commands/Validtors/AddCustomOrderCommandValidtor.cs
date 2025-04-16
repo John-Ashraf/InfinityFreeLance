@@ -1,13 +1,8 @@
 ﻿using Api.Core.Features.CustomOrders.Commands.Models;
 using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Api.Core.Features.CustomOrders.Commands.Validtors;
-public class AddCustomOrderCommandValidtor:AbstractValidator<AddCustomOrderCommand>
+public class AddCustomOrderCommandValidtor : AbstractValidator<AddCustomOrderCommand>
 {
     #region fields
     #endregion
@@ -41,7 +36,12 @@ public class AddCustomOrderCommandValidtor:AbstractValidator<AddCustomOrderComma
         _ = RuleFor(x => x.Notes)
          .NotEmpty().WithMessage("{PropertyName} Must Not Be Empty")
          .NotNull().WithMessage("{PropertyName} Must Be Null");
-       
+        _ = RuleFor(x => x.TotalPrice)
+          .NotEmpty().WithMessage("{PropertyName} Must Not Be Empty")
+          .NotNull().WithMessage("{PropertyName} Must Be Null");
+        _ = RuleFor(x => x.Phone)
+         .NotEmpty().WithMessage("{PropertyName} Must Not Be Empty")
+         .NotNull().WithMessage("{PropertyName} Must Be Null");
 
 
 

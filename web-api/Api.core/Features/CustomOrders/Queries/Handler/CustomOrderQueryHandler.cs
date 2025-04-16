@@ -34,6 +34,9 @@ namespace Api.Core.Features.CustomOrders.Queries.Handler
                 Address = tmp.Address,
                 Notes = tmp.Notes,
                 Size = tmp.Size,
+                TotalPrice = tmp.TotalPrice,
+                Phone = tmp.Phone,
+                Date = tmp.Date,
             };
             return Success<SingleCustomOrderResponse>(res);
         }
@@ -53,7 +56,9 @@ namespace Api.Core.Features.CustomOrders.Queries.Handler
                     Address = item.Address,
                     Notes = item.Notes,
                     Size = item.Size,
-
+                    TotalPrice = item.TotalPrice,
+                    Phone = item.Phone,
+                    Date = item.Date,
                 };
                 res.Add(tmpt);
             }

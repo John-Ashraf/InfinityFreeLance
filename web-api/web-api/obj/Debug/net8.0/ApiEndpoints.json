@@ -503,6 +503,16 @@
         "IsRequired": false
       },
       {
+        "Name": "Phone",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TotalPrice",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
         "Name": "Photos",
         "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
         "IsRequired": false
@@ -604,6 +614,27 @@
       {
         "Name": "Photo",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_api.Controllers.NewsController",
+    "Method": "GetPaginatedList",
+    "RelativePath": "Api/V1/NewsRoute/Paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],
