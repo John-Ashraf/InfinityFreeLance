@@ -1,4 +1,4 @@
-export interface Inews {
+export interface inewsById {
     id: number,
     title: string,
     titleAr:string,
@@ -12,5 +12,5 @@ export interface allNews{
     succeeded: boolean;
     message: string;
     errors: any;
-    data: Inews[];
+    data: inewsById;
 }

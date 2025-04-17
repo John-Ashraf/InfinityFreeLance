@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule, FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { NewsService } from '../../../services/news.service';
 import Swal from 'sweetalert2';
+import { NewsServiceService } from '../../../services/news-service.service';
 
 @Component({
   selector: 'app-add-news',
@@ -22,7 +22,7 @@ export class AddNewsComponent implements OnInit {
 
   constructor(
     private fb: FormBuilder,
-    private newsService: NewsService
+    private newsService: NewsServiceService
   ) {
     this.newsForm = this.fb.group({
       arabicTitle: ['', [Validators.required, Validators.maxLength(200)]],
@@ -83,13 +83,18 @@ export class AddNewsComponent implements OnInit {
       formData.append('ContentAr', this.newsForm.get('arabicDetails')?.value);
       formData.append('Content', this.newsForm.get('englishDetails')?.value);
 
+      
       // Append image if exists
       if (this.selectedImage) {
         formData.append('Photo', this.selectedImage, this.selectedImage.name);
       }
-
+      
+      for (let [key, value] of (formData as any).entries()) {
+        console.log(key, value);
+      }
       this.newsService.postNews(formData).subscribe({
         next: (res) => {
+          console.log("peter");
           Swal.fire({
             title: 'Success!',
             text: 'News added successfully',
