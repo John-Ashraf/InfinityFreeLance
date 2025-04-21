@@ -4,3 +4,5 @@
 
 /.vs
 /web-api/.vs
+config.bat
+node_modules
